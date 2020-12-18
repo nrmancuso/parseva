@@ -19,10 +19,10 @@ target
 bin
 
 # IDEA project files
-checkstyle.iml
-checkstyle.ipr
-checkstyle.iws
-.idea
+.idea/workspace.xml
+.idea/usage.statistics.xml
+.idea/tasks.xml
+.idea/shelf/
 
 # Temp files
 *~
