@@ -1,3 +1,5 @@
+package org.antlr4javaparser.tools;
+
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
@@ -10,6 +12,9 @@ import org.antlr.v4.runtime.CommonTokenStream;
 import org.antlr.v4.runtime.Token;
 import org.antlr.v4.runtime.tree.ParseTree;
 import org.antlr.v4.runtime.tree.ParseTreeWalker;
+import org.antlr4javaparser.tools.grammar.JavaBaseListener;
+import org.antlr4javaparser.tools.grammar.JavaLexer;
+import org.antlr4javaparser.tools.grammar.JavaParser;
 
 /**
  * A small class that flattens an ANTLR4 {@code ParseTree}. Given the
@@ -43,9 +48,9 @@ import org.antlr.v4.runtime.tree.ParseTreeWalker;
  * }
  * </pre>
  *
- * In other word: all inner nodes that have a single child are removed from the AST.
+ * In other word: all inner nodes that have a single child are removed from the AstPrinter.
  */
-public class AST {
+public class AstPrinter {
 
     private static final Pattern NEWLINE = Pattern.compile("\n", Pattern.LITERAL);
     /**
@@ -55,26 +60,26 @@ public class AST {
     private final Object payload;
 
     /**
-     * All child nodes of this AST.
+     * All child nodes of this AstPrinter.
      */
-    private final List<AST> children;
+    private final List<AstPrinter> children;
 
-    public AST(ParseTree tree) {
+    public AstPrinter(ParseTree tree) {
         this(null, tree);
     }
 
-    private AST(AST ast, ParseTree tree) {
+    private AstPrinter(AstPrinter ast, ParseTree tree) {
         this(ast, tree, new ArrayList<>());
     }
 
-    private AST(AST parent, ParseTree tree, List<AST> children) {
+    private AstPrinter(AstPrinter parent, ParseTree tree, List<AstPrinter> children) {
 
         payload = getPayload(tree);
         this.children = children;
 
         if (parent == null) {
-            // We're at the root of the AST, traverse down the parse tree to fill
-            // this AST with nodes.
+            // We're at the root of the AstPrinter, traverse down the parse tree to fill
+            // this AstPrinter with nodes.
             walk(tree, this);
         }
         else {
@@ -86,11 +91,11 @@ public class AST {
         return payload;
     }
 
-    public List<AST> getChildren() {
+    public List<AstPrinter> getChildren() {
         return new ArrayList<>(children);
     }
 
-    // Determines the payload of this AST: a string in case it's an inner node (which
+    // Determines the payload of this AstPrinter: a string in case it's an inner node (which
     // is the name of the parser rule), or a Token in case it is a leaf node.
     private Object getPayload(ParseTree tree) {
         if (tree.getChildCount() == 0) {
@@ -105,25 +110,25 @@ public class AST {
         }
     }
 
-    // Fills this AST based on the parse tree.
-    private static void walk(ParseTree tree, AST ast) {
+    // Fills this AstPrinter based on the parse tree.
+    private static void walk(ParseTree tree, AstPrinter ast) {
 
         if (tree.getChildCount() == 0) {
-            // We've reached a leaf. We must create a new instance of an AST because
+            // We've reached a leaf. We must create a new instance of an AstPrinter because
             // the constructor will make sure this new instance is added to its parent's
             // child nodes.
-            new AST(ast, tree);
+            new AstPrinter(ast, tree);
         }
         else if (tree.getChildCount() == 1) {
             // We've reached an inner node with a single child: we don't include this in
-            // our AST.
+            // our AstPrinter.
             walk(tree.getChild(0), ast);
         }
         else if (tree.getChildCount() > 1) {
 
             for (int i = 0; i < tree.getChildCount(); i++) {
 
-                AST temp = new AST(ast, tree.getChild(i));
+                AstPrinter temp = new AstPrinter(ast, tree.getChild(i));
 
                 if (!(temp.payload instanceof Token)) {
                     // Only traverse down if the payload is not a Token.
@@ -138,16 +143,16 @@ public class AST {
 
         StringBuilder builder = new StringBuilder();
 
-        AST ast = this;
-        List<AST> firstStack = new ArrayList<>();
+        AstPrinter ast = this;
+        List<AstPrinter> firstStack = new ArrayList<>();
         firstStack.add(ast);
 
-        List<List<AST>> childListStack = new ArrayList<>();
+        List<List<AstPrinter>> childListStack = new ArrayList<>();
         childListStack.add(firstStack);
 
         while (!childListStack.isEmpty()) {
 
-            List<AST> childStack = childListStack.get(childListStack.size() - 1);
+            List<AstPrinter> childStack = childListStack.get(childListStack.size() - 1);
 
             if (childStack.isEmpty()) {
                 childListStack.remove(childListStack.size() - 1);
@@ -190,7 +195,7 @@ public class AST {
                 if (ast.children.isEmpty()) {
                     continue;
                 }
-                List<AST> children = new ArrayList<>(ast.children);
+                List<AstPrinter> children = new ArrayList<>(ast.children);
                 childListStack.add(children);
             }
         }
@@ -198,12 +203,51 @@ public class AST {
         return builder.toString();
     }
 
+    public static String createAstString(String filename) {
+        try {
+            // Open the input file stream
+            CharStream codePointCharStream = CharStreams.fromFileName(filename);
+
+            // Create a lexer that feeds off of input CharStream
+            JavaLexer lexer = new JavaLexer(codePointCharStream);
+
+            // Create a buffer of tokens pulled from the lexer
+            CommonTokenStream tokens = new CommonTokenStream(lexer);
+
+            // Create a parser that feeds off the tokens buffer
+            JavaParser parser = new JavaParser(tokens);
+
+            // Begin parsing at rule prog
+            ParseTree tree = parser.compilationUnit();
+
+            // Create a generic parse tree walker that can trigger callbacks
+            ParseTreeWalker walker = new ParseTreeWalker();
+            // Walk the tree created during the parse, trigger callbacks
+            // Need to implement this listener
+            walker.walk(new JavaBaseListener(), tree);
+            System.out.println(); // print a \n after translation
+
+            // Walk the tree again to translate to java
+            // Need to implement this translator
+            //walker.walk(new MyLangTranslator(), tree);
+
+            AstPrinter ast = new AstPrinter(tree);
+
+            //System.out.println(ast);
+            return ast.toString();
+        } catch (IOException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+        return "";
+    }
+
     public static void main(String... args) {
 
         try {
             // Open the input file stream
             String fileName
-                = "src/test/resources/org/antlr4-javaparser/test/inputs/ast/InputBasicRecord.java";
+                = "src/test/resources/org/antlr4javaparser/ast/InputBasicRecord.java";
             CharStream codePointCharStream = CharStreams.fromFileName(fileName);
 
             // Create a lexer that feeds off of input CharStream
@@ -229,12 +273,13 @@ public class AST {
             // Need to implement this translator
             //walker.walk(new MyLangTranslator(), tree);
 
-            AST ast = new AST(tree);
+            AstPrinter ast = new AstPrinter(tree);
 
             System.out.println(ast);
         } catch (IOException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
         }
+
     }
 }

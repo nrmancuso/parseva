@@ -7,6 +7,7 @@
   <packaging>jar</packaging>
   <name>antlr4-javaparser</name>
   <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>15 --enable-preview</maven.compiler.source>
     <maven.compiler.target>15 --enable-preview</maven.compiler.target>
   </properties>
@@ -15,6 +16,18 @@
       <groupId>org.antlr</groupId>
       <artifactId>antlr4-runtime</artifactId>
       <version>4.8-1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-engine</artifactId>
+      <version>5.1.0</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter</artifactId>
+      <version>RELEASE</version>
+      <scope>test</scope>
     </dependency>
   </dependencies>
   <build>
@@ -27,6 +40,9 @@
           <visitor>true</visitor>
           <listener>true</listener>
           <inputEncoding>UTF-8</inputEncoding>
+          <sourceDirectory>
+            ${basedir}/src/main/resources/org.antlr4javaparser.tools.grammar/
+          </sourceDirectory>
         </configuration>
         <executions>
           <execution>

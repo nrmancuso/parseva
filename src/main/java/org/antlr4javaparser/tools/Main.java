@@ -1,3 +1,5 @@
+package org.antlr4javaparser.tools;
+
 import java.io.IOException;
 
 import org.antlr.v4.runtime.CharStream;
@@ -5,13 +7,16 @@ import org.antlr.v4.runtime.CharStreams;
 import org.antlr.v4.runtime.CommonTokenStream;
 import org.antlr.v4.runtime.tree.ParseTree;
 import org.antlr.v4.runtime.tree.ParseTreeWalker;
+import org.antlr4javaparser.tools.grammar.JavaBaseListener;
+import org.antlr4javaparser.tools.grammar.JavaLexer;
+import org.antlr4javaparser.tools.grammar.JavaParser;
 
 public class Main {
     public static void main(String... args) {
 
         try {
             // Open the input file stream
-            String fileName = "src/test/antlr-test/Test.java";
+            String fileName = "src/test/resources/org/antlr4javaparser/antlr-test/Test.java";
             CharStream codePointCharStream = CharStreams.fromFileName(fileName);
 
             // Create a lexer that feeds off of input CharStream

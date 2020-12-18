@@ -1,0 +1,52 @@
+'- compilationUnit
+   |- typeDeclaration
+   |  |- classModifier
+   |  |  '- TOKEN[type: 45, text: public]
+   |  |- TOKEN[type: 19, text: class]
+   |  |- identifier
+   |  |  '- TOKEN[type: 115, text: InputPSVM]
+   |  '- classBody
+   |     |- TOKEN[type: 70, text: {]
+   |     |- classBodyDeclaration
+   |     |  |- methodModifier
+   |     |  |  '- TOKEN[type: 45, text: public]
+   |     |  |- methodModifier
+   |     |  |  '- TOKEN[type: 48, text: static]
+   |     |  |- methodHeader
+   |     |  |  |- result
+   |     |  |  |  '- TOKEN[type: 58, text: void]
+   |     |  |  '- methodDeclarator
+   |     |  |     |- identifier
+   |     |  |     |  '- TOKEN[type: 115, text: main]
+   |     |  |     |- TOKEN[type: 68, text: (]
+   |     |  |     |- formalParameterList
+   |     |  |     |  |- unannType
+   |     |  |     |  |  |- unannClassOrInterfaceType
+   |     |  |     |  |  |  '- TOKEN[type: 115, text: String]
+   |     |  |     |  |  '- dims
+   |     |  |     |  |     |- TOKEN[type: 72, text: []
+   |     |  |     |  |     '- TOKEN[type: 73, text: ]]
+   |     |  |     |  '- variableDeclaratorId
+   |     |  |     |     '- TOKEN[type: 115, text: args]
+   |     |  |     '- TOKEN[type: 69, text: )]
+   |     |  '- methodBody
+   |     |     |- TOKEN[type: 70, text: {]
+   |     |     |- blockStatements
+   |     |     |  |- statementExpression
+   |     |     |  |  |- typeName
+   |     |     |  |  |  |- packageOrTypeName
+   |     |     |  |  |  |  '- TOKEN[type: 115, text: System]
+   |     |     |  |  |  |- TOKEN[type: 76, text: .]
+   |     |     |  |  |  '- identifier
+   |     |     |  |  |     '- TOKEN[type: 115, text: out]
+   |     |     |  |  |- TOKEN[type: 76, text: .]
+   |     |     |  |  |- identifier
+   |     |     |  |  |  '- TOKEN[type: 115, text: println]
+   |     |     |  |  |- TOKEN[type: 68, text: (]
+   |     |     |  |  |- argumentList
+   |     |     |  |  |  '- TOKEN[type: 66, text: "This is a test of the AstPrinter!"]
+   |     |     |  |  '- TOKEN[type: 69, text: )]
+   |     |     |  '- TOKEN[type: 74, text: ;]
+   |     |     '- TOKEN[type: 71, text: }]
+   |     '- TOKEN[type: 71, text: }]
+   '- TOKEN[type: -1, text: <EOF>]

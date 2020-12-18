@@ -64,6 +64,10 @@ Total lexer+parser time 2497ms.
  */
 grammar Java;
 
+@header{
+ package org.antlr4javaparser.tools.grammar;
+}
+
 /*
  * Productions from §3 (Lexical Structure)
  */

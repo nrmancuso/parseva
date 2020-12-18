@@ -1,0 +1,2581 @@
+'- compilationUnit
+   |- importDeclaration
+   |  |- TOKEN[type: 35, text: import]
+   |  |- typeName
+   |  |  |- packageOrTypeName
+   |  |  |  |- packageOrTypeName
+   |  |  |  |  '- TOKEN[type: 115, text: java]
+   |  |  |  |- TOKEN[type: 76, text: .]
+   |  |  |  '- identifier
+   |  |  |     '- TOKEN[type: 115, text: io]
+   |  |  |- TOKEN[type: 76, text: .]
+   |  |  '- identifier
+   |  |     '- TOKEN[type: 115, text: File]
+   |  '- TOKEN[type: 74, text: ;]
+   |- importDeclaration
+   |  |- TOKEN[type: 35, text: import]
+   |  |- typeName
+   |  |  |- packageOrTypeName
+   |  |  |  |- packageOrTypeName
+   |  |  |  |  '- TOKEN[type: 115, text: java]
+   |  |  |  |- TOKEN[type: 76, text: .]
+   |  |  |  '- identifier
+   |  |  |     '- TOKEN[type: 115, text: util]
+   |  |  |- TOKEN[type: 76, text: .]
+   |  |  '- identifier
+   |  |     '- TOKEN[type: 115, text: ArrayList]
+   |  '- TOKEN[type: 74, text: ;]
+   |- importDeclaration
+   |  |- TOKEN[type: 35, text: import]
+   |  |- typeName
+   |  |  |- packageOrTypeName
+   |  |  |  |- packageOrTypeName
+   |  |  |  |  '- TOKEN[type: 115, text: java]
+   |  |  |  |- TOKEN[type: 76, text: .]
+   |  |  |  '- identifier
+   |  |  |     '- TOKEN[type: 115, text: util]
+   |  |  |- TOKEN[type: 76, text: .]
+   |  |  '- identifier
+   |  |     '- TOKEN[type: 115, text: List]
+   |  '- TOKEN[type: 74, text: ;]
+   |- importDeclaration
+   |  |- TOKEN[type: 35, text: import]
+   |  |- typeName
+   |  |  |- packageOrTypeName
+   |  |  |  |- packageOrTypeName
+   |  |  |  |  |- packageOrTypeName
+   |  |  |  |  |  '- TOKEN[type: 115, text: java]
+   |  |  |  |  |- TOKEN[type: 76, text: .]
+   |  |  |  |  '- identifier
+   |  |  |  |     '- TOKEN[type: 115, text: util]
+   |  |  |  |- TOKEN[type: 76, text: .]
+   |  |  |  '- identifier
+   |  |  |     '- TOKEN[type: 115, text: concurrent]
+   |  |  |- TOKEN[type: 76, text: .]
+   |  |  '- identifier
+   |  |     '- TOKEN[type: 115, text: BrokenBarrierException]
+   |  '- TOKEN[type: 74, text: ;]
+   |- importDeclaration
+   |  |- TOKEN[type: 35, text: import]
+   |  |- typeName
+   |  |  |- packageOrTypeName
+   |  |  |  |- packageOrTypeName
+   |  |  |  |  |- packageOrTypeName
+   |  |  |  |  |  '- TOKEN[type: 115, text: java]
+   |  |  |  |  |- TOKEN[type: 76, text: .]
+   |  |  |  |  '- identifier
+   |  |  |  |     '- TOKEN[type: 115, text: util]
+   |  |  |  |- TOKEN[type: 76, text: .]
+   |  |  |  '- identifier
+   |  |  |     '- TOKEN[type: 115, text: concurrent]
+   |  |  |- TOKEN[type: 76, text: .]
+   |  |  '- identifier
+   |  |     '- TOKEN[type: 115, text: CyclicBarrier]
+   |  '- TOKEN[type: 74, text: ;]
+   |- importDeclaration
+   |  |- TOKEN[type: 35, text: import]
+   |  |- typeName
+   |  |  |- packageOrTypeName
+   |  |  |  |- packageOrTypeName
+   |  |  |  |  |- packageOrTypeName
+   |  |  |  |  |  |- packageOrTypeName
+   |  |  |  |  |  |  '- TOKEN[type: 115, text: org]
+   |  |  |  |  |  |- TOKEN[type: 76, text: .]
+   |  |  |  |  |  '- identifier
+   |  |  |  |  |     '- TOKEN[type: 115, text: antlr]
+   |  |  |  |  |- TOKEN[type: 76, text: .]
+   |  |  |  |  '- identifier
+   |  |  |  |     '- TOKEN[type: 115, text: v4]
+   |  |  |  |- TOKEN[type: 76, text: .]
+   |  |  |  '- identifier
+   |  |  |     '- TOKEN[type: 115, text: runtime]
+   |  |  |- TOKEN[type: 76, text: .]
+   |  |  '- identifier
+   |  |     '- TOKEN[type: 115, text: BailErrorStrategy]
+   |  '- TOKEN[type: 74, text: ;]
+   |- importDeclaration
+   |  |- TOKEN[type: 35, text: import]
+   |  |- typeName
+   |  |  |- packageOrTypeName
+   |  |  |  |- packageOrTypeName
+   |  |  |  |  |- packageOrTypeName
+   |  |  |  |  |  |- packageOrTypeName
+   |  |  |  |  |  |  '- TOKEN[type: 115, text: org]
+   |  |  |  |  |  |- TOKEN[type: 76, text: .]
+   |  |  |  |  |  '- identifier
+   |  |  |  |  |     '- TOKEN[type: 115, text: antlr]
+   |  |  |  |  |- TOKEN[type: 76, text: .]
+   |  |  |  |  '- identifier
+   |  |  |  |     '- TOKEN[type: 115, text: v4]
+   |  |  |  |- TOKEN[type: 76, text: .]
+   |  |  |  '- identifier
+   |  |  |     '- TOKEN[type: 115, text: runtime]
+   |  |  |- TOKEN[type: 76, text: .]
+   |  |  '- identifier
+   |  |     '- TOKEN[type: 115, text: CharStreams]
+   |  '- TOKEN[type: 74, text: ;]
+   |- importDeclaration
+   |  |- TOKEN[type: 35, text: import]
+   |  |- typeName
+   |  |  |- packageOrTypeName
+   |  |  |  |- packageOrTypeName
+   |  |  |  |  |- packageOrTypeName
+   |  |  |  |  |  |- packageOrTypeName
+   |  |  |  |  |  |  '- TOKEN[type: 115, text: org]
+   |  |  |  |  |  |- TOKEN[type: 76, text: .]
+   |  |  |  |  |  '- identifier
+   |  |  |  |  |     '- TOKEN[type: 115, text: antlr]
+   |  |  |  |  |- TOKEN[type: 76, text: .]
+   |  |  |  |  '- identifier
+   |  |  |  |     '- TOKEN[type: 115, text: v4]
+   |  |  |  |- TOKEN[type: 76, text: .]
+   |  |  |  '- identifier
+   |  |  |     '- TOKEN[type: 115, text: runtime]
+   |  |  |- TOKEN[type: 76, text: .]
+   |  |  '- identifier
+   |  |     '- TOKEN[type: 115, text: CommonTokenStream]
+   |  '- TOKEN[type: 74, text: ;]
+   |- importDeclaration
+   |  |- TOKEN[type: 35, text: import]
+   |  |- typeName
+   |  |  |- packageOrTypeName
+   |  |  |  |- packageOrTypeName
+   |  |  |  |  |- packageOrTypeName
+   |  |  |  |  |  |- packageOrTypeName
+   |  |  |  |  |  |  '- TOKEN[type: 115, text: org]
+   |  |  |  |  |  |- TOKEN[type: 76, text: .]
+   |  |  |  |  |  '- identifier
+   |  |  |  |  |     '- TOKEN[type: 115, text: antlr]
+   |  |  |  |  |- TOKEN[type: 76, text: .]
+   |  |  |  |  '- identifier
+   |  |  |  |     '- TOKEN[type: 115, text: v4]
+   |  |  |  |- TOKEN[type: 76, text: .]
+   |  |  |  '- identifier
+   |  |  |     '- TOKEN[type: 115, text: runtime]
+   |  |  |- TOKEN[type: 76, text: .]
+   |  |  '- identifier
+   |  |     '- TOKEN[type: 115, text: DiagnosticErrorListener]
+   |  '- TOKEN[type: 74, text: ;]
+   |- importDeclaration
+   |  |- TOKEN[type: 35, text: import]
+   |  |- typeName
+   |  |  |- packageOrTypeName
+   |  |  |  |- packageOrTypeName
+   |  |  |  |  |- packageOrTypeName
+   |  |  |  |  |  |- packageOrTypeName
+   |  |  |  |  |  |  '- TOKEN[type: 115, text: org]
+   |  |  |  |  |  |- TOKEN[type: 76, text: .]
+   |  |  |  |  |  '- identifier
+   |  |  |  |  |     '- TOKEN[type: 115, text: antlr]
+   |  |  |  |  |- TOKEN[type: 76, text: .]
+   |  |  |  |  '- identifier
+   |  |  |  |     '- TOKEN[type: 115, text: v4]
+   |  |  |  |- TOKEN[type: 76, text: .]
+   |  |  |  '- identifier
+   |  |  |     '- TOKEN[type: 115, text: runtime]
+   |  |  |- TOKEN[type: 76, text: .]
+   |  |  '- identifier
+   |  |     '- TOKEN[type: 115, text: Lexer]
+   |  '- TOKEN[type: 74, text: ;]
+   |- importDeclaration
+   |  |- TOKEN[type: 35, text: import]
+   |  |- typeName
+   |  |  |- packageOrTypeName
+   |  |  |  |- packageOrTypeName
+   |  |  |  |  |- packageOrTypeName
+   |  |  |  |  |  |- packageOrTypeName
+   |  |  |  |  |  |  '- TOKEN[type: 115, text: org]
+   |  |  |  |  |  |- TOKEN[type: 76, text: .]
+   |  |  |  |  |  '- identifier
+   |  |  |  |  |     '- TOKEN[type: 115, text: antlr]
+   |  |  |  |  |- TOKEN[type: 76, text: .]
+   |  |  |  |  '- identifier
+   |  |  |  |     '- TOKEN[type: 115, text: v4]
+   |  |  |  |- TOKEN[type: 76, text: .]
+   |  |  |  '- identifier
+   |  |  |     '- TOKEN[type: 115, text: runtime]
+   |  |  |- TOKEN[type: 76, text: .]
+   |  |  '- identifier
+   |  |     '- TOKEN[type: 115, text: ParserRuleContext]
+   |  '- TOKEN[type: 74, text: ;]
+   |- importDeclaration
+   |  |- TOKEN[type: 35, text: import]
+   |  |- typeName
+   |  |  |- packageOrTypeName
+   |  |  |  |- packageOrTypeName
+   |  |  |  |  |- packageOrTypeName
+   |  |  |  |  |  |- packageOrTypeName
+   |  |  |  |  |  |  |- packageOrTypeName
+   |  |  |  |  |  |  |  '- TOKEN[type: 115, text: org]
+   |  |  |  |  |  |  |- TOKEN[type: 76, text: .]
+   |  |  |  |  |  |  '- identifier
+   |  |  |  |  |  |     '- TOKEN[type: 115, text: antlr]
+   |  |  |  |  |  |- TOKEN[type: 76, text: .]
+   |  |  |  |  |  '- identifier
+   |  |  |  |  |     '- TOKEN[type: 115, text: v4]
+   |  |  |  |  |- TOKEN[type: 76, text: .]
+   |  |  |  |  '- identifier
+   |  |  |  |     '- TOKEN[type: 115, text: runtime]
+   |  |  |  |- TOKEN[type: 76, text: .]
+   |  |  |  '- identifier
+   |  |  |     '- TOKEN[type: 115, text: atn]
+   |  |  |- TOKEN[type: 76, text: .]
+   |  |  '- identifier
+   |  |     '- TOKEN[type: 115, text: PredictionMode]
+   |  '- TOKEN[type: 74, text: ;]
+   |- typeDeclaration
+   |  |- TOKEN[type: 19, text: class]
+   |  |- identifier
+   |  |  '- TOKEN[type: 115, text: Test]
+   |  '- classBody
+   |     |- TOKEN[type: 70, text: {]
+   |     |- classBodyDeclaration
+   |     |  |- fieldModifier
+   |     |  |  '- TOKEN[type: 45, text: public]
+   |     |  |- fieldModifier
+   |     |  |  '- TOKEN[type: 48, text: static]
+   |     |  |- unannType
+   |     |  |  '- TOKEN[type: 13, text: boolean]
+   |     |  |- variableDeclaratorList
+   |     |  |  |- variableDeclaratorId
+   |     |  |  |  '- TOKEN[type: 115, text: profile]
+   |     |  |  |- TOKEN[type: 80, text: =]
+   |     |  |  '- variableInitializer
+   |     |  |     '- TOKEN[type: 64, text: false]
+   |     |  '- TOKEN[type: 74, text: ;]
+   |     |- classBodyDeclaration
+   |     |  |- fieldModifier
+   |     |  |  '- TOKEN[type: 45, text: public]
+   |     |  |- fieldModifier
+   |     |  |  '- TOKEN[type: 48, text: static]
+   |     |  |- unannType
+   |     |  |  '- TOKEN[type: 13, text: boolean]
+   |     |  |- variableDeclaratorList
+   |     |  |  |- variableDeclaratorId
+   |     |  |  |  '- TOKEN[type: 115, text: notree]
+   |     |  |  |- TOKEN[type: 80, text: =]
+   |     |  |  '- variableInitializer
+   |     |  |     '- TOKEN[type: 64, text: false]
+   |     |  '- TOKEN[type: 74, text: ;]
+   |     |- classBodyDeclaration
+   |     |  |- fieldModifier
+   |     |  |  '- TOKEN[type: 45, text: public]
+   |     |  |- fieldModifier
+   |     |  |  '- TOKEN[type: 48, text: static]
+   |     |  |- unannType
+   |     |  |  '- TOKEN[type: 13, text: boolean]
+   |     |  |- variableDeclaratorList
+   |     |  |  |- variableDeclaratorId
+   |     |  |  |  '- TOKEN[type: 115, text: gui]
+   |     |  |  |- TOKEN[type: 80, text: =]
+   |     |  |  '- variableInitializer
+   |     |  |     '- TOKEN[type: 64, text: false]
+   |     |  '- TOKEN[type: 74, text: ;]
+   |     |- classBodyDeclaration
+   |     |  |- fieldModifier
+   |     |  |  '- TOKEN[type: 45, text: public]
+   |     |  |- fieldModifier
+   |     |  |  '- TOKEN[type: 48, text: static]
+   |     |  |- unannType
+   |     |  |  '- TOKEN[type: 13, text: boolean]
+   |     |  |- variableDeclaratorList
+   |     |  |  |- variableDeclaratorId
+   |     |  |  |  '- TOKEN[type: 115, text: printTree]
+   |     |  |  |- TOKEN[type: 80, text: =]
+   |     |  |  '- variableInitializer
+   |     |  |     '- TOKEN[type: 64, text: false]
+   |     |  '- TOKEN[type: 74, text: ;]
+   |     |- classBodyDeclaration
+   |     |  |- fieldModifier
+   |     |  |  '- TOKEN[type: 45, text: public]
+   |     |  |- fieldModifier
+   |     |  |  '- TOKEN[type: 48, text: static]
+   |     |  |- unannType
+   |     |  |  '- TOKEN[type: 13, text: boolean]
+   |     |  |- variableDeclaratorList
+   |     |  |  |- variableDeclaratorId
+   |     |  |  |  '- TOKEN[type: 115, text: SLL]
+   |     |  |  |- TOKEN[type: 80, text: =]
+   |     |  |  '- variableInitializer
+   |     |  |     '- TOKEN[type: 64, text: false]
+   |     |  '- TOKEN[type: 74, text: ;]
+   |     |- classBodyDeclaration
+   |     |  |- fieldModifier
+   |     |  |  '- TOKEN[type: 45, text: public]
+   |     |  |- fieldModifier
+   |     |  |  '- TOKEN[type: 48, text: static]
+   |     |  |- unannType
+   |     |  |  '- TOKEN[type: 13, text: boolean]
+   |     |  |- variableDeclaratorList
+   |     |  |  |- variableDeclaratorId
+   |     |  |  |  '- TOKEN[type: 115, text: diag]
+   |     |  |  |- TOKEN[type: 80, text: =]
+   |     |  |  '- variableInitializer
+   |     |  |     '- TOKEN[type: 64, text: false]
+   |     |  '- TOKEN[type: 74, text: ;]
+   |     |- classBodyDeclaration
+   |     |  |- fieldModifier
+   |     |  |  '- TOKEN[type: 45, text: public]
+   |     |  |- fieldModifier
+   |     |  |  '- TOKEN[type: 48, text: static]
+   |     |  |- unannType
+   |     |  |  '- TOKEN[type: 13, text: boolean]
+   |     |  |- variableDeclaratorList
+   |     |  |  |- variableDeclaratorId
+   |     |  |  |  '- TOKEN[type: 115, text: bail]
+   |     |  |  |- TOKEN[type: 80, text: =]
+   |     |  |  '- variableInitializer
+   |     |  |     '- TOKEN[type: 64, text: false]
+   |     |  '- TOKEN[type: 74, text: ;]
+   |     |- classBodyDeclaration
+   |     |  |- fieldModifier
+   |     |  |  '- TOKEN[type: 45, text: public]
+   |     |  |- fieldModifier
+   |     |  |  '- TOKEN[type: 48, text: static]
+   |     |  |- unannType
+   |     |  |  '- TOKEN[type: 13, text: boolean]
+   |     |  |- variableDeclaratorList
+   |     |  |  |- variableDeclaratorId
+   |     |  |  |  '- TOKEN[type: 115, text: x2]
+   |     |  |  |- TOKEN[type: 80, text: =]
+   |     |  |  '- variableInitializer
+   |     |  |     '- TOKEN[type: 64, text: false]
+   |     |  '- TOKEN[type: 74, text: ;]
+   |     |- classBodyDeclaration
+   |     |  |- fieldModifier
+   |     |  |  '- TOKEN[type: 45, text: public]
+   |     |  |- fieldModifier
+   |     |  |  '- TOKEN[type: 48, text: static]
+   |     |  |- unannType
+   |     |  |  '- TOKEN[type: 13, text: boolean]
+   |     |  |- variableDeclaratorList
+   |     |  |  |- variableDeclaratorId
+   |     |  |  |  '- TOKEN[type: 115, text: threaded]
+   |     |  |  |- TOKEN[type: 80, text: =]
+   |     |  |  '- variableInitializer
+   |     |  |     '- TOKEN[type: 64, text: false]
+   |     |  '- TOKEN[type: 74, text: ;]
+   |     |- classBodyDeclaration
+   |     |  |- fieldModifier
+   |     |  |  '- TOKEN[type: 45, text: public]
+   |     |  |- fieldModifier
+   |     |  |  '- TOKEN[type: 48, text: static]
+   |     |  |- unannType
+   |     |  |  '- TOKEN[type: 13, text: boolean]
+   |     |  |- variableDeclaratorList
+   |     |  |  |- variableDeclaratorId
+   |     |  |  |  '- TOKEN[type: 115, text: quiet]
+   |     |  |  |- TOKEN[type: 80, text: =]
+   |     |  |  '- variableInitializer
+   |     |  |     '- TOKEN[type: 64, text: false]
+   |     |  '- TOKEN[type: 74, text: ;]
+   |     |- classBodyDeclaration
+   |     |  |- fieldModifier
+   |     |  |  '- TOKEN[type: 45, text: public]
+   |     |  |- fieldModifier
+   |     |  |  '- TOKEN[type: 48, text: static]
+   |     |  |- unannType
+   |     |  |  |- unannClassOrInterfaceType
+   |     |  |  |  '- TOKEN[type: 115, text: Worker]
+   |     |  |  '- dims
+   |     |  |     |- TOKEN[type: 72, text: []
+   |     |  |     '- TOKEN[type: 73, text: ]]
+   |     |  |- variableDeclaratorList
+   |     |  |  |- variableDeclaratorId
+   |     |  |  |  '- TOKEN[type: 115, text: workers]
+   |     |  |  |- TOKEN[type: 80, text: =]
+   |     |  |  '- variableInitializer
+   |     |  |     |- TOKEN[type: 41, text: new]
+   |     |  |     |- classOrInterfaceType
+   |     |  |     |  '- TOKEN[type: 115, text: Worker]
+   |     |  |     '- dimExprs
+   |     |  |        |- TOKEN[type: 72, text: []
+   |     |  |        |- expression
+   |     |  |        |  '- TOKEN[type: 62, text: 3]
+   |     |  |        '- TOKEN[type: 73, text: ]]
+   |     |  '- TOKEN[type: 74, text: ;]
+   |     |- classBodyDeclaration
+   |     |  |- fieldModifier
+   |     |  |  '- TOKEN[type: 48, text: static]
+   |     |  |- unannType
+   |     |  |  '- TOKEN[type: 37, text: int]
+   |     |  |- variableDeclaratorList
+   |     |  |  |- variableDeclaratorId
+   |     |  |  |  '- TOKEN[type: 115, text: windex]
+   |     |  |  |- TOKEN[type: 80, text: =]
+   |     |  |  '- variableInitializer
+   |     |  |     '- TOKEN[type: 62, text: 0]
+   |     |  '- TOKEN[type: 74, text: ;]
+   |     |- classBodyDeclaration
+   |     |  |- fieldModifier
+   |     |  |  '- TOKEN[type: 45, text: public]
+   |     |  |- fieldModifier
+   |     |  |  '- TOKEN[type: 48, text: static]
+   |     |  |- unannType
+   |     |  |  '- TOKEN[type: 115, text: CyclicBarrier]
+   |     |  |- variableDeclaratorList
+   |     |  |  '- TOKEN[type: 115, text: barrier]
+   |     |  '- TOKEN[type: 74, text: ;]
+   |     |- classBodyDeclaration
+   |     |  |- fieldModifier
+   |     |  |  '- TOKEN[type: 45, text: public]
+   |     |  |- fieldModifier
+   |     |  |  '- TOKEN[type: 48, text: static]
+   |     |  |- fieldModifier
+   |     |  |  '- TOKEN[type: 59, text: volatile]
+   |     |  |- unannType
+   |     |  |  '- TOKEN[type: 13, text: boolean]
+   |     |  |- variableDeclaratorList
+   |     |  |  |- variableDeclaratorId
+   |     |  |  |  '- TOKEN[type: 115, text: firstPassDone]
+   |     |  |  |- TOKEN[type: 80, text: =]
+   |     |  |  '- variableInitializer
+   |     |  |     '- TOKEN[type: 64, text: false]
+   |     |  '- TOKEN[type: 74, text: ;]
+   |     |- classBodyDeclaration
+   |     |  |- classModifier
+   |     |  |  '- TOKEN[type: 45, text: public]
+   |     |  |- classModifier
+   |     |  |  '- TOKEN[type: 48, text: static]
+   |     |  |- TOKEN[type: 19, text: class]
+   |     |  |- identifier
+   |     |  |  '- TOKEN[type: 115, text: Worker]
+   |     |  |- superinterfaces
+   |     |  |  |- TOKEN[type: 34, text: implements]
+   |     |  |  '- interfaceTypeList
+   |     |  |     '- TOKEN[type: 115, text: Runnable]
+   |     |  '- classBody
+   |     |     |- TOKEN[type: 70, text: {]
+   |     |     |- classBodyDeclaration
+   |     |     |  |- fieldModifier
+   |     |     |  |  '- TOKEN[type: 45, text: public]
+   |     |     |  |- unannType
+   |     |     |  |  '- TOKEN[type: 39, text: long]
+   |     |     |  |- variableDeclaratorList
+   |     |     |  |  '- TOKEN[type: 115, text: parserStart]
+   |     |     |  '- TOKEN[type: 74, text: ;]
+   |     |     |- classBodyDeclaration
+   |     |     |  |- fieldModifier
+   |     |     |  |  '- TOKEN[type: 45, text: public]
+   |     |     |  |- unannType
+   |     |     |  |  '- TOKEN[type: 39, text: long]
+   |     |     |  |- variableDeclaratorList
+   |     |     |  |  '- TOKEN[type: 115, text: parserStop]
+   |     |     |  '- TOKEN[type: 74, text: ;]
+   |     |     |- classBodyDeclaration
+   |     |     |  |- unannType
+   |     |     |  |  |- identifier
+   |     |     |  |  |  '- TOKEN[type: 115, text: List]
+   |     |     |  |  '- typeArguments
+   |     |     |  |     |- TOKEN[type: 82, text: <]
+   |     |     |  |     |- typeArgumentList
+   |     |     |  |     |  '- TOKEN[type: 115, text: String]
+   |     |     |  |     '- TOKEN[type: 81, text: >]
+   |     |     |  |- variableDeclaratorList
+   |     |     |  |  '- TOKEN[type: 115, text: files]
+   |     |     |  '- TOKEN[type: 74, text: ;]
+   |     |     |- classBodyDeclaration
+   |     |     |  |- constructorModifier
+   |     |     |  |  '- TOKEN[type: 45, text: public]
+   |     |     |  |- constructorDeclarator
+   |     |     |  |  |- simpleTypeName
+   |     |     |  |  |  '- TOKEN[type: 115, text: Worker]
+   |     |     |  |  |- TOKEN[type: 68, text: (]
+   |     |     |  |  |- formalParameterList
+   |     |     |  |  |  |- unannType
+   |     |     |  |  |  |  |- identifier
+   |     |     |  |  |  |  |  '- TOKEN[type: 115, text: List]
+   |     |     |  |  |  |  '- typeArguments
+   |     |     |  |  |  |     |- TOKEN[type: 82, text: <]
+   |     |     |  |  |  |     |- typeArgumentList
+   |     |     |  |  |  |     |  '- TOKEN[type: 115, text: String]
+   |     |     |  |  |  |     '- TOKEN[type: 81, text: >]
+   |     |     |  |  |  '- variableDeclaratorId
+   |     |     |  |  |     '- TOKEN[type: 115, text: files]
+   |     |     |  |  '- TOKEN[type: 69, text: )]
+   |     |     |  '- constructorBody
+   |     |     |     |- TOKEN[type: 70, text: {]
+   |     |     |     |- blockStatements
+   |     |     |     |  |- statementExpression
+   |     |     |     |  |  |- leftHandSide
+   |     |     |     |  |  |  |- primary
+   |     |     |     |  |  |  |  '- TOKEN[type: 53, text: this]
+   |     |     |     |  |  |  |- TOKEN[type: 76, text: .]
+   |     |     |     |  |  |  '- identifier
+   |     |     |     |  |  |     '- TOKEN[type: 115, text: files]
+   |     |     |     |  |  |- assignmentOperator
+   |     |     |     |  |  |  '- TOKEN[type: 80, text: =]
+   |     |     |     |  |  '- expression
+   |     |     |     |  |     '- TOKEN[type: 115, text: files]
+   |     |     |     |  '- TOKEN[type: 74, text: ;]
+   |     |     |     '- TOKEN[type: 71, text: }]
+   |     |     |- classBodyDeclaration
+   |     |     |  |- methodModifier
+   |     |     |  |  |- TOKEN[type: 78, text: @]
+   |     |     |  |  '- typeName
+   |     |     |  |     '- TOKEN[type: 115, text: Override]
+   |     |     |  |- methodModifier
+   |     |     |  |  '- TOKEN[type: 45, text: public]
+   |     |     |  |- methodHeader
+   |     |     |  |  |- result
+   |     |     |  |  |  '- TOKEN[type: 58, text: void]
+   |     |     |  |  '- methodDeclarator
+   |     |     |  |     |- identifier
+   |     |     |  |     |  '- TOKEN[type: 115, text: run]
+   |     |     |  |     |- TOKEN[type: 68, text: (]
+   |     |     |  |     '- TOKEN[type: 69, text: )]
+   |     |     |  '- methodBody
+   |     |     |     |- TOKEN[type: 70, text: {]
+   |     |     |     |- blockStatements
+   |     |     |     |  |- blockStatement
+   |     |     |     |  |  |- statementExpression
+   |     |     |     |  |  |  |- leftHandSide
+   |     |     |     |  |  |  |  '- TOKEN[type: 115, text: parserStart]
+   |     |     |     |  |  |  |- assignmentOperator
+   |     |     |     |  |  |  |  '- TOKEN[type: 80, text: =]
+   |     |     |     |  |  |  '- expression
+   |     |     |     |  |  |     |- typeName
+   |     |     |     |  |  |     |  '- TOKEN[type: 115, text: System]
+   |     |     |     |  |  |     |- TOKEN[type: 76, text: .]
+   |     |     |     |  |  |     |- identifier
+   |     |     |     |  |  |     |  '- TOKEN[type: 115, text: currentTimeMillis]
+   |     |     |     |  |  |     |- TOKEN[type: 68, text: (]
+   |     |     |     |  |  |     '- TOKEN[type: 69, text: )]
+   |     |     |     |  |  '- TOKEN[type: 74, text: ;]
+   |     |     |     |  |- blockStatement
+   |     |     |     |  |  |- TOKEN[type: 31, text: for]
+   |     |     |     |  |  |- TOKEN[type: 68, text: (]
+   |     |     |     |  |  |- unannType
+   |     |     |     |  |  |  '- TOKEN[type: 115, text: String]
+   |     |     |     |  |  |- variableDeclaratorId
+   |     |     |     |  |  |  '- TOKEN[type: 115, text: f]
+   |     |     |     |  |  |- TOKEN[type: 86, text: :]
+   |     |     |     |  |  |- expression
+   |     |     |     |  |  |  '- TOKEN[type: 115, text: files]
+   |     |     |     |  |  |- TOKEN[type: 69, text: )]
+   |     |     |     |  |  '- statement
+   |     |     |     |  |     |- TOKEN[type: 70, text: {]
+   |     |     |     |  |     |- blockStatements
+   |     |     |     |  |     |  |- statementExpression
+   |     |     |     |  |     |  |  |- methodName
+   |     |     |     |  |     |  |  |  '- TOKEN[type: 115, text: parseFile]
+   |     |     |     |  |     |  |  |- TOKEN[type: 68, text: (]
+   |     |     |     |  |     |  |  |- argumentList
+   |     |     |     |  |     |  |  |  '- TOKEN[type: 115, text: f]
+   |     |     |     |  |     |  |  '- TOKEN[type: 69, text: )]
+   |     |     |     |  |     |  '- TOKEN[type: 74, text: ;]
+   |     |     |     |  |     '- TOKEN[type: 71, text: }]
+   |     |     |     |  |- blockStatement
+   |     |     |     |  |  |- statementExpression
+   |     |     |     |  |  |  |- leftHandSide
+   |     |     |     |  |  |  |  '- TOKEN[type: 115, text: parserStop]
+   |     |     |     |  |  |  |- assignmentOperator
+   |     |     |     |  |  |  |  '- TOKEN[type: 80, text: =]
+   |     |     |     |  |  |  '- expression
+   |     |     |     |  |  |     |- typeName
+   |     |     |     |  |  |     |  '- TOKEN[type: 115, text: System]
+   |     |     |     |  |  |     |- TOKEN[type: 76, text: .]
+   |     |     |     |  |  |     |- identifier
+   |     |     |     |  |  |     |  '- TOKEN[type: 115, text: currentTimeMillis]
+   |     |     |     |  |  |     |- TOKEN[type: 68, text: (]
+   |     |     |     |  |  |     '- TOKEN[type: 69, text: )]
+   |     |     |     |  |  '- TOKEN[type: 74, text: ;]
+   |     |     |     |  '- blockStatement
+   |     |     |     |     |- TOKEN[type: 57, text: try]
+   |     |     |     |     |- block
+   |     |     |     |     |  |- TOKEN[type: 70, text: {]
+   |     |     |     |     |  |- blockStatements
+   |     |     |     |     |  |  |- statementExpression
+   |     |     |     |     |  |  |  |- typeName
+   |     |     |     |     |  |  |  |  '- TOKEN[type: 115, text: barrier]
+   |     |     |     |     |  |  |  |- TOKEN[type: 76, text: .]
+   |     |     |     |     |  |  |  |- identifier
+   |     |     |     |     |  |  |  |  '- TOKEN[type: 115, text: await]
+   |     |     |     |     |  |  |  |- TOKEN[type: 68, text: (]
+   |     |     |     |     |  |  |  '- TOKEN[type: 69, text: )]
+   |     |     |     |     |  |  '- TOKEN[type: 74, text: ;]
+   |     |     |     |     |  '- TOKEN[type: 71, text: }]
+   |     |     |     |     '- catches
+   |     |     |     |        |- catchClause
+   |     |     |     |        |  |- TOKEN[type: 17, text: catch]
+   |     |     |     |        |  |- TOKEN[type: 68, text: (]
+   |     |     |     |        |  |- catchFormalParameter
+   |     |     |     |        |  |  |- catchType
+   |     |     |     |        |  |  |  '- TOKEN[type: 115, text: InterruptedException]
+   |     |     |     |        |  |  '- variableDeclaratorId
+   |     |     |     |        |  |     '- TOKEN[type: 115, text: ex]
+   |     |     |     |        |  |- TOKEN[type: 69, text: )]
+   |     |     |     |        |  '- block
+   |     |     |     |        |     |- TOKEN[type: 70, text: {]
+   |     |     |     |        |     |- blockStatements
+   |     |     |     |        |     |  |- TOKEN[type: 46, text: return]
+   |     |     |     |        |     |  '- TOKEN[type: 74, text: ;]
+   |     |     |     |        |     '- TOKEN[type: 71, text: }]
+   |     |     |     |        '- catchClause
+   |     |     |     |           |- TOKEN[type: 17, text: catch]
+   |     |     |     |           |- TOKEN[type: 68, text: (]
+   |     |     |     |           |- catchFormalParameter
+   |     |     |     |           |  |- catchType
+   |     |     |     |           |  |  '- TOKEN[type: 115, text: BrokenBarrierException]
+   |     |     |     |           |  '- variableDeclaratorId
+   |     |     |     |           |     '- TOKEN[type: 115, text: ex]
+   |     |     |     |           |- TOKEN[type: 69, text: )]
+   |     |     |     |           '- block
+   |     |     |     |              |- TOKEN[type: 70, text: {]
+   |     |     |     |              |- blockStatements
+   |     |     |     |              |  |- TOKEN[type: 46, text: return]
+   |     |     |     |              |  '- TOKEN[type: 74, text: ;]
+   |     |     |     |              '- TOKEN[type: 71, text: }]
+   |     |     |     '- TOKEN[type: 71, text: }]
+   |     |     '- TOKEN[type: 71, text: }]
+   |     |- classBodyDeclaration
+   |     |  |- methodModifier
+   |     |  |  '- TOKEN[type: 45, text: public]
+   |     |  |- methodModifier
+   |     |  |  '- TOKEN[type: 48, text: static]
+   |     |  |- methodHeader
+   |     |  |  |- result
+   |     |  |  |  '- TOKEN[type: 58, text: void]
+   |     |  |  '- methodDeclarator
+   |     |  |     |- identifier
+   |     |  |     |  '- TOKEN[type: 115, text: main]
+   |     |  |     |- TOKEN[type: 68, text: (]
+   |     |  |     |- formalParameterList
+   |     |  |     |  |- unannType
+   |     |  |     |  |  |- unannClassOrInterfaceType
+   |     |  |     |  |  |  '- TOKEN[type: 115, text: String]
+   |     |  |     |  |  '- dims
+   |     |  |     |  |     |- TOKEN[type: 72, text: []
+   |     |  |     |  |     '- TOKEN[type: 73, text: ]]
+   |     |  |     |  '- variableDeclaratorId
+   |     |  |     |     '- TOKEN[type: 115, text: args]
+   |     |  |     '- TOKEN[type: 69, text: )]
+   |     |  '- methodBody
+   |     |     |- TOKEN[type: 70, text: {]
+   |     |     |- blockStatements
+   |     |     |  |- statementExpression
+   |     |     |  |  |- methodName
+   |     |     |  |  |  '- TOKEN[type: 115, text: doAll]
+   |     |     |  |  |- TOKEN[type: 68, text: (]
+   |     |     |  |  |- argumentList
+   |     |     |  |  |  '- TOKEN[type: 115, text: args]
+   |     |     |  |  '- TOKEN[type: 69, text: )]
+   |     |     |  '- TOKEN[type: 74, text: ;]
+   |     |     '- TOKEN[type: 71, text: }]
+   |     |- classBodyDeclaration
+   |     |  |- methodModifier
+   |     |  |  '- TOKEN[type: 45, text: public]
+   |     |  |- methodModifier
+   |     |  |  '- TOKEN[type: 48, text: static]
+   |     |  |- methodHeader
+   |     |  |  |- result
+   |     |  |  |  '- TOKEN[type: 58, text: void]
+   |     |  |  '- methodDeclarator
+   |     |  |     |- identifier
+   |     |  |     |  '- TOKEN[type: 115, text: doAll]
+   |     |  |     |- TOKEN[type: 68, text: (]
+   |     |  |     |- formalParameterList
+   |     |  |     |  |- unannType
+   |     |  |     |  |  |- unannClassOrInterfaceType
+   |     |  |     |  |  |  '- TOKEN[type: 115, text: String]
+   |     |  |     |  |  '- dims
+   |     |  |     |  |     |- TOKEN[type: 72, text: []
+   |     |  |     |  |     '- TOKEN[type: 73, text: ]]
+   |     |  |     |  '- variableDeclaratorId
+   |     |  |     |     '- TOKEN[type: 115, text: args]
+   |     |  |     '- TOKEN[type: 69, text: )]
+   |     |  '- methodBody
+   |     |     |- TOKEN[type: 70, text: {]
+   |     |     |- blockStatements
+   |     |     |  |- blockStatement
+   |     |     |  |  |- localVariableDeclaration
+   |     |     |  |  |  |- unannType
+   |     |     |  |  |  |  |- identifier
+   |     |     |  |  |  |  |  '- TOKEN[type: 115, text: List]
+   |     |     |  |  |  |  '- typeArguments
+   |     |     |  |  |  |     |- TOKEN[type: 82, text: <]
+   |     |     |  |  |  |     |- typeArgumentList
+   |     |     |  |  |  |     |  '- TOKEN[type: 115, text: String]
+   |     |     |  |  |  |     '- TOKEN[type: 81, text: >]
+   |     |     |  |  |  '- variableDeclaratorList
+   |     |     |  |  |     |- variableDeclaratorId
+   |     |     |  |  |     |  '- TOKEN[type: 115, text: inputFiles]
+   |     |     |  |  |     |- TOKEN[type: 80, text: =]
+   |     |     |  |  |     '- variableInitializer
+   |     |     |  |  |        |- TOKEN[type: 41, text: new]
+   |     |     |  |  |        |- identifier
+   |     |     |  |  |        |  '- TOKEN[type: 115, text: ArrayList]
+   |     |     |  |  |        |- typeArgumentsOrDiamond
+   |     |     |  |  |        |  |- TOKEN[type: 82, text: <]
+   |     |     |  |  |        |  |- typeArgumentList
+   |     |     |  |  |        |  |  '- TOKEN[type: 115, text: String]
+   |     |     |  |  |        |  '- TOKEN[type: 81, text: >]
+   |     |     |  |  |        |- TOKEN[type: 68, text: (]
+   |     |     |  |  |        '- TOKEN[type: 69, text: )]
+   |     |     |  |  '- TOKEN[type: 74, text: ;]
+   |     |     |  |- blockStatement
+   |     |     |  |  |- localVariableDeclaration
+   |     |     |  |  |  |- unannType
+   |     |     |  |  |  |  '- TOKEN[type: 39, text: long]
+   |     |     |  |  |  '- variableDeclaratorList
+   |     |     |  |  |     |- variableDeclaratorId
+   |     |     |  |  |     |  '- TOKEN[type: 115, text: start]
+   |     |     |  |  |     |- TOKEN[type: 80, text: =]
+   |     |     |  |  |     '- variableInitializer
+   |     |     |  |  |        |- typeName
+   |     |     |  |  |        |  '- TOKEN[type: 115, text: System]
+   |     |     |  |  |        |- TOKEN[type: 76, text: .]
+   |     |     |  |  |        |- identifier
+   |     |     |  |  |        |  '- TOKEN[type: 115, text: currentTimeMillis]
+   |     |     |  |  |        |- TOKEN[type: 68, text: (]
+   |     |     |  |  |        '- TOKEN[type: 69, text: )]
+   |     |     |  |  '- TOKEN[type: 74, text: ;]
+   |     |     |  |- blockStatement
+   |     |     |  |  |- TOKEN[type: 57, text: try]
+   |     |     |  |  |- block
+   |     |     |  |  |  |- TOKEN[type: 70, text: {]
+   |     |     |  |  |  |- blockStatements
+   |     |     |  |  |  |  |- TOKEN[type: 32, text: if]
+   |     |     |  |  |  |  |- TOKEN[type: 68, text: (]
+   |     |     |  |  |  |  |- expression
+   |     |     |  |  |  |  |  |- relationalExpression
+   |     |     |  |  |  |  |  |  |- ambiguousName
+   |     |     |  |  |  |  |  |  |  '- TOKEN[type: 115, text: args]
+   |     |     |  |  |  |  |  |  |- TOKEN[type: 76, text: .]
+   |     |     |  |  |  |  |  |  '- identifier
+   |     |     |  |  |  |  |  |     '- TOKEN[type: 115, text: length]
+   |     |     |  |  |  |  |  |- TOKEN[type: 81, text: >]
+   |     |     |  |  |  |  |  '- shiftExpression
+   |     |     |  |  |  |  |     '- TOKEN[type: 62, text: 0]
+   |     |     |  |  |  |  |- TOKEN[type: 69, text: )]
+   |     |     |  |  |  |  |- statementNoShortIf
+   |     |     |  |  |  |  |  |- TOKEN[type: 70, text: {]
+   |     |     |  |  |  |  |  |- blockStatements
+   |     |     |  |  |  |  |  |  |- blockStatement
+   |     |     |  |  |  |  |  |  |  |- TOKEN[type: 31, text: for]
+   |     |     |  |  |  |  |  |  |  |- TOKEN[type: 68, text: (]
+   |     |     |  |  |  |  |  |  |  |- forInit
+   |     |     |  |  |  |  |  |  |  |  |- unannType
+   |     |     |  |  |  |  |  |  |  |  |  '- TOKEN[type: 37, text: int]
+   |     |     |  |  |  |  |  |  |  |  '- variableDeclaratorList
+   |     |     |  |  |  |  |  |  |  |     |- variableDeclaratorId
+   |     |     |  |  |  |  |  |  |  |     |  '- TOKEN[type: 115, text: i]
+   |     |     |  |  |  |  |  |  |  |     |- TOKEN[type: 80, text: =]
+   |     |     |  |  |  |  |  |  |  |     '- variableInitializer
+   |     |     |  |  |  |  |  |  |  |        '- TOKEN[type: 62, text: 0]
+   |     |     |  |  |  |  |  |  |  |- TOKEN[type: 74, text: ;]
+   |     |     |  |  |  |  |  |  |  |- expression
+   |     |     |  |  |  |  |  |  |  |  |- relationalExpression
+   |     |     |  |  |  |  |  |  |  |  |  '- TOKEN[type: 115, text: i]
+   |     |     |  |  |  |  |  |  |  |  |- TOKEN[type: 82, text: <]
+   |     |     |  |  |  |  |  |  |  |  '- shiftExpression
+   |     |     |  |  |  |  |  |  |  |     |- ambiguousName
+   |     |     |  |  |  |  |  |  |  |     |  '- TOKEN[type: 115, text: args]
+   |     |     |  |  |  |  |  |  |  |     |- TOKEN[type: 76, text: .]
+   |     |     |  |  |  |  |  |  |  |     '- identifier
+   |     |     |  |  |  |  |  |  |  |        '- TOKEN[type: 115, text: length]
+   |     |     |  |  |  |  |  |  |  |- TOKEN[type: 74, text: ;]
+   |     |     |  |  |  |  |  |  |  |- forUpdate
+   |     |     |  |  |  |  |  |  |  |  |- postfixExpression
+   |     |     |  |  |  |  |  |  |  |  |  '- TOKEN[type: 115, text: i]
+   |     |     |  |  |  |  |  |  |  |  '- TOKEN[type: 94, text: ++]
+   |     |     |  |  |  |  |  |  |  |- TOKEN[type: 69, text: )]
+   |     |     |  |  |  |  |  |  |  '- statement
+   |     |     |  |  |  |  |  |  |     |- TOKEN[type: 70, text: {]
+   |     |     |  |  |  |  |  |  |     |- blockStatements
+   |     |     |  |  |  |  |  |  |     |  |- blockStatement
+   |     |     |  |  |  |  |  |  |     |  |  |- TOKEN[type: 32, text: if]
+   |     |     |  |  |  |  |  |  |     |  |  |- TOKEN[type: 68, text: (]
+   |     |     |  |  |  |  |  |  |     |  |  |- expression
+   |     |     |  |  |  |  |  |  |     |  |  |  |- primaryNoNewArray_lfno_primary
+   |     |     |  |  |  |  |  |  |     |  |  |  |  |- expressionName
+   |     |     |  |  |  |  |  |  |     |  |  |  |  |  '- TOKEN[type: 115, text: args]
+   |     |     |  |  |  |  |  |  |     |  |  |  |  |- TOKEN[type: 72, text: []
+   |     |     |  |  |  |  |  |  |     |  |  |  |  |- expression
+   |     |     |  |  |  |  |  |  |     |  |  |  |  |  '- TOKEN[type: 115, text: i]
+   |     |     |  |  |  |  |  |  |     |  |  |  |  '- TOKEN[type: 73, text: ]]
+   |     |     |  |  |  |  |  |  |     |  |  |  '- primaryNoNewArray_lf_primary
+   |     |     |  |  |  |  |  |  |     |  |  |     |- TOKEN[type: 76, text: .]
+   |     |     |  |  |  |  |  |  |     |  |  |     |- identifier
+   |     |     |  |  |  |  |  |  |     |  |  |     |  '- TOKEN[type: 115, text: equals]
+   |     |     |  |  |  |  |  |  |     |  |  |     |- TOKEN[type: 68, text: (]
+   |     |     |  |  |  |  |  |  |     |  |  |     |- argumentList
+   |     |     |  |  |  |  |  |  |     |  |  |     |  '- TOKEN[type: 66, text: "-notree"]
+   |     |     |  |  |  |  |  |  |     |  |  |     '- TOKEN[type: 69, text: )]
+   |     |     |  |  |  |  |  |  |     |  |  |- TOKEN[type: 69, text: )]
+   |     |     |  |  |  |  |  |  |     |  |  |- statementNoShortIf
+   |     |     |  |  |  |  |  |  |     |  |  |  |- statementExpression
+   |     |     |  |  |  |  |  |  |     |  |  |  |  |- leftHandSide
+   |     |     |  |  |  |  |  |  |     |  |  |  |  |  '- TOKEN[type: 115, text: notree]
+   |     |     |  |  |  |  |  |  |     |  |  |  |  |- assignmentOperator
+   |     |     |  |  |  |  |  |  |     |  |  |  |  |  '- TOKEN[type: 80, text: =]
+   |     |     |  |  |  |  |  |  |     |  |  |  |  '- expression
+   |     |     |  |  |  |  |  |  |     |  |  |  |     '- TOKEN[type: 64, text: true]
+   |     |     |  |  |  |  |  |  |     |  |  |  '- TOKEN[type: 74, text: ;]
+   |     |     |  |  |  |  |  |  |     |  |  |- TOKEN[type: 25, text: else]
+   |     |     |  |  |  |  |  |  |     |  |  '- statement
+   |     |     |  |  |  |  |  |  |     |  |     |- TOKEN[type: 32, text: if]
+   |     |     |  |  |  |  |  |  |     |  |     |- TOKEN[type: 68, text: (]
+   |     |     |  |  |  |  |  |  |     |  |     |- expression
+   |     |     |  |  |  |  |  |  |     |  |     |  |- primaryNoNewArray_lfno_primary
+   |     |     |  |  |  |  |  |  |     |  |     |  |  |- expressionName
+   |     |     |  |  |  |  |  |  |     |  |     |  |  |  '- TOKEN[type: 115, text: args]
+   |     |     |  |  |  |  |  |  |     |  |     |  |  |- TOKEN[type: 72, text: []
+   |     |     |  |  |  |  |  |  |     |  |     |  |  |- expression
+   |     |     |  |  |  |  |  |  |     |  |     |  |  |  '- TOKEN[type: 115, text: i]
+   |     |     |  |  |  |  |  |  |     |  |     |  |  '- TOKEN[type: 73, text: ]]
+   |     |     |  |  |  |  |  |  |     |  |     |  '- primaryNoNewArray_lf_primary
+   |     |     |  |  |  |  |  |  |     |  |     |     |- TOKEN[type: 76, text: .]
+   |     |     |  |  |  |  |  |  |     |  |     |     |- identifier
+   |     |     |  |  |  |  |  |  |     |  |     |     |  '- TOKEN[type: 115, text: equals]
+   |     |     |  |  |  |  |  |  |     |  |     |     |- TOKEN[type: 68, text: (]
+   |     |     |  |  |  |  |  |  |     |  |     |     |- argumentList
+   |     |     |  |  |  |  |  |  |     |  |     |     |  '- TOKEN[type: 66, text: "-gui"]
+   |     |     |  |  |  |  |  |  |     |  |     |     '- TOKEN[type: 69, text: )]
+   |     |     |  |  |  |  |  |  |     |  |     |- TOKEN[type: 69, text: )]
+   |     |     |  |  |  |  |  |  |     |  |     |- statementNoShortIf
+   |     |     |  |  |  |  |  |  |     |  |     |  |- statementExpression
+   |     |     |  |  |  |  |  |  |     |  |     |  |  |- leftHandSide
+   |     |     |  |  |  |  |  |  |     |  |     |  |  |  '- TOKEN[type: 115, text: gui]
+   |     |     |  |  |  |  |  |  |     |  |     |  |  |- assignmentOperator
+   |     |     |  |  |  |  |  |  |     |  |     |  |  |  '- TOKEN[type: 80, text: =]
+   |     |     |  |  |  |  |  |  |     |  |     |  |  '- expression
+   |     |     |  |  |  |  |  |  |     |  |     |  |     '- TOKEN[type: 64, text: true]
+   |     |     |  |  |  |  |  |  |     |  |     |  '- TOKEN[type: 74, text: ;]
+   |     |     |  |  |  |  |  |  |     |  |     |- TOKEN[type: 25, text: else]
+   |     |     |  |  |  |  |  |  |     |  |     '- statement
+   |     |     |  |  |  |  |  |  |     |  |        |- TOKEN[type: 32, text: if]
+   |     |     |  |  |  |  |  |  |     |  |        |- TOKEN[type: 68, text: (]
+   |     |     |  |  |  |  |  |  |     |  |        |- expression
+   |     |     |  |  |  |  |  |  |     |  |        |  |- primaryNoNewArray_lfno_primary
+   |     |     |  |  |  |  |  |  |     |  |        |  |  |- expressionName
+   |     |     |  |  |  |  |  |  |     |  |        |  |  |  '- TOKEN[type: 115, text: args]
+   |     |     |  |  |  |  |  |  |     |  |        |  |  |- TOKEN[type: 72, text: []
+   |     |     |  |  |  |  |  |  |     |  |        |  |  |- expression
+   |     |     |  |  |  |  |  |  |     |  |        |  |  |  '- TOKEN[type: 115, text: i]
+   |     |     |  |  |  |  |  |  |     |  |        |  |  '- TOKEN[type: 73, text: ]]
+   |     |     |  |  |  |  |  |  |     |  |        |  '- primaryNoNewArray_lf_primary
+   |     |     |  |  |  |  |  |  |     |  |        |     |- TOKEN[type: 76, text: .]
+   |     |     |  |  |  |  |  |  |     |  |        |     |- identifier
+   |     |     |  |  |  |  |  |  |     |  |        |     |  '- TOKEN[type: 115, text: equals]
+   |     |     |  |  |  |  |  |  |     |  |        |     |- TOKEN[type: 68, text: (]
+   |     |     |  |  |  |  |  |  |     |  |        |     |- argumentList
+   |     |     |  |  |  |  |  |  |     |  |        |     |  '- TOKEN[type: 66, text: "-ptree"]
+   |     |     |  |  |  |  |  |  |     |  |        |     '- TOKEN[type: 69, text: )]
+   |     |     |  |  |  |  |  |  |     |  |        |- TOKEN[type: 69, text: )]
+   |     |     |  |  |  |  |  |  |     |  |        |- statementNoShortIf
+   |     |     |  |  |  |  |  |  |     |  |        |  |- statementExpression
+   |     |     |  |  |  |  |  |  |     |  |        |  |  |- leftHandSide
+   |     |     |  |  |  |  |  |  |     |  |        |  |  |  '- TOKEN[type: 115, text: printTree]
+   |     |     |  |  |  |  |  |  |     |  |        |  |  |- assignmentOperator
+   |     |     |  |  |  |  |  |  |     |  |        |  |  |  '- TOKEN[type: 80, text: =]
+   |     |     |  |  |  |  |  |  |     |  |        |  |  '- expression
+   |     |     |  |  |  |  |  |  |     |  |        |  |     '- TOKEN[type: 64, text: true]
+   |     |     |  |  |  |  |  |  |     |  |        |  '- TOKEN[type: 74, text: ;]
+   |     |     |  |  |  |  |  |  |     |  |        |- TOKEN[type: 25, text: else]
+   |     |     |  |  |  |  |  |  |     |  |        '- statement
+   |     |     |  |  |  |  |  |  |     |  |           |- TOKEN[type: 32, text: if]
+   |     |     |  |  |  |  |  |  |     |  |           |- TOKEN[type: 68, text: (]
+   |     |     |  |  |  |  |  |  |     |  |           |- expression
+   |     |     |  |  |  |  |  |  |     |  |           |  |- primaryNoNewArray_lfno_primary
+   |     |     |  |  |  |  |  |  |     |  |           |  |  |- expressionName
+   |     |     |  |  |  |  |  |  |     |  |           |  |  |  '- TOKEN[type: 115, text: args]
+   |     |     |  |  |  |  |  |  |     |  |           |  |  |- TOKEN[type: 72, text: []
+   |     |     |  |  |  |  |  |  |     |  |           |  |  |- expression
+   |     |     |  |  |  |  |  |  |     |  |           |  |  |  '- TOKEN[type: 115, text: i]
+   |     |     |  |  |  |  |  |  |     |  |           |  |  '- TOKEN[type: 73, text: ]]
+   |     |     |  |  |  |  |  |  |     |  |           |  '- primaryNoNewArray_lf_primary
+   |     |     |  |  |  |  |  |  |     |  |           |     |- TOKEN[type: 76, text: .]
+   |     |     |  |  |  |  |  |  |     |  |           |     |- identifier
+   |     |     |  |  |  |  |  |  |     |  |           |     |  '- TOKEN[type: 115, text: equals]
+   |     |     |  |  |  |  |  |  |     |  |           |     |- TOKEN[type: 68, text: (]
+   |     |     |  |  |  |  |  |  |     |  |           |     |- argumentList
+   |     |     |  |  |  |  |  |  |     |  |           |     |  '- TOKEN[type: 66, text: "-SLL"]
+   |     |     |  |  |  |  |  |  |     |  |           |     '- TOKEN[type: 69, text: )]
+   |     |     |  |  |  |  |  |  |     |  |           |- TOKEN[type: 69, text: )]
+   |     |     |  |  |  |  |  |  |     |  |           |- statementNoShortIf
+   |     |     |  |  |  |  |  |  |     |  |           |  |- statementExpression
+   |     |     |  |  |  |  |  |  |     |  |           |  |  |- leftHandSide
+   |     |     |  |  |  |  |  |  |     |  |           |  |  |  '- TOKEN[type: 115, text: SLL]
+   |     |     |  |  |  |  |  |  |     |  |           |  |  |- assignmentOperator
+   |     |     |  |  |  |  |  |  |     |  |           |  |  |  '- TOKEN[type: 80, text: =]
+   |     |     |  |  |  |  |  |  |     |  |           |  |  '- expression
+   |     |     |  |  |  |  |  |  |     |  |           |  |     '- TOKEN[type: 64, text: true]
+   |     |     |  |  |  |  |  |  |     |  |           |  '- TOKEN[type: 74, text: ;]
+   |     |     |  |  |  |  |  |  |     |  |           |- TOKEN[type: 25, text: else]
+   |     |     |  |  |  |  |  |  |     |  |           '- statement
+   |     |     |  |  |  |  |  |  |     |  |              |- TOKEN[type: 32, text: if]
+   |     |     |  |  |  |  |  |  |     |  |              |- TOKEN[type: 68, text: (]
+   |     |     |  |  |  |  |  |  |     |  |              |- expression
+   |     |     |  |  |  |  |  |  |     |  |              |  |- primaryNoNewArray_lfno_primary
+   |     |     |  |  |  |  |  |  |     |  |              |  |  |- expressionName
+   |     |     |  |  |  |  |  |  |     |  |              |  |  |  '- TOKEN[type: 115, text: args]
+   |     |     |  |  |  |  |  |  |     |  |              |  |  |- TOKEN[type: 72, text: []
+   |     |     |  |  |  |  |  |  |     |  |              |  |  |- expression
+   |     |     |  |  |  |  |  |  |     |  |              |  |  |  '- TOKEN[type: 115, text: i]
+   |     |     |  |  |  |  |  |  |     |  |              |  |  '- TOKEN[type: 73, text: ]]
+   |     |     |  |  |  |  |  |  |     |  |              |  '- primaryNoNewArray_lf_primary
+   |     |     |  |  |  |  |  |  |     |  |              |     |- TOKEN[type: 76, text: .]
+   |     |     |  |  |  |  |  |  |     |  |              |     |- identifier
+   |     |     |  |  |  |  |  |  |     |  |              |     |  '- TOKEN[type: 115, text: equals]
+   |     |     |  |  |  |  |  |  |     |  |              |     |- TOKEN[type: 68, text: (]
+   |     |     |  |  |  |  |  |  |     |  |              |     |- argumentList
+   |     |     |  |  |  |  |  |  |     |  |              |     |  '- TOKEN[type: 66, text: "-bail"]
+   |     |     |  |  |  |  |  |  |     |  |              |     '- TOKEN[type: 69, text: )]
+   |     |     |  |  |  |  |  |  |     |  |              |- TOKEN[type: 69, text: )]
+   |     |     |  |  |  |  |  |  |     |  |              |- statementNoShortIf
+   |     |     |  |  |  |  |  |  |     |  |              |  |- statementExpression
+   |     |     |  |  |  |  |  |  |     |  |              |  |  |- leftHandSide
+   |     |     |  |  |  |  |  |  |     |  |              |  |  |  '- TOKEN[type: 115, text: bail]
+   |     |     |  |  |  |  |  |  |     |  |              |  |  |- assignmentOperator
+   |     |     |  |  |  |  |  |  |     |  |              |  |  |  '- TOKEN[type: 80, text: =]
+   |     |     |  |  |  |  |  |  |     |  |              |  |  '- expression
+   |     |     |  |  |  |  |  |  |     |  |              |  |     '- TOKEN[type: 64, text: true]
+   |     |     |  |  |  |  |  |  |     |  |              |  '- TOKEN[type: 74, text: ;]
+   |     |     |  |  |  |  |  |  |     |  |              |- TOKEN[type: 25, text: else]
+   |     |     |  |  |  |  |  |  |     |  |              '- statement
+   |     |     |  |  |  |  |  |  |     |  |                 |- TOKEN[type: 32, text: if]
+   |     |     |  |  |  |  |  |  |     |  |                 |- TOKEN[type: 68, text: (]
+   |     |     |  |  |  |  |  |  |     |  |                 |- expression
+   |     |     |  |  |  |  |  |  |     |  |                 |  |- primaryNoNewArray_lfno_primary
+   |     |     |  |  |  |  |  |  |     |  |                 |  |  |- expressionName
+   |     |     |  |  |  |  |  |  |     |  |                 |  |  |  '- TOKEN[type: 115, text: args]
+   |     |     |  |  |  |  |  |  |     |  |                 |  |  |- TOKEN[type: 72, text: []
+   |     |     |  |  |  |  |  |  |     |  |                 |  |  |- expression
+   |     |     |  |  |  |  |  |  |     |  |                 |  |  |  '- TOKEN[type: 115, text: i]
+   |     |     |  |  |  |  |  |  |     |  |                 |  |  '- TOKEN[type: 73, text: ]]
+   |     |     |  |  |  |  |  |  |     |  |                 |  '- primaryNoNewArray_lf_primary
+   |     |     |  |  |  |  |  |  |     |  |                 |     |- TOKEN[type: 76, text: .]
+   |     |     |  |  |  |  |  |  |     |  |                 |     |- identifier
+   |     |     |  |  |  |  |  |  |     |  |                 |     |  '- TOKEN[type: 115, text: equals]
+   |     |     |  |  |  |  |  |  |     |  |                 |     |- TOKEN[type: 68, text: (]
+   |     |     |  |  |  |  |  |  |     |  |                 |     |- argumentList
+   |     |     |  |  |  |  |  |  |     |  |                 |     |  '- TOKEN[type: 66, text: "-diag"]
+   |     |     |  |  |  |  |  |  |     |  |                 |     '- TOKEN[type: 69, text: )]
+   |     |     |  |  |  |  |  |  |     |  |                 |- TOKEN[type: 69, text: )]
+   |     |     |  |  |  |  |  |  |     |  |                 |- statementNoShortIf
+   |     |     |  |  |  |  |  |  |     |  |                 |  |- statementExpression
+   |     |     |  |  |  |  |  |  |     |  |                 |  |  |- leftHandSide
+   |     |     |  |  |  |  |  |  |     |  |                 |  |  |  '- TOKEN[type: 115, text: diag]
+   |     |     |  |  |  |  |  |  |     |  |                 |  |  |- assignmentOperator
+   |     |     |  |  |  |  |  |  |     |  |                 |  |  |  '- TOKEN[type: 80, text: =]
+   |     |     |  |  |  |  |  |  |     |  |                 |  |  '- expression
+   |     |     |  |  |  |  |  |  |     |  |                 |  |     '- TOKEN[type: 64, text: true]
+   |     |     |  |  |  |  |  |  |     |  |                 |  '- TOKEN[type: 74, text: ;]
+   |     |     |  |  |  |  |  |  |     |  |                 |- TOKEN[type: 25, text: else]
+   |     |     |  |  |  |  |  |  |     |  |                 '- statement
+   |     |     |  |  |  |  |  |  |     |  |                    |- TOKEN[type: 32, text: if]
+   |     |     |  |  |  |  |  |  |     |  |                    |- TOKEN[type: 68, text: (]
+   |     |     |  |  |  |  |  |  |     |  |                    |- expression
+   |     |     |  |  |  |  |  |  |     |  |                    |  |- primaryNoNewArray_lfno_primary
+   |     |     |  |  |  |  |  |  |     |  |                    |  |  |- expressionName
+   |     |     |  |  |  |  |  |  |     |  |                    |  |  |  '- TOKEN[type: 115, text: args]
+   |     |     |  |  |  |  |  |  |     |  |                    |  |  |- TOKEN[type: 72, text: []
+   |     |     |  |  |  |  |  |  |     |  |                    |  |  |- expression
+   |     |     |  |  |  |  |  |  |     |  |                    |  |  |  '- TOKEN[type: 115, text: i]
+   |     |     |  |  |  |  |  |  |     |  |                    |  |  '- TOKEN[type: 73, text: ]]
+   |     |     |  |  |  |  |  |  |     |  |                    |  '- primaryNoNewArray_lf_primary
+   |     |     |  |  |  |  |  |  |     |  |                    |     |- TOKEN[type: 76, text: .]
+   |     |     |  |  |  |  |  |  |     |  |                    |     |- identifier
+   |     |     |  |  |  |  |  |  |     |  |                    |     |  '- TOKEN[type: 115, text: equals]
+   |     |     |  |  |  |  |  |  |     |  |                    |     |- TOKEN[type: 68, text: (]
+   |     |     |  |  |  |  |  |  |     |  |                    |     |- argumentList
+   |     |     |  |  |  |  |  |  |     |  |                    |     |  '- TOKEN[type: 66, text: "-2x"]
+   |     |     |  |  |  |  |  |  |     |  |                    |     '- TOKEN[type: 69, text: )]
+   |     |     |  |  |  |  |  |  |     |  |                    |- TOKEN[type: 69, text: )]
+   |     |     |  |  |  |  |  |  |     |  |                    |- statementNoShortIf
+   |     |     |  |  |  |  |  |  |     |  |                    |  |- statementExpression
+   |     |     |  |  |  |  |  |  |     |  |                    |  |  |- leftHandSide
+   |     |     |  |  |  |  |  |  |     |  |                    |  |  |  '- TOKEN[type: 115, text: x2]
+   |     |     |  |  |  |  |  |  |     |  |                    |  |  |- assignmentOperator
+   |     |     |  |  |  |  |  |  |     |  |                    |  |  |  '- TOKEN[type: 80, text: =]
+   |     |     |  |  |  |  |  |  |     |  |                    |  |  '- expression
+   |     |     |  |  |  |  |  |  |     |  |                    |  |     '- TOKEN[type: 64, text: true]
+   |     |     |  |  |  |  |  |  |     |  |                    |  '- TOKEN[type: 74, text: ;]
+   |     |     |  |  |  |  |  |  |     |  |                    |- TOKEN[type: 25, text: else]
+   |     |     |  |  |  |  |  |  |     |  |                    '- statement
+   |     |     |  |  |  |  |  |  |     |  |                       |- TOKEN[type: 32, text: if]
+   |     |     |  |  |  |  |  |  |     |  |                       |- TOKEN[type: 68, text: (]
+   |     |     |  |  |  |  |  |  |     |  |                       |- expression
+   |     |     |  |  |  |  |  |  |     |  |                       |  |- primaryNoNewArray_lfno_primary
+   |     |     |  |  |  |  |  |  |     |  |                       |  |  |- expressionName
+   |     |     |  |  |  |  |  |  |     |  |                       |  |  |  '- TOKEN[type: 115, text: args]
+   |     |     |  |  |  |  |  |  |     |  |                       |  |  |- TOKEN[type: 72, text: []
+   |     |     |  |  |  |  |  |  |     |  |                       |  |  |- expression
+   |     |     |  |  |  |  |  |  |     |  |                       |  |  |  '- TOKEN[type: 115, text: i]
+   |     |     |  |  |  |  |  |  |     |  |                       |  |  '- TOKEN[type: 73, text: ]]
+   |     |     |  |  |  |  |  |  |     |  |                       |  '- primaryNoNewArray_lf_primary
+   |     |     |  |  |  |  |  |  |     |  |                       |     |- TOKEN[type: 76, text: .]
+   |     |     |  |  |  |  |  |  |     |  |                       |     |- identifier
+   |     |     |  |  |  |  |  |  |     |  |                       |     |  '- TOKEN[type: 115, text: equals]
+   |     |     |  |  |  |  |  |  |     |  |                       |     |- TOKEN[type: 68, text: (]
+   |     |     |  |  |  |  |  |  |     |  |                       |     |- argumentList
+   |     |     |  |  |  |  |  |  |     |  |                       |     |  '- TOKEN[type: 66, text: "-threaded"]
+   |     |     |  |  |  |  |  |  |     |  |                       |     '- TOKEN[type: 69, text: )]
+   |     |     |  |  |  |  |  |  |     |  |                       |- TOKEN[type: 69, text: )]
+   |     |     |  |  |  |  |  |  |     |  |                       |- statementNoShortIf
+   |     |     |  |  |  |  |  |  |     |  |                       |  |- statementExpression
+   |     |     |  |  |  |  |  |  |     |  |                       |  |  |- leftHandSide
+   |     |     |  |  |  |  |  |  |     |  |                       |  |  |  '- TOKEN[type: 115, text: threaded]
+   |     |     |  |  |  |  |  |  |     |  |                       |  |  |- assignmentOperator
+   |     |     |  |  |  |  |  |  |     |  |                       |  |  |  '- TOKEN[type: 80, text: =]
+   |     |     |  |  |  |  |  |  |     |  |                       |  |  '- expression
+   |     |     |  |  |  |  |  |  |     |  |                       |  |     '- TOKEN[type: 64, text: true]
+   |     |     |  |  |  |  |  |  |     |  |                       |  '- TOKEN[type: 74, text: ;]
+   |     |     |  |  |  |  |  |  |     |  |                       |- TOKEN[type: 25, text: else]
+   |     |     |  |  |  |  |  |  |     |  |                       '- statement
+   |     |     |  |  |  |  |  |  |     |  |                          |- TOKEN[type: 32, text: if]
+   |     |     |  |  |  |  |  |  |     |  |                          |- TOKEN[type: 68, text: (]
+   |     |     |  |  |  |  |  |  |     |  |                          |- expression
+   |     |     |  |  |  |  |  |  |     |  |                          |  |- primaryNoNewArray_lfno_primary
+   |     |     |  |  |  |  |  |  |     |  |                          |  |  |- expressionName
+   |     |     |  |  |  |  |  |  |     |  |                          |  |  |  '- TOKEN[type: 115, text: args]
+   |     |     |  |  |  |  |  |  |     |  |                          |  |  |- TOKEN[type: 72, text: []
+   |     |     |  |  |  |  |  |  |     |  |                          |  |  |- expression
+   |     |     |  |  |  |  |  |  |     |  |                          |  |  |  '- TOKEN[type: 115, text: i]
+   |     |     |  |  |  |  |  |  |     |  |                          |  |  '- TOKEN[type: 73, text: ]]
+   |     |     |  |  |  |  |  |  |     |  |                          |  '- primaryNoNewArray_lf_primary
+   |     |     |  |  |  |  |  |  |     |  |                          |     |- TOKEN[type: 76, text: .]
+   |     |     |  |  |  |  |  |  |     |  |                          |     |- identifier
+   |     |     |  |  |  |  |  |  |     |  |                          |     |  '- TOKEN[type: 115, text: equals]
+   |     |     |  |  |  |  |  |  |     |  |                          |     |- TOKEN[type: 68, text: (]
+   |     |     |  |  |  |  |  |  |     |  |                          |     |- argumentList
+   |     |     |  |  |  |  |  |  |     |  |                          |     |  '- TOKEN[type: 66, text: "-quiet"]
+   |     |     |  |  |  |  |  |  |     |  |                          |     '- TOKEN[type: 69, text: )]
+   |     |     |  |  |  |  |  |  |     |  |                          |- TOKEN[type: 69, text: )]
+   |     |     |  |  |  |  |  |  |     |  |                          '- statement
+   |     |     |  |  |  |  |  |  |     |  |                             |- statementExpression
+   |     |     |  |  |  |  |  |  |     |  |                             |  |- leftHandSide
+   |     |     |  |  |  |  |  |  |     |  |                             |  |  '- TOKEN[type: 115, text: quiet]
+   |     |     |  |  |  |  |  |  |     |  |                             |  |- assignmentOperator
+   |     |     |  |  |  |  |  |  |     |  |                             |  |  '- TOKEN[type: 80, text: =]
+   |     |     |  |  |  |  |  |  |     |  |                             |  '- expression
+   |     |     |  |  |  |  |  |  |     |  |                             |     '- TOKEN[type: 64, text: true]
+   |     |     |  |  |  |  |  |  |     |  |                             '- TOKEN[type: 74, text: ;]
+   |     |     |  |  |  |  |  |  |     |  '- blockStatement
+   |     |     |  |  |  |  |  |  |     |     |- TOKEN[type: 32, text: if]
+   |     |     |  |  |  |  |  |  |     |     |- TOKEN[type: 68, text: (]
+   |     |     |  |  |  |  |  |  |     |     |- expression
+   |     |     |  |  |  |  |  |  |     |     |  |- equalityExpression
+   |     |     |  |  |  |  |  |  |     |     |  |  |- primaryNoNewArray_lfno_primary
+   |     |     |  |  |  |  |  |  |     |     |  |  |  |- expressionName
+   |     |     |  |  |  |  |  |  |     |     |  |  |  |  '- TOKEN[type: 115, text: args]
+   |     |     |  |  |  |  |  |  |     |     |  |  |  |- TOKEN[type: 72, text: []
+   |     |     |  |  |  |  |  |  |     |     |  |  |  |- expression
+   |     |     |  |  |  |  |  |  |     |     |  |  |  |  '- TOKEN[type: 115, text: i]
+   |     |     |  |  |  |  |  |  |     |     |  |  |  '- TOKEN[type: 73, text: ]]
+   |     |     |  |  |  |  |  |  |     |     |  |  '- primaryNoNewArray_lf_primary
+   |     |     |  |  |  |  |  |  |     |     |  |     |- TOKEN[type: 76, text: .]
+   |     |     |  |  |  |  |  |  |     |     |  |     |- identifier
+   |     |     |  |  |  |  |  |  |     |     |  |     |  '- TOKEN[type: 115, text: charAt]
+   |     |     |  |  |  |  |  |  |     |     |  |     |- TOKEN[type: 68, text: (]
+   |     |     |  |  |  |  |  |  |     |     |  |     |- argumentList
+   |     |     |  |  |  |  |  |  |     |     |  |     |  '- TOKEN[type: 62, text: 0]
+   |     |     |  |  |  |  |  |  |     |     |  |     '- TOKEN[type: 69, text: )]
+   |     |     |  |  |  |  |  |  |     |     |  |- TOKEN[type: 91, text: !=]
+   |     |     |  |  |  |  |  |  |     |     |  '- relationalExpression
+   |     |     |  |  |  |  |  |  |     |     |     '- TOKEN[type: 65, text: '-']
+   |     |     |  |  |  |  |  |  |     |     |- TOKEN[type: 69, text: )]
+   |     |     |  |  |  |  |  |  |     |     '- statement
+   |     |     |  |  |  |  |  |  |     |        |- TOKEN[type: 70, text: {]
+   |     |     |  |  |  |  |  |  |     |        |- blockStatements
+   |     |     |  |  |  |  |  |  |     |        |  |- statementExpression
+   |     |     |  |  |  |  |  |  |     |        |  |  |- typeName
+   |     |     |  |  |  |  |  |  |     |        |  |  |  '- TOKEN[type: 115, text: inputFiles]
+   |     |     |  |  |  |  |  |  |     |        |  |  |- TOKEN[type: 76, text: .]
+   |     |     |  |  |  |  |  |  |     |        |  |  |- identifier
+   |     |     |  |  |  |  |  |  |     |        |  |  |  '- TOKEN[type: 115, text: add]
+   |     |     |  |  |  |  |  |  |     |        |  |  |- TOKEN[type: 68, text: (]
+   |     |     |  |  |  |  |  |  |     |        |  |  |- argumentList
+   |     |     |  |  |  |  |  |  |     |        |  |  |  |- expressionName
+   |     |     |  |  |  |  |  |  |     |        |  |  |  |  '- TOKEN[type: 115, text: args]
+   |     |     |  |  |  |  |  |  |     |        |  |  |  |- TOKEN[type: 72, text: []
+   |     |     |  |  |  |  |  |  |     |        |  |  |  |- expression
+   |     |     |  |  |  |  |  |  |     |        |  |  |  |  '- TOKEN[type: 115, text: i]
+   |     |     |  |  |  |  |  |  |     |        |  |  |  '- TOKEN[type: 73, text: ]]
+   |     |     |  |  |  |  |  |  |     |        |  |  '- TOKEN[type: 69, text: )]
+   |     |     |  |  |  |  |  |  |     |        |  '- TOKEN[type: 74, text: ;]
+   |     |     |  |  |  |  |  |  |     |        '- TOKEN[type: 71, text: }]
+   |     |     |  |  |  |  |  |  |     '- TOKEN[type: 71, text: }]
+   |     |     |  |  |  |  |  |  |- blockStatement
+   |     |     |  |  |  |  |  |  |  |- localVariableDeclaration
+   |     |     |  |  |  |  |  |  |  |  |- unannType
+   |     |     |  |  |  |  |  |  |  |  |  |- identifier
+   |     |     |  |  |  |  |  |  |  |  |  |  '- TOKEN[type: 115, text: List]
+   |     |     |  |  |  |  |  |  |  |  |  '- typeArguments
+   |     |     |  |  |  |  |  |  |  |  |     |- TOKEN[type: 82, text: <]
+   |     |     |  |  |  |  |  |  |  |  |     |- typeArgumentList
+   |     |     |  |  |  |  |  |  |  |  |     |  '- TOKEN[type: 115, text: String]
+   |     |     |  |  |  |  |  |  |  |  |     '- TOKEN[type: 81, text: >]
+   |     |     |  |  |  |  |  |  |  |  '- variableDeclaratorList
+   |     |     |  |  |  |  |  |  |  |     |- variableDeclaratorId
+   |     |     |  |  |  |  |  |  |  |     |  '- TOKEN[type: 115, text: javaFiles]
+   |     |     |  |  |  |  |  |  |  |     |- TOKEN[type: 80, text: =]
+   |     |     |  |  |  |  |  |  |  |     '- variableInitializer
+   |     |     |  |  |  |  |  |  |  |        |- TOKEN[type: 41, text: new]
+   |     |     |  |  |  |  |  |  |  |        |- identifier
+   |     |     |  |  |  |  |  |  |  |        |  '- TOKEN[type: 115, text: ArrayList]
+   |     |     |  |  |  |  |  |  |  |        |- typeArgumentsOrDiamond
+   |     |     |  |  |  |  |  |  |  |        |  |- TOKEN[type: 82, text: <]
+   |     |     |  |  |  |  |  |  |  |        |  |- typeArgumentList
+   |     |     |  |  |  |  |  |  |  |        |  |  '- TOKEN[type: 115, text: String]
+   |     |     |  |  |  |  |  |  |  |        |  '- TOKEN[type: 81, text: >]
+   |     |     |  |  |  |  |  |  |  |        |- TOKEN[type: 68, text: (]
+   |     |     |  |  |  |  |  |  |  |        '- TOKEN[type: 69, text: )]
+   |     |     |  |  |  |  |  |  |  '- TOKEN[type: 74, text: ;]
+   |     |     |  |  |  |  |  |  |- blockStatement
+   |     |     |  |  |  |  |  |  |  |- TOKEN[type: 31, text: for]
+   |     |     |  |  |  |  |  |  |  |- TOKEN[type: 68, text: (]
+   |     |     |  |  |  |  |  |  |  |- unannType
+   |     |     |  |  |  |  |  |  |  |  '- TOKEN[type: 115, text: String]
+   |     |     |  |  |  |  |  |  |  |- variableDeclaratorId
+   |     |     |  |  |  |  |  |  |  |  '- TOKEN[type: 115, text: fileName]
+   |     |     |  |  |  |  |  |  |  |- TOKEN[type: 86, text: :]
+   |     |     |  |  |  |  |  |  |  |- expression
+   |     |     |  |  |  |  |  |  |  |  '- TOKEN[type: 115, text: inputFiles]
+   |     |     |  |  |  |  |  |  |  |- TOKEN[type: 69, text: )]
+   |     |     |  |  |  |  |  |  |  '- statement
+   |     |     |  |  |  |  |  |  |     |- TOKEN[type: 70, text: {]
+   |     |     |  |  |  |  |  |  |     |- blockStatements
+   |     |     |  |  |  |  |  |  |     |  |- blockStatement
+   |     |     |  |  |  |  |  |  |     |  |  |- localVariableDeclaration
+   |     |     |  |  |  |  |  |  |     |  |  |  |- unannType
+   |     |     |  |  |  |  |  |  |     |  |  |  |  |- identifier
+   |     |     |  |  |  |  |  |  |     |  |  |  |  |  '- TOKEN[type: 115, text: List]
+   |     |     |  |  |  |  |  |  |     |  |  |  |  '- typeArguments
+   |     |     |  |  |  |  |  |  |     |  |  |  |     |- TOKEN[type: 82, text: <]
+   |     |     |  |  |  |  |  |  |     |  |  |  |     |- typeArgumentList
+   |     |     |  |  |  |  |  |  |     |  |  |  |     |  '- TOKEN[type: 115, text: String]
+   |     |     |  |  |  |  |  |  |     |  |  |  |     '- TOKEN[type: 81, text: >]
+   |     |     |  |  |  |  |  |  |     |  |  |  '- variableDeclaratorList
+   |     |     |  |  |  |  |  |  |     |  |  |     |- variableDeclaratorId
+   |     |     |  |  |  |  |  |  |     |  |  |     |  '- TOKEN[type: 115, text: files]
+   |     |     |  |  |  |  |  |  |     |  |  |     |- TOKEN[type: 80, text: =]
+   |     |     |  |  |  |  |  |  |     |  |  |     '- variableInitializer
+   |     |     |  |  |  |  |  |  |     |  |  |        |- methodName
+   |     |     |  |  |  |  |  |  |     |  |  |        |  '- TOKEN[type: 115, text: getFilenames]
+   |     |     |  |  |  |  |  |  |     |  |  |        |- TOKEN[type: 68, text: (]
+   |     |     |  |  |  |  |  |  |     |  |  |        |- argumentList
+   |     |     |  |  |  |  |  |  |     |  |  |        |  |- TOKEN[type: 41, text: new]
+   |     |     |  |  |  |  |  |  |     |  |  |        |  |- identifier
+   |     |     |  |  |  |  |  |  |     |  |  |        |  |  '- TOKEN[type: 115, text: File]
+   |     |     |  |  |  |  |  |  |     |  |  |        |  |- TOKEN[type: 68, text: (]
+   |     |     |  |  |  |  |  |  |     |  |  |        |  |- argumentList
+   |     |     |  |  |  |  |  |  |     |  |  |        |  |  '- TOKEN[type: 115, text: fileName]
+   |     |     |  |  |  |  |  |  |     |  |  |        |  '- TOKEN[type: 69, text: )]
+   |     |     |  |  |  |  |  |  |     |  |  |        '- TOKEN[type: 69, text: )]
+   |     |     |  |  |  |  |  |  |     |  |  '- TOKEN[type: 74, text: ;]
+   |     |     |  |  |  |  |  |  |     |  '- blockStatement
+   |     |     |  |  |  |  |  |  |     |     |- statementExpression
+   |     |     |  |  |  |  |  |  |     |     |  |- typeName
+   |     |     |  |  |  |  |  |  |     |     |  |  '- TOKEN[type: 115, text: javaFiles]
+   |     |     |  |  |  |  |  |  |     |     |  |- TOKEN[type: 76, text: .]
+   |     |     |  |  |  |  |  |  |     |     |  |- identifier
+   |     |     |  |  |  |  |  |  |     |     |  |  '- TOKEN[type: 115, text: addAll]
+   |     |     |  |  |  |  |  |  |     |     |  |- TOKEN[type: 68, text: (]
+   |     |     |  |  |  |  |  |  |     |     |  |- argumentList
+   |     |     |  |  |  |  |  |  |     |     |  |  '- TOKEN[type: 115, text: files]
+   |     |     |  |  |  |  |  |  |     |     |  '- TOKEN[type: 69, text: )]
+   |     |     |  |  |  |  |  |  |     |     '- TOKEN[type: 74, text: ;]
+   |     |     |  |  |  |  |  |  |     '- TOKEN[type: 71, text: }]
+   |     |     |  |  |  |  |  |  |- blockStatement
+   |     |     |  |  |  |  |  |  |  |- statementExpression
+   |     |     |  |  |  |  |  |  |  |  |- methodName
+   |     |     |  |  |  |  |  |  |  |  |  '- TOKEN[type: 115, text: doFiles]
+   |     |     |  |  |  |  |  |  |  |  |- TOKEN[type: 68, text: (]
+   |     |     |  |  |  |  |  |  |  |  |- argumentList
+   |     |     |  |  |  |  |  |  |  |  |  '- TOKEN[type: 115, text: javaFiles]
+   |     |     |  |  |  |  |  |  |  |  '- TOKEN[type: 69, text: )]
+   |     |     |  |  |  |  |  |  |  '- TOKEN[type: 74, text: ;]
+   |     |     |  |  |  |  |  |  '- blockStatement
+   |     |     |  |  |  |  |  |     |- TOKEN[type: 32, text: if]
+   |     |     |  |  |  |  |  |     |- TOKEN[type: 68, text: (]
+   |     |     |  |  |  |  |  |     |- expression
+   |     |     |  |  |  |  |  |     |  '- TOKEN[type: 115, text: x2]
+   |     |     |  |  |  |  |  |     |- TOKEN[type: 69, text: )]
+   |     |     |  |  |  |  |  |     '- statement
+   |     |     |  |  |  |  |  |        |- TOKEN[type: 70, text: {]
+   |     |     |  |  |  |  |  |        |- blockStatements
+   |     |     |  |  |  |  |  |        |  |- blockStatement
+   |     |     |  |  |  |  |  |        |  |  |- statementExpression
+   |     |     |  |  |  |  |  |        |  |  |  |- typeName
+   |     |     |  |  |  |  |  |        |  |  |  |  '- TOKEN[type: 115, text: System]
+   |     |     |  |  |  |  |  |        |  |  |  |- TOKEN[type: 76, text: .]
+   |     |     |  |  |  |  |  |        |  |  |  |- identifier
+   |     |     |  |  |  |  |  |        |  |  |  |  '- TOKEN[type: 115, text: gc]
+   |     |     |  |  |  |  |  |        |  |  |  |- TOKEN[type: 68, text: (]
+   |     |     |  |  |  |  |  |        |  |  |  '- TOKEN[type: 69, text: )]
+   |     |     |  |  |  |  |  |        |  |  '- TOKEN[type: 74, text: ;]
+   |     |     |  |  |  |  |  |        |  |- blockStatement
+   |     |     |  |  |  |  |  |        |  |  |- statementExpression
+   |     |     |  |  |  |  |  |        |  |  |  |- typeName
+   |     |     |  |  |  |  |  |        |  |  |  |  |- packageOrTypeName
+   |     |     |  |  |  |  |  |        |  |  |  |  |  '- TOKEN[type: 115, text: System]
+   |     |     |  |  |  |  |  |        |  |  |  |  |- TOKEN[type: 76, text: .]
+   |     |     |  |  |  |  |  |        |  |  |  |  '- identifier
+   |     |     |  |  |  |  |  |        |  |  |  |     '- TOKEN[type: 115, text: out]
+   |     |     |  |  |  |  |  |        |  |  |  |- TOKEN[type: 76, text: .]
+   |     |     |  |  |  |  |  |        |  |  |  |- identifier
+   |     |     |  |  |  |  |  |        |  |  |  |  '- TOKEN[type: 115, text: println]
+   |     |     |  |  |  |  |  |        |  |  |  |- TOKEN[type: 68, text: (]
+   |     |     |  |  |  |  |  |        |  |  |  |- argumentList
+   |     |     |  |  |  |  |  |        |  |  |  |  '- TOKEN[type: 66, text: "waiting for 1st pass"]
+   |     |     |  |  |  |  |  |        |  |  |  '- TOKEN[type: 69, text: )]
+   |     |     |  |  |  |  |  |        |  |  '- TOKEN[type: 74, text: ;]
+   |     |     |  |  |  |  |  |        |  |- blockStatement
+   |     |     |  |  |  |  |  |        |  |  |- TOKEN[type: 32, text: if]
+   |     |     |  |  |  |  |  |        |  |  |- TOKEN[type: 68, text: (]
+   |     |     |  |  |  |  |  |        |  |  |- expression
+   |     |     |  |  |  |  |  |        |  |  |  '- TOKEN[type: 115, text: threaded]
+   |     |     |  |  |  |  |  |        |  |  |- TOKEN[type: 69, text: )]
+   |     |     |  |  |  |  |  |        |  |  '- statement
+   |     |     |  |  |  |  |  |        |  |     |- TOKEN[type: 60, text: while]
+   |     |     |  |  |  |  |  |        |  |     |- TOKEN[type: 68, text: (]
+   |     |     |  |  |  |  |  |        |  |     |- expression
+   |     |     |  |  |  |  |  |        |  |     |  |- TOKEN[type: 83, text: !]
+   |     |     |  |  |  |  |  |        |  |     |  '- unaryExpression
+   |     |     |  |  |  |  |  |        |  |     |     '- TOKEN[type: 115, text: firstPassDone]
+   |     |     |  |  |  |  |  |        |  |     |- TOKEN[type: 69, text: )]
+   |     |     |  |  |  |  |  |        |  |     '- statement
+   |     |     |  |  |  |  |  |        |  |        |- TOKEN[type: 70, text: {]
+   |     |     |  |  |  |  |  |        |  |        '- TOKEN[type: 71, text: }]
+   |     |     |  |  |  |  |  |        |  |- blockStatement
+   |     |     |  |  |  |  |  |        |  |  |- statementExpression
+   |     |     |  |  |  |  |  |        |  |  |  |- typeName
+   |     |     |  |  |  |  |  |        |  |  |  |  |- packageOrTypeName
+   |     |     |  |  |  |  |  |        |  |  |  |  |  '- TOKEN[type: 115, text: System]
+   |     |     |  |  |  |  |  |        |  |  |  |  |- TOKEN[type: 76, text: .]
+   |     |     |  |  |  |  |  |        |  |  |  |  '- identifier
+   |     |     |  |  |  |  |  |        |  |  |  |     '- TOKEN[type: 115, text: out]
+   |     |     |  |  |  |  |  |        |  |  |  |- TOKEN[type: 76, text: .]
+   |     |     |  |  |  |  |  |        |  |  |  |- identifier
+   |     |     |  |  |  |  |  |        |  |  |  |  '- TOKEN[type: 115, text: println]
+   |     |     |  |  |  |  |  |        |  |  |  |- TOKEN[type: 68, text: (]
+   |     |     |  |  |  |  |  |        |  |  |  |- argumentList
+   |     |     |  |  |  |  |  |        |  |  |  |  '- TOKEN[type: 66, text: "2nd pass"]
+   |     |     |  |  |  |  |  |        |  |  |  '- TOKEN[type: 69, text: )]
+   |     |     |  |  |  |  |  |        |  |  '- TOKEN[type: 74, text: ;]
+   |     |     |  |  |  |  |  |        |  '- blockStatement
+   |     |     |  |  |  |  |  |        |     |- statementExpression
+   |     |     |  |  |  |  |  |        |     |  |- methodName
+   |     |     |  |  |  |  |  |        |     |  |  '- TOKEN[type: 115, text: doFiles]
+   |     |     |  |  |  |  |  |        |     |  |- TOKEN[type: 68, text: (]
+   |     |     |  |  |  |  |  |        |     |  |- argumentList
+   |     |     |  |  |  |  |  |        |     |  |  '- TOKEN[type: 115, text: javaFiles]
+   |     |     |  |  |  |  |  |        |     |  '- TOKEN[type: 69, text: )]
+   |     |     |  |  |  |  |  |        |     '- TOKEN[type: 74, text: ;]
+   |     |     |  |  |  |  |  |        '- TOKEN[type: 71, text: }]
+   |     |     |  |  |  |  |  '- TOKEN[type: 71, text: }]
+   |     |     |  |  |  |  |- TOKEN[type: 25, text: else]
+   |     |     |  |  |  |  '- statement
+   |     |     |  |  |  |     |- TOKEN[type: 70, text: {]
+   |     |     |  |  |  |     |- blockStatements
+   |     |     |  |  |  |     |  |- statementExpression
+   |     |     |  |  |  |     |  |  |- typeName
+   |     |     |  |  |  |     |  |  |  |- packageOrTypeName
+   |     |     |  |  |  |     |  |  |  |  '- TOKEN[type: 115, text: System]
+   |     |     |  |  |  |     |  |  |  |- TOKEN[type: 76, text: .]
+   |     |     |  |  |  |     |  |  |  '- identifier
+   |     |     |  |  |  |     |  |  |     '- TOKEN[type: 115, text: err]
+   |     |     |  |  |  |     |  |  |- TOKEN[type: 76, text: .]
+   |     |     |  |  |  |     |  |  |- identifier
+   |     |     |  |  |  |     |  |  |  '- TOKEN[type: 115, text: println]
+   |     |     |  |  |  |     |  |  |- TOKEN[type: 68, text: (]
+   |     |     |  |  |  |     |  |  |- argumentList
+   |     |     |  |  |  |     |  |  |  '- TOKEN[type: 66, text: "Usage: java Main <directory or file name>"]
+   |     |     |  |  |  |     |  |  '- TOKEN[type: 69, text: )]
+   |     |     |  |  |  |     |  '- TOKEN[type: 74, text: ;]
+   |     |     |  |  |  |     '- TOKEN[type: 71, text: }]
+   |     |     |  |  |  '- TOKEN[type: 71, text: }]
+   |     |     |  |  '- catches
+   |     |     |  |     |- TOKEN[type: 17, text: catch]
+   |     |     |  |     |- TOKEN[type: 68, text: (]
+   |     |     |  |     |- catchFormalParameter
+   |     |     |  |     |  |- catchType
+   |     |     |  |     |  |  '- TOKEN[type: 115, text: Exception]
+   |     |     |  |     |  '- variableDeclaratorId
+   |     |     |  |     |     '- TOKEN[type: 115, text: e]
+   |     |     |  |     |- TOKEN[type: 69, text: )]
+   |     |     |  |     '- block
+   |     |     |  |        |- TOKEN[type: 70, text: {]
+   |     |     |  |        |- blockStatements
+   |     |     |  |        |  |- blockStatement
+   |     |     |  |        |  |  |- statementExpression
+   |     |     |  |        |  |  |  |- typeName
+   |     |     |  |        |  |  |  |  |- packageOrTypeName
+   |     |     |  |        |  |  |  |  |  '- TOKEN[type: 115, text: System]
+   |     |     |  |        |  |  |  |  |- TOKEN[type: 76, text: .]
+   |     |     |  |        |  |  |  |  '- identifier
+   |     |     |  |        |  |  |  |     '- TOKEN[type: 115, text: err]
+   |     |     |  |        |  |  |  |- TOKEN[type: 76, text: .]
+   |     |     |  |        |  |  |  |- identifier
+   |     |     |  |        |  |  |  |  '- TOKEN[type: 115, text: println]
+   |     |     |  |        |  |  |  |- TOKEN[type: 68, text: (]
+   |     |     |  |        |  |  |  |- argumentList
+   |     |     |  |        |  |  |  |  |- additiveExpression
+   |     |     |  |        |  |  |  |  |  '- TOKEN[type: 66, text: "exception: "]
+   |     |     |  |        |  |  |  |  |- TOKEN[type: 96, text: +]
+   |     |     |  |        |  |  |  |  '- multiplicativeExpression
+   |     |     |  |        |  |  |  |     '- TOKEN[type: 115, text: e]
+   |     |     |  |        |  |  |  '- TOKEN[type: 69, text: )]
+   |     |     |  |        |  |  '- TOKEN[type: 74, text: ;]
+   |     |     |  |        |  '- blockStatement
+   |     |     |  |        |     |- statementExpression
+   |     |     |  |        |     |  |- typeName
+   |     |     |  |        |     |  |  '- TOKEN[type: 115, text: e]
+   |     |     |  |        |     |  |- TOKEN[type: 76, text: .]
+   |     |     |  |        |     |  |- identifier
+   |     |     |  |        |     |  |  '- TOKEN[type: 115, text: printStackTrace]
+   |     |     |  |        |     |  |- TOKEN[type: 68, text: (]
+   |     |     |  |        |     |  |- argumentList
+   |     |     |  |        |     |  |  |- ambiguousName
+   |     |     |  |        |     |  |  |  '- TOKEN[type: 115, text: System]
+   |     |     |  |        |     |  |  |- TOKEN[type: 76, text: .]
+   |     |     |  |        |     |  |  '- identifier
+   |     |     |  |        |     |  |     '- TOKEN[type: 115, text: err]
+   |     |     |  |        |     |  '- TOKEN[type: 69, text: )]
+   |     |     |  |        |     '- TOKEN[type: 74, text: ;]
+   |     |     |  |        '- TOKEN[type: 71, text: }]
+   |     |     |  |- blockStatement
+   |     |     |  |  |- localVariableDeclaration
+   |     |     |  |  |  |- unannType
+   |     |     |  |  |  |  '- TOKEN[type: 39, text: long]
+   |     |     |  |  |  '- variableDeclaratorList
+   |     |     |  |  |     |- variableDeclaratorId
+   |     |     |  |  |     |  '- TOKEN[type: 115, text: stop]
+   |     |     |  |  |     |- TOKEN[type: 80, text: =]
+   |     |     |  |  |     '- variableInitializer
+   |     |     |  |  |        |- typeName
+   |     |     |  |  |        |  '- TOKEN[type: 115, text: System]
+   |     |     |  |  |        |- TOKEN[type: 76, text: .]
+   |     |     |  |  |        |- identifier
+   |     |     |  |  |        |  '- TOKEN[type: 115, text: currentTimeMillis]
+   |     |     |  |  |        |- TOKEN[type: 68, text: (]
+   |     |     |  |  |        '- TOKEN[type: 69, text: )]
+   |     |     |  |  '- TOKEN[type: 74, text: ;]
+   |     |     |  '- blockStatement
+   |     |     |     |- statementExpression
+   |     |     |     |  |- typeName
+   |     |     |     |  |  '- TOKEN[type: 115, text: System]
+   |     |     |     |  |- TOKEN[type: 76, text: .]
+   |     |     |     |  |- identifier
+   |     |     |     |  |  '- TOKEN[type: 115, text: gc]
+   |     |     |     |  |- TOKEN[type: 68, text: (]
+   |     |     |     |  '- TOKEN[type: 69, text: )]
+   |     |     |     '- TOKEN[type: 74, text: ;]
+   |     |     '- TOKEN[type: 71, text: }]
+   |     |- classBodyDeclaration
+   |     |  |- methodModifier
+   |     |  |  '- TOKEN[type: 45, text: public]
+   |     |  |- methodModifier
+   |     |  |  '- TOKEN[type: 48, text: static]
+   |     |  |- methodHeader
+   |     |  |  |- result
+   |     |  |  |  '- TOKEN[type: 58, text: void]
+   |     |  |  |- methodDeclarator
+   |     |  |  |  |- identifier
+   |     |  |  |  |  '- TOKEN[type: 115, text: doFiles]
+   |     |  |  |  |- TOKEN[type: 68, text: (]
+   |     |  |  |  |- formalParameterList
+   |     |  |  |  |  |- unannType
+   |     |  |  |  |  |  |- identifier
+   |     |  |  |  |  |  |  '- TOKEN[type: 115, text: List]
+   |     |  |  |  |  |  '- typeArguments
+   |     |  |  |  |  |     |- TOKEN[type: 82, text: <]
+   |     |  |  |  |  |     |- typeArgumentList
+   |     |  |  |  |  |     |  '- TOKEN[type: 115, text: String]
+   |     |  |  |  |  |     '- TOKEN[type: 81, text: >]
+   |     |  |  |  |  '- variableDeclaratorId
+   |     |  |  |  |     '- TOKEN[type: 115, text: files]
+   |     |  |  |  '- TOKEN[type: 69, text: )]
+   |     |  |  '- throws_
+   |     |  |     |- TOKEN[type: 55, text: throws]
+   |     |  |     '- exceptionTypeList
+   |     |  |        '- TOKEN[type: 115, text: Exception]
+   |     |  '- methodBody
+   |     |     |- TOKEN[type: 70, text: {]
+   |     |     |- blockStatements
+   |     |     |  |- blockStatement
+   |     |     |  |  |- localVariableDeclaration
+   |     |     |  |  |  |- unannType
+   |     |     |  |  |  |  '- TOKEN[type: 39, text: long]
+   |     |     |  |  |  '- variableDeclaratorList
+   |     |     |  |  |     |- variableDeclaratorId
+   |     |     |  |  |     |  '- TOKEN[type: 115, text: parserStart]
+   |     |     |  |  |     |- TOKEN[type: 80, text: =]
+   |     |     |  |  |     '- variableInitializer
+   |     |     |  |  |        |- typeName
+   |     |     |  |  |        |  '- TOKEN[type: 115, text: System]
+   |     |     |  |  |        |- TOKEN[type: 76, text: .]
+   |     |     |  |  |        |- identifier
+   |     |     |  |  |        |  '- TOKEN[type: 115, text: currentTimeMillis]
+   |     |     |  |  |        |- TOKEN[type: 68, text: (]
+   |     |     |  |  |        '- TOKEN[type: 69, text: )]
+   |     |     |  |  '- TOKEN[type: 74, text: ;]
+   |     |     |  '- blockStatement
+   |     |     |     |- TOKEN[type: 32, text: if]
+   |     |     |     |- TOKEN[type: 68, text: (]
+   |     |     |     |- expression
+   |     |     |     |  '- TOKEN[type: 115, text: threaded]
+   |     |     |     |- TOKEN[type: 69, text: )]
+   |     |     |     |- statementNoShortIf
+   |     |     |     |  |- TOKEN[type: 70, text: {]
+   |     |     |     |  |- blockStatements
+   |     |     |     |  |  |- blockStatement
+   |     |     |     |  |  |  |- statementExpression
+   |     |     |     |  |  |  |  |- leftHandSide
+   |     |     |     |  |  |  |  |  '- TOKEN[type: 115, text: barrier]
+   |     |     |     |  |  |  |  |- assignmentOperator
+   |     |     |     |  |  |  |  |  '- TOKEN[type: 80, text: =]
+   |     |     |     |  |  |  |  '- expression
+   |     |     |     |  |  |  |     |- TOKEN[type: 41, text: new]
+   |     |     |     |  |  |  |     |- identifier
+   |     |     |     |  |  |  |     |  '- TOKEN[type: 115, text: CyclicBarrier]
+   |     |     |     |  |  |  |     |- TOKEN[type: 68, text: (]
+   |     |     |     |  |  |  |     |- argumentList
+   |     |     |     |  |  |  |     |  |- expression
+   |     |     |     |  |  |  |     |  |  '- TOKEN[type: 62, text: 3]
+   |     |     |     |  |  |  |     |  |- TOKEN[type: 75, text: ,]
+   |     |     |     |  |  |  |     |  '- expression
+   |     |     |     |  |  |  |     |     |- TOKEN[type: 41, text: new]
+   |     |     |     |  |  |  |     |     |- identifier
+   |     |     |     |  |  |  |     |     |  '- TOKEN[type: 115, text: Runnable]
+   |     |     |     |  |  |  |     |     |- TOKEN[type: 68, text: (]
+   |     |     |     |  |  |  |     |     |- TOKEN[type: 69, text: )]
+   |     |     |     |  |  |  |     |     '- classBody
+   |     |     |     |  |  |  |     |        |- TOKEN[type: 70, text: {]
+   |     |     |     |  |  |  |     |        |- classBodyDeclaration
+   |     |     |     |  |  |  |     |        |  |- methodModifier
+   |     |     |     |  |  |  |     |        |  |  '- TOKEN[type: 45, text: public]
+   |     |     |     |  |  |  |     |        |  |- methodHeader
+   |     |     |     |  |  |  |     |        |  |  |- result
+   |     |     |     |  |  |  |     |        |  |  |  '- TOKEN[type: 58, text: void]
+   |     |     |     |  |  |  |     |        |  |  '- methodDeclarator
+   |     |     |     |  |  |  |     |        |  |     |- identifier
+   |     |     |     |  |  |  |     |        |  |     |  '- TOKEN[type: 115, text: run]
+   |     |     |     |  |  |  |     |        |  |     |- TOKEN[type: 68, text: (]
+   |     |     |     |  |  |  |     |        |  |     '- TOKEN[type: 69, text: )]
+   |     |     |     |  |  |  |     |        |  '- methodBody
+   |     |     |     |  |  |  |     |        |     |- TOKEN[type: 70, text: {]
+   |     |     |     |  |  |  |     |        |     |- blockStatements
+   |     |     |     |  |  |  |     |        |     |  |- blockStatement
+   |     |     |     |  |  |  |     |        |     |  |  |- statementExpression
+   |     |     |     |  |  |  |     |        |     |  |  |  |- methodName
+   |     |     |     |  |  |  |     |        |     |  |  |  |  '- TOKEN[type: 115, text: report]
+   |     |     |     |  |  |  |     |        |     |  |  |  |- TOKEN[type: 68, text: (]
+   |     |     |     |  |  |  |     |        |     |  |  |  '- TOKEN[type: 69, text: )]
+   |     |     |     |  |  |  |     |        |     |  |  '- TOKEN[type: 74, text: ;]
+   |     |     |     |  |  |  |     |        |     |  '- blockStatement
+   |     |     |     |  |  |  |     |        |     |     |- statementExpression
+   |     |     |     |  |  |  |     |        |     |     |  |- leftHandSide
+   |     |     |     |  |  |  |     |        |     |     |  |  '- TOKEN[type: 115, text: firstPassDone]
+   |     |     |     |  |  |  |     |        |     |     |  |- assignmentOperator
+   |     |     |     |  |  |  |     |        |     |     |  |  '- TOKEN[type: 80, text: =]
+   |     |     |     |  |  |  |     |        |     |     |  '- expression
+   |     |     |     |  |  |  |     |        |     |     |     '- TOKEN[type: 64, text: true]
+   |     |     |     |  |  |  |     |        |     |     '- TOKEN[type: 74, text: ;]
+   |     |     |     |  |  |  |     |        |     '- TOKEN[type: 71, text: }]
+   |     |     |     |  |  |  |     |        '- TOKEN[type: 71, text: }]
+   |     |     |     |  |  |  |     '- TOKEN[type: 69, text: )]
+   |     |     |     |  |  |  '- TOKEN[type: 74, text: ;]
+   |     |     |     |  |  |- blockStatement
+   |     |     |     |  |  |  |- localVariableDeclaration
+   |     |     |     |  |  |  |  |- unannType
+   |     |     |     |  |  |  |  |  '- TOKEN[type: 37, text: int]
+   |     |     |     |  |  |  |  '- variableDeclaratorList
+   |     |     |     |  |  |  |     |- variableDeclaratorId
+   |     |     |     |  |  |  |     |  '- TOKEN[type: 115, text: chunkSize]
+   |     |     |     |  |  |  |     |- TOKEN[type: 80, text: =]
+   |     |     |     |  |  |  |     '- variableInitializer
+   |     |     |     |  |  |  |        |- multiplicativeExpression
+   |     |     |     |  |  |  |        |  |- typeName
+   |     |     |     |  |  |  |        |  |  '- TOKEN[type: 115, text: files]
+   |     |     |     |  |  |  |        |  |- TOKEN[type: 76, text: .]
+   |     |     |     |  |  |  |        |  |- identifier
+   |     |     |     |  |  |  |        |  |  '- TOKEN[type: 115, text: size]
+   |     |     |     |  |  |  |        |  |- TOKEN[type: 68, text: (]
+   |     |     |     |  |  |  |        |  '- TOKEN[type: 69, text: )]
+   |     |     |     |  |  |  |        |- TOKEN[type: 99, text: /]
+   |     |     |     |  |  |  |        '- unaryExpression
+   |     |     |     |  |  |  |           '- TOKEN[type: 62, text: 3]
+   |     |     |     |  |  |  '- TOKEN[type: 74, text: ;]
+   |     |     |     |  |  |- blockStatement
+   |     |     |     |  |  |  |- localVariableDeclaration
+   |     |     |     |  |  |  |  |- unannType
+   |     |     |     |  |  |  |  |  '- TOKEN[type: 37, text: int]
+   |     |     |     |  |  |  |  '- variableDeclaratorList
+   |     |     |     |  |  |  |     |- variableDeclaratorId
+   |     |     |     |  |  |  |     |  '- TOKEN[type: 115, text: p1]
+   |     |     |     |  |  |  |     |- TOKEN[type: 80, text: =]
+   |     |     |     |  |  |  |     '- variableInitializer
+   |     |     |     |  |  |  |        '- TOKEN[type: 115, text: chunkSize]
+   |     |     |     |  |  |  '- TOKEN[type: 74, text: ;]
+   |     |     |     |  |  |- blockStatement
+   |     |     |     |  |  |  |- localVariableDeclaration
+   |     |     |     |  |  |  |  |- unannType
+   |     |     |     |  |  |  |  |  '- TOKEN[type: 37, text: int]
+   |     |     |     |  |  |  |  '- variableDeclaratorList
+   |     |     |     |  |  |  |     |- variableDeclaratorId
+   |     |     |     |  |  |  |     |  '- TOKEN[type: 115, text: p2]
+   |     |     |     |  |  |  |     |- TOKEN[type: 80, text: =]
+   |     |     |     |  |  |  |     '- variableInitializer
+   |     |     |     |  |  |  |        |- multiplicativeExpression
+   |     |     |     |  |  |  |        |  '- TOKEN[type: 62, text: 2]
+   |     |     |     |  |  |  |        |- TOKEN[type: 98, text: *]
+   |     |     |     |  |  |  |        '- unaryExpression
+   |     |     |     |  |  |  |           '- TOKEN[type: 115, text: chunkSize]
+   |     |     |     |  |  |  '- TOKEN[type: 74, text: ;]
+   |     |     |     |  |  |- blockStatement
+   |     |     |     |  |  |  |- statementExpression
+   |     |     |     |  |  |  |  |- leftHandSide
+   |     |     |     |  |  |  |  |  |- expressionName
+   |     |     |     |  |  |  |  |  |  '- TOKEN[type: 115, text: workers]
+   |     |     |     |  |  |  |  |  |- TOKEN[type: 72, text: []
+   |     |     |     |  |  |  |  |  |- expression
+   |     |     |     |  |  |  |  |  |  '- TOKEN[type: 62, text: 0]
+   |     |     |     |  |  |  |  |  '- TOKEN[type: 73, text: ]]
+   |     |     |     |  |  |  |  |- assignmentOperator
+   |     |     |     |  |  |  |  |  '- TOKEN[type: 80, text: =]
+   |     |     |     |  |  |  |  '- expression
+   |     |     |     |  |  |  |     |- TOKEN[type: 41, text: new]
+   |     |     |     |  |  |  |     |- identifier
+   |     |     |     |  |  |  |     |  '- TOKEN[type: 115, text: Worker]
+   |     |     |     |  |  |  |     |- TOKEN[type: 68, text: (]
+   |     |     |     |  |  |  |     |- argumentList
+   |     |     |     |  |  |  |     |  |- typeName
+   |     |     |     |  |  |  |     |  |  '- TOKEN[type: 115, text: files]
+   |     |     |     |  |  |  |     |  |- TOKEN[type: 76, text: .]
+   |     |     |     |  |  |  |     |  |- identifier
+   |     |     |     |  |  |  |     |  |  '- TOKEN[type: 115, text: subList]
+   |     |     |     |  |  |  |     |  |- TOKEN[type: 68, text: (]
+   |     |     |     |  |  |  |     |  |- argumentList
+   |     |     |     |  |  |  |     |  |  |- expression
+   |     |     |     |  |  |  |     |  |  |  '- TOKEN[type: 62, text: 0]
+   |     |     |     |  |  |  |     |  |  |- TOKEN[type: 75, text: ,]
+   |     |     |     |  |  |  |     |  |  '- expression
+   |     |     |     |  |  |  |     |  |     |- additiveExpression
+   |     |     |     |  |  |  |     |  |     |  '- TOKEN[type: 115, text: p1]
+   |     |     |     |  |  |  |     |  |     |- TOKEN[type: 96, text: +]
+   |     |     |     |  |  |  |     |  |     '- multiplicativeExpression
+   |     |     |     |  |  |  |     |  |        '- TOKEN[type: 62, text: 1]
+   |     |     |     |  |  |  |     |  '- TOKEN[type: 69, text: )]
+   |     |     |     |  |  |  |     '- TOKEN[type: 69, text: )]
+   |     |     |     |  |  |  '- TOKEN[type: 74, text: ;]
+   |     |     |     |  |  |- blockStatement
+   |     |     |     |  |  |  |- statementExpression
+   |     |     |     |  |  |  |  |- leftHandSide
+   |     |     |     |  |  |  |  |  |- expressionName
+   |     |     |     |  |  |  |  |  |  '- TOKEN[type: 115, text: workers]
+   |     |     |     |  |  |  |  |  |- TOKEN[type: 72, text: []
+   |     |     |     |  |  |  |  |  |- expression
+   |     |     |     |  |  |  |  |  |  '- TOKEN[type: 62, text: 1]
+   |     |     |     |  |  |  |  |  '- TOKEN[type: 73, text: ]]
+   |     |     |     |  |  |  |  |- assignmentOperator
+   |     |     |     |  |  |  |  |  '- TOKEN[type: 80, text: =]
+   |     |     |     |  |  |  |  '- expression
+   |     |     |     |  |  |  |     |- TOKEN[type: 41, text: new]
+   |     |     |     |  |  |  |     |- identifier
+   |     |     |     |  |  |  |     |  '- TOKEN[type: 115, text: Worker]
+   |     |     |     |  |  |  |     |- TOKEN[type: 68, text: (]
+   |     |     |     |  |  |  |     |- argumentList
+   |     |     |     |  |  |  |     |  |- typeName
+   |     |     |     |  |  |  |     |  |  '- TOKEN[type: 115, text: files]
+   |     |     |     |  |  |  |     |  |- TOKEN[type: 76, text: .]
+   |     |     |     |  |  |  |     |  |- identifier
+   |     |     |     |  |  |  |     |  |  '- TOKEN[type: 115, text: subList]
+   |     |     |     |  |  |  |     |  |- TOKEN[type: 68, text: (]
+   |     |     |     |  |  |  |     |  |- argumentList
+   |     |     |     |  |  |  |     |  |  |- expression
+   |     |     |     |  |  |  |     |  |  |  |- additiveExpression
+   |     |     |     |  |  |  |     |  |  |  |  '- TOKEN[type: 115, text: p1]
+   |     |     |     |  |  |  |     |  |  |  |- TOKEN[type: 96, text: +]
+   |     |     |     |  |  |  |     |  |  |  '- multiplicativeExpression
+   |     |     |     |  |  |  |     |  |  |     '- TOKEN[type: 62, text: 1]
+   |     |     |     |  |  |  |     |  |  |- TOKEN[type: 75, text: ,]
+   |     |     |     |  |  |  |     |  |  '- expression
+   |     |     |     |  |  |  |     |  |     |- additiveExpression
+   |     |     |     |  |  |  |     |  |     |  '- TOKEN[type: 115, text: p2]
+   |     |     |     |  |  |  |     |  |     |- TOKEN[type: 96, text: +]
+   |     |     |     |  |  |  |     |  |     '- multiplicativeExpression
+   |     |     |     |  |  |  |     |  |        '- TOKEN[type: 62, text: 1]
+   |     |     |     |  |  |  |     |  '- TOKEN[type: 69, text: )]
+   |     |     |     |  |  |  |     '- TOKEN[type: 69, text: )]
+   |     |     |     |  |  |  '- TOKEN[type: 74, text: ;]
+   |     |     |     |  |  |- blockStatement
+   |     |     |     |  |  |  |- statementExpression
+   |     |     |     |  |  |  |  |- leftHandSide
+   |     |     |     |  |  |  |  |  |- expressionName
+   |     |     |     |  |  |  |  |  |  '- TOKEN[type: 115, text: workers]
+   |     |     |     |  |  |  |  |  |- TOKEN[type: 72, text: []
+   |     |     |     |  |  |  |  |  |- expression
+   |     |     |     |  |  |  |  |  |  '- TOKEN[type: 62, text: 2]
+   |     |     |     |  |  |  |  |  '- TOKEN[type: 73, text: ]]
+   |     |     |     |  |  |  |  |- assignmentOperator
+   |     |     |     |  |  |  |  |  '- TOKEN[type: 80, text: =]
+   |     |     |     |  |  |  |  '- expression
+   |     |     |     |  |  |  |     |- TOKEN[type: 41, text: new]
+   |     |     |     |  |  |  |     |- identifier
+   |     |     |     |  |  |  |     |  '- TOKEN[type: 115, text: Worker]
+   |     |     |     |  |  |  |     |- TOKEN[type: 68, text: (]
+   |     |     |     |  |  |  |     |- argumentList
+   |     |     |     |  |  |  |     |  |- typeName
+   |     |     |     |  |  |  |     |  |  '- TOKEN[type: 115, text: files]
+   |     |     |     |  |  |  |     |  |- TOKEN[type: 76, text: .]
+   |     |     |     |  |  |  |     |  |- identifier
+   |     |     |     |  |  |  |     |  |  '- TOKEN[type: 115, text: subList]
+   |     |     |     |  |  |  |     |  |- TOKEN[type: 68, text: (]
+   |     |     |     |  |  |  |     |  |- argumentList
+   |     |     |     |  |  |  |     |  |  |- expression
+   |     |     |     |  |  |  |     |  |  |  |- additiveExpression
+   |     |     |     |  |  |  |     |  |  |  |  '- TOKEN[type: 115, text: p2]
+   |     |     |     |  |  |  |     |  |  |  |- TOKEN[type: 96, text: +]
+   |     |     |     |  |  |  |     |  |  |  '- multiplicativeExpression
+   |     |     |     |  |  |  |     |  |  |     '- TOKEN[type: 62, text: 1]
+   |     |     |     |  |  |  |     |  |  |- TOKEN[type: 75, text: ,]
+   |     |     |     |  |  |  |     |  |  '- expression
+   |     |     |     |  |  |  |     |  |     |- typeName
+   |     |     |     |  |  |  |     |  |     |  '- TOKEN[type: 115, text: files]
+   |     |     |     |  |  |  |     |  |     |- TOKEN[type: 76, text: .]
+   |     |     |     |  |  |  |     |  |     |- identifier
+   |     |     |     |  |  |  |     |  |     |  '- TOKEN[type: 115, text: size]
+   |     |     |     |  |  |  |     |  |     |- TOKEN[type: 68, text: (]
+   |     |     |     |  |  |  |     |  |     '- TOKEN[type: 69, text: )]
+   |     |     |     |  |  |  |     |  '- TOKEN[type: 69, text: )]
+   |     |     |     |  |  |  |     '- TOKEN[type: 69, text: )]
+   |     |     |     |  |  |  '- TOKEN[type: 74, text: ;]
+   |     |     |     |  |  |- blockStatement
+   |     |     |     |  |  |  |- statementExpression
+   |     |     |     |  |  |  |  |- primary
+   |     |     |     |  |  |  |  |  |- TOKEN[type: 41, text: new]
+   |     |     |     |  |  |  |  |  |- identifier
+   |     |     |     |  |  |  |  |  |  '- TOKEN[type: 115, text: Thread]
+   |     |     |     |  |  |  |  |  |- TOKEN[type: 68, text: (]
+   |     |     |     |  |  |  |  |  |- argumentList
+   |     |     |     |  |  |  |  |  |  |- expression
+   |     |     |     |  |  |  |  |  |  |  |- expressionName
+   |     |     |     |  |  |  |  |  |  |  |  '- TOKEN[type: 115, text: workers]
+   |     |     |     |  |  |  |  |  |  |  |- TOKEN[type: 72, text: []
+   |     |     |     |  |  |  |  |  |  |  |- expression
+   |     |     |     |  |  |  |  |  |  |  |  '- TOKEN[type: 62, text: 0]
+   |     |     |     |  |  |  |  |  |  |  '- TOKEN[type: 73, text: ]]
+   |     |     |     |  |  |  |  |  |  |- TOKEN[type: 75, text: ,]
+   |     |     |     |  |  |  |  |  |  '- expression
+   |     |     |     |  |  |  |  |  |     |- additiveExpression
+   |     |     |     |  |  |  |  |  |     |  '- TOKEN[type: 66, text: "worker-"]
+   |     |     |     |  |  |  |  |  |     |- TOKEN[type: 96, text: +]
+   |     |     |     |  |  |  |  |  |     '- multiplicativeExpression
+   |     |     |     |  |  |  |  |  |        |- expressionName
+   |     |     |     |  |  |  |  |  |        |  '- TOKEN[type: 115, text: windex]
+   |     |     |     |  |  |  |  |  |        '- postIncrementExpression_lf_postfixExpression
+   |     |     |     |  |  |  |  |  |           '- TOKEN[type: 94, text: ++]
+   |     |     |     |  |  |  |  |  '- TOKEN[type: 69, text: )]
+   |     |     |     |  |  |  |  |- TOKEN[type: 76, text: .]
+   |     |     |     |  |  |  |  |- identifier
+   |     |     |     |  |  |  |  |  '- TOKEN[type: 115, text: start]
+   |     |     |     |  |  |  |  |- TOKEN[type: 68, text: (]
+   |     |     |     |  |  |  |  '- TOKEN[type: 69, text: )]
+   |     |     |     |  |  |  '- TOKEN[type: 74, text: ;]
+   |     |     |     |  |  |- blockStatement
+   |     |     |     |  |  |  |- statementExpression
+   |     |     |     |  |  |  |  |- primary
+   |     |     |     |  |  |  |  |  |- TOKEN[type: 41, text: new]
+   |     |     |     |  |  |  |  |  |- identifier
+   |     |     |     |  |  |  |  |  |  '- TOKEN[type: 115, text: Thread]
+   |     |     |     |  |  |  |  |  |- TOKEN[type: 68, text: (]
+   |     |     |     |  |  |  |  |  |- argumentList
+   |     |     |     |  |  |  |  |  |  |- expression
+   |     |     |     |  |  |  |  |  |  |  |- expressionName
+   |     |     |     |  |  |  |  |  |  |  |  '- TOKEN[type: 115, text: workers]
+   |     |     |     |  |  |  |  |  |  |  |- TOKEN[type: 72, text: []
+   |     |     |     |  |  |  |  |  |  |  |- expression
+   |     |     |     |  |  |  |  |  |  |  |  '- TOKEN[type: 62, text: 1]
+   |     |     |     |  |  |  |  |  |  |  '- TOKEN[type: 73, text: ]]
+   |     |     |     |  |  |  |  |  |  |- TOKEN[type: 75, text: ,]
+   |     |     |     |  |  |  |  |  |  '- expression
+   |     |     |     |  |  |  |  |  |     |- additiveExpression
+   |     |     |     |  |  |  |  |  |     |  '- TOKEN[type: 66, text: "worker-"]
+   |     |     |     |  |  |  |  |  |     |- TOKEN[type: 96, text: +]
+   |     |     |     |  |  |  |  |  |     '- multiplicativeExpression
+   |     |     |     |  |  |  |  |  |        |- expressionName
+   |     |     |     |  |  |  |  |  |        |  '- TOKEN[type: 115, text: windex]
+   |     |     |     |  |  |  |  |  |        '- postIncrementExpression_lf_postfixExpression
+   |     |     |     |  |  |  |  |  |           '- TOKEN[type: 94, text: ++]
+   |     |     |     |  |  |  |  |  '- TOKEN[type: 69, text: )]
+   |     |     |     |  |  |  |  |- TOKEN[type: 76, text: .]
+   |     |     |     |  |  |  |  |- identifier
+   |     |     |     |  |  |  |  |  '- TOKEN[type: 115, text: start]
+   |     |     |     |  |  |  |  |- TOKEN[type: 68, text: (]
+   |     |     |     |  |  |  |  '- TOKEN[type: 69, text: )]
+   |     |     |     |  |  |  '- TOKEN[type: 74, text: ;]
+   |     |     |     |  |  '- blockStatement
+   |     |     |     |  |     |- statementExpression
+   |     |     |     |  |     |  |- primary
+   |     |     |     |  |     |  |  |- TOKEN[type: 41, text: new]
+   |     |     |     |  |     |  |  |- identifier
+   |     |     |     |  |     |  |  |  '- TOKEN[type: 115, text: Thread]
+   |     |     |     |  |     |  |  |- TOKEN[type: 68, text: (]
+   |     |     |     |  |     |  |  |- argumentList
+   |     |     |     |  |     |  |  |  |- expression
+   |     |     |     |  |     |  |  |  |  |- expressionName
+   |     |     |     |  |     |  |  |  |  |  '- TOKEN[type: 115, text: workers]
+   |     |     |     |  |     |  |  |  |  |- TOKEN[type: 72, text: []
+   |     |     |     |  |     |  |  |  |  |- expression
+   |     |     |     |  |     |  |  |  |  |  '- TOKEN[type: 62, text: 2]
+   |     |     |     |  |     |  |  |  |  '- TOKEN[type: 73, text: ]]
+   |     |     |     |  |     |  |  |  |- TOKEN[type: 75, text: ,]
+   |     |     |     |  |     |  |  |  '- expression
+   |     |     |     |  |     |  |  |     |- additiveExpression
+   |     |     |     |  |     |  |  |     |  '- TOKEN[type: 66, text: "worker-"]
+   |     |     |     |  |     |  |  |     |- TOKEN[type: 96, text: +]
+   |     |     |     |  |     |  |  |     '- multiplicativeExpression
+   |     |     |     |  |     |  |  |        |- expressionName
+   |     |     |     |  |     |  |  |        |  '- TOKEN[type: 115, text: windex]
+   |     |     |     |  |     |  |  |        '- postIncrementExpression_lf_postfixExpression
+   |     |     |     |  |     |  |  |           '- TOKEN[type: 94, text: ++]
+   |     |     |     |  |     |  |  '- TOKEN[type: 69, text: )]
+   |     |     |     |  |     |  |- TOKEN[type: 76, text: .]
+   |     |     |     |  |     |  |- identifier
+   |     |     |     |  |     |  |  '- TOKEN[type: 115, text: start]
+   |     |     |     |  |     |  |- TOKEN[type: 68, text: (]
+   |     |     |     |  |     |  '- TOKEN[type: 69, text: )]
+   |     |     |     |  |     '- TOKEN[type: 74, text: ;]
+   |     |     |     |  '- TOKEN[type: 71, text: }]
+   |     |     |     |- TOKEN[type: 25, text: else]
+   |     |     |     '- statement
+   |     |     |        |- TOKEN[type: 70, text: {]
+   |     |     |        |- blockStatements
+   |     |     |        |  |- blockStatement
+   |     |     |        |  |  |- TOKEN[type: 31, text: for]
+   |     |     |        |  |  |- TOKEN[type: 68, text: (]
+   |     |     |        |  |  |- unannType
+   |     |     |        |  |  |  '- TOKEN[type: 115, text: String]
+   |     |     |        |  |  |- variableDeclaratorId
+   |     |     |        |  |  |  '- TOKEN[type: 115, text: f]
+   |     |     |        |  |  |- TOKEN[type: 86, text: :]
+   |     |     |        |  |  |- expression
+   |     |     |        |  |  |  '- TOKEN[type: 115, text: files]
+   |     |     |        |  |  |- TOKEN[type: 69, text: )]
+   |     |     |        |  |  '- statement
+   |     |     |        |  |     |- TOKEN[type: 70, text: {]
+   |     |     |        |  |     |- blockStatements
+   |     |     |        |  |     |  |- statementExpression
+   |     |     |        |  |     |  |  |- methodName
+   |     |     |        |  |     |  |  |  '- TOKEN[type: 115, text: parseFile]
+   |     |     |        |  |     |  |  |- TOKEN[type: 68, text: (]
+   |     |     |        |  |     |  |  |- argumentList
+   |     |     |        |  |     |  |  |  '- TOKEN[type: 115, text: f]
+   |     |     |        |  |     |  |  '- TOKEN[type: 69, text: )]
+   |     |     |        |  |     |  '- TOKEN[type: 74, text: ;]
+   |     |     |        |  |     '- TOKEN[type: 71, text: }]
+   |     |     |        |  |- blockStatement
+   |     |     |        |  |  |- localVariableDeclaration
+   |     |     |        |  |  |  |- unannType
+   |     |     |        |  |  |  |  '- TOKEN[type: 39, text: long]
+   |     |     |        |  |  |  '- variableDeclaratorList
+   |     |     |        |  |  |     |- variableDeclaratorId
+   |     |     |        |  |  |     |  '- TOKEN[type: 115, text: parserStop]
+   |     |     |        |  |  |     |- TOKEN[type: 80, text: =]
+   |     |     |        |  |  |     '- variableInitializer
+   |     |     |        |  |  |        |- typeName
+   |     |     |        |  |  |        |  '- TOKEN[type: 115, text: System]
+   |     |     |        |  |  |        |- TOKEN[type: 76, text: .]
+   |     |     |        |  |  |        |- identifier
+   |     |     |        |  |  |        |  '- TOKEN[type: 115, text: currentTimeMillis]
+   |     |     |        |  |  |        |- TOKEN[type: 68, text: (]
+   |     |     |        |  |  |        '- TOKEN[type: 69, text: )]
+   |     |     |        |  |  '- TOKEN[type: 74, text: ;]
+   |     |     |        |  '- blockStatement
+   |     |     |        |     |- statementExpression
+   |     |     |        |     |  |- typeName
+   |     |     |        |     |  |  |- packageOrTypeName
+   |     |     |        |     |  |  |  '- TOKEN[type: 115, text: System]
+   |     |     |        |     |  |  |- TOKEN[type: 76, text: .]
+   |     |     |        |     |  |  '- identifier
+   |     |     |        |     |  |     '- TOKEN[type: 115, text: out]
+   |     |     |        |     |  |- TOKEN[type: 76, text: .]
+   |     |     |        |     |  |- identifier
+   |     |     |        |     |  |  '- TOKEN[type: 115, text: println]
+   |     |     |        |     |  |- TOKEN[type: 68, text: (]
+   |     |     |        |     |  |- argumentList
+   |     |     |        |     |  |  |- additiveExpression
+   |     |     |        |     |  |  |  |- additiveExpression
+   |     |     |        |     |  |  |  |  '- TOKEN[type: 66, text: "Total lexer+parser time "]
+   |     |     |        |     |  |  |  |- TOKEN[type: 96, text: +]
+   |     |     |        |     |  |  |  '- multiplicativeExpression
+   |     |     |        |     |  |  |     |- TOKEN[type: 68, text: (]
+   |     |     |        |     |  |  |     |- expression
+   |     |     |        |     |  |  |     |  |- additiveExpression
+   |     |     |        |     |  |  |     |  |  '- TOKEN[type: 115, text: parserStop]
+   |     |     |        |     |  |  |     |  |- TOKEN[type: 97, text: -]
+   |     |     |        |     |  |  |     |  '- multiplicativeExpression
+   |     |     |        |     |  |  |     |     '- TOKEN[type: 115, text: parserStart]
+   |     |     |        |     |  |  |     '- TOKEN[type: 69, text: )]
+   |     |     |        |     |  |  |- TOKEN[type: 96, text: +]
+   |     |     |        |     |  |  '- multiplicativeExpression
+   |     |     |        |     |  |     '- TOKEN[type: 66, text: "ms."]
+   |     |     |        |     |  '- TOKEN[type: 69, text: )]
+   |     |     |        |     '- TOKEN[type: 74, text: ;]
+   |     |     |        '- TOKEN[type: 71, text: }]
+   |     |     '- TOKEN[type: 71, text: }]
+   |     |- classBodyDeclaration
+   |     |  |- methodModifier
+   |     |  |  '- TOKEN[type: 43, text: private]
+   |     |  |- methodModifier
+   |     |  |  '- TOKEN[type: 48, text: static]
+   |     |  |- methodHeader
+   |     |  |  |- result
+   |     |  |  |  '- TOKEN[type: 58, text: void]
+   |     |  |  '- methodDeclarator
+   |     |  |     |- identifier
+   |     |  |     |  '- TOKEN[type: 115, text: report]
+   |     |  |     |- TOKEN[type: 68, text: (]
+   |     |  |     '- TOKEN[type: 69, text: )]
+   |     |  '- methodBody
+   |     |     |- TOKEN[type: 70, text: {]
+   |     |     |- blockStatements
+   |     |     |  |- blockStatement
+   |     |     |  |  |- localVariableDeclaration
+   |     |     |  |  |  |- unannType
+   |     |     |  |  |  |  '- TOKEN[type: 39, text: long]
+   |     |     |  |  |  '- variableDeclaratorList
+   |     |     |  |  |     |- variableDeclaratorId
+   |     |     |  |  |     |  '- TOKEN[type: 115, text: time]
+   |     |     |  |  |     |- TOKEN[type: 80, text: =]
+   |     |     |  |  |     '- variableInitializer
+   |     |     |  |  |        '- TOKEN[type: 62, text: 0]
+   |     |     |  |  '- TOKEN[type: 74, text: ;]
+   |     |     |  |- blockStatement
+   |     |     |  |  |- TOKEN[type: 32, text: if]
+   |     |     |  |  |- TOKEN[type: 68, text: (]
+   |     |     |  |  |- expression
+   |     |     |  |  |  |- equalityExpression
+   |     |     |  |  |  |  '- TOKEN[type: 115, text: workers]
+   |     |     |  |  |  |- TOKEN[type: 91, text: !=]
+   |     |     |  |  |  '- relationalExpression
+   |     |     |  |  |     '- TOKEN[type: 67, text: null]
+   |     |     |  |  |- TOKEN[type: 69, text: )]
+   |     |     |  |  '- statement
+   |     |     |  |     |- TOKEN[type: 70, text: {]
+   |     |     |  |     |- blockStatements
+   |     |     |  |     |  |- TOKEN[type: 31, text: for]
+   |     |     |  |     |  |- TOKEN[type: 68, text: (]
+   |     |     |  |     |  |- unannType
+   |     |     |  |     |  |  '- TOKEN[type: 115, text: Worker]
+   |     |     |  |     |  |- variableDeclaratorId
+   |     |     |  |     |  |  '- TOKEN[type: 115, text: w]
+   |     |     |  |     |  |- TOKEN[type: 86, text: :]
+   |     |     |  |     |  |- expression
+   |     |     |  |     |  |  '- TOKEN[type: 115, text: workers]
+   |     |     |  |     |  |- TOKEN[type: 69, text: )]
+   |     |     |  |     |  '- statement
+   |     |     |  |     |     |- TOKEN[type: 70, text: {]
+   |     |     |  |     |     |- blockStatements
+   |     |     |  |     |     |  |- blockStatement
+   |     |     |  |     |     |  |  |- localVariableDeclaration
+   |     |     |  |     |     |  |  |  |- unannType
+   |     |     |  |     |     |  |  |  |  '- TOKEN[type: 39, text: long]
+   |     |     |  |     |     |  |  |  '- variableDeclaratorList
+   |     |     |  |     |     |  |  |     |- variableDeclaratorId
+   |     |     |  |     |     |  |  |     |  '- TOKEN[type: 115, text: wtime]
+   |     |     |  |     |     |  |  |     |- TOKEN[type: 80, text: =]
+   |     |     |  |     |     |  |  |     '- variableInitializer
+   |     |     |  |     |     |  |  |        |- additiveExpression
+   |     |     |  |     |     |  |  |        |  |- ambiguousName
+   |     |     |  |     |     |  |  |        |  |  '- TOKEN[type: 115, text: w]
+   |     |     |  |     |     |  |  |        |  |- TOKEN[type: 76, text: .]
+   |     |     |  |     |     |  |  |        |  '- identifier
+   |     |     |  |     |     |  |  |        |     '- TOKEN[type: 115, text: parserStop]
+   |     |     |  |     |     |  |  |        |- TOKEN[type: 97, text: -]
+   |     |     |  |     |     |  |  |        '- multiplicativeExpression
+   |     |     |  |     |     |  |  |           |- ambiguousName
+   |     |     |  |     |     |  |  |           |  '- TOKEN[type: 115, text: w]
+   |     |     |  |     |     |  |  |           |- TOKEN[type: 76, text: .]
+   |     |     |  |     |     |  |  |           '- identifier
+   |     |     |  |     |     |  |  |              '- TOKEN[type: 115, text: parserStart]
+   |     |     |  |     |     |  |  '- TOKEN[type: 74, text: ;]
+   |     |     |  |     |     |  |- blockStatement
+   |     |     |  |     |     |  |  |- statementExpression
+   |     |     |  |     |     |  |  |  |- leftHandSide
+   |     |     |  |     |     |  |  |  |  '- TOKEN[type: 115, text: time]
+   |     |     |  |     |     |  |  |  |- assignmentOperator
+   |     |     |  |     |     |  |  |  |  '- TOKEN[type: 80, text: =]
+   |     |     |  |     |     |  |  |  '- expression
+   |     |     |  |     |     |  |  |     |- typeName
+   |     |     |  |     |     |  |  |     |  '- TOKEN[type: 115, text: Math]
+   |     |     |  |     |     |  |  |     |- TOKEN[type: 76, text: .]
+   |     |     |  |     |     |  |  |     |- identifier
+   |     |     |  |     |     |  |  |     |  '- TOKEN[type: 115, text: max]
+   |     |     |  |     |     |  |  |     |- TOKEN[type: 68, text: (]
+   |     |     |  |     |     |  |  |     |- argumentList
+   |     |     |  |     |     |  |  |     |  |- expression
+   |     |     |  |     |     |  |  |     |  |  '- TOKEN[type: 115, text: time]
+   |     |     |  |     |     |  |  |     |  |- TOKEN[type: 75, text: ,]
+   |     |     |  |     |     |  |  |     |  '- expression
+   |     |     |  |     |     |  |  |     |     '- TOKEN[type: 115, text: wtime]
+   |     |     |  |     |     |  |  |     '- TOKEN[type: 69, text: )]
+   |     |     |  |     |     |  |  '- TOKEN[type: 74, text: ;]
+   |     |     |  |     |     |  '- blockStatement
+   |     |     |  |     |     |     |- statementExpression
+   |     |     |  |     |     |     |  |- typeName
+   |     |     |  |     |     |     |  |  |- packageOrTypeName
+   |     |     |  |     |     |     |  |  |  '- TOKEN[type: 115, text: System]
+   |     |     |  |     |     |     |  |  |- TOKEN[type: 76, text: .]
+   |     |     |  |     |     |     |  |  '- identifier
+   |     |     |  |     |     |     |  |     '- TOKEN[type: 115, text: out]
+   |     |     |  |     |     |     |  |- TOKEN[type: 76, text: .]
+   |     |     |  |     |     |     |  |- identifier
+   |     |     |  |     |     |     |  |  '- TOKEN[type: 115, text: println]
+   |     |     |  |     |     |     |  |- TOKEN[type: 68, text: (]
+   |     |     |  |     |     |     |  |- argumentList
+   |     |     |  |     |     |     |  |  |- additiveExpression
+   |     |     |  |     |     |     |  |  |  |- additiveExpression
+   |     |     |  |     |     |     |  |  |  |  '- TOKEN[type: 66, text: "worker time "]
+   |     |     |  |     |     |     |  |  |  |- TOKEN[type: 96, text: +]
+   |     |     |  |     |     |     |  |  |  '- multiplicativeExpression
+   |     |     |  |     |     |     |  |  |     '- TOKEN[type: 115, text: wtime]
+   |     |     |  |     |     |     |  |  |- TOKEN[type: 96, text: +]
+   |     |     |  |     |     |     |  |  '- multiplicativeExpression
+   |     |     |  |     |     |     |  |     '- TOKEN[type: 66, text: "ms."]
+   |     |     |  |     |     |     |  '- TOKEN[type: 69, text: )]
+   |     |     |  |     |     |     '- TOKEN[type: 74, text: ;]
+   |     |     |  |     |     '- TOKEN[type: 71, text: }]
+   |     |     |  |     '- TOKEN[type: 71, text: }]
+   |     |     |  |- blockStatement
+   |     |     |  |  |- statementExpression
+   |     |     |  |  |  |- typeName
+   |     |     |  |  |  |  |- packageOrTypeName
+   |     |     |  |  |  |  |  '- TOKEN[type: 115, text: System]
+   |     |     |  |  |  |  |- TOKEN[type: 76, text: .]
+   |     |     |  |  |  |  '- identifier
+   |     |     |  |  |  |     '- TOKEN[type: 115, text: out]
+   |     |     |  |  |  |- TOKEN[type: 76, text: .]
+   |     |     |  |  |  |- identifier
+   |     |     |  |  |  |  '- TOKEN[type: 115, text: println]
+   |     |     |  |  |  |- TOKEN[type: 68, text: (]
+   |     |     |  |  |  |- argumentList
+   |     |     |  |  |  |  |- additiveExpression
+   |     |     |  |  |  |  |  |- additiveExpression
+   |     |     |  |  |  |  |  |  '- TOKEN[type: 66, text: "Total lexer+parser time "]
+   |     |     |  |  |  |  |  |- TOKEN[type: 96, text: +]
+   |     |     |  |  |  |  |  '- multiplicativeExpression
+   |     |     |  |  |  |  |     '- TOKEN[type: 115, text: time]
+   |     |     |  |  |  |  |- TOKEN[type: 96, text: +]
+   |     |     |  |  |  |  '- multiplicativeExpression
+   |     |     |  |  |  |     '- TOKEN[type: 66, text: "ms."]
+   |     |     |  |  |  '- TOKEN[type: 69, text: )]
+   |     |     |  |  '- TOKEN[type: 74, text: ;]
+   |     |     |  '- blockStatement
+   |     |     |     |- statementExpression
+   |     |     |     |  |- typeName
+   |     |     |     |  |  |- packageOrTypeName
+   |     |     |     |  |  |  '- TOKEN[type: 115, text: System]
+   |     |     |     |  |  |- TOKEN[type: 76, text: .]
+   |     |     |     |  |  '- identifier
+   |     |     |     |  |     '- TOKEN[type: 115, text: out]
+   |     |     |     |  |- TOKEN[type: 76, text: .]
+   |     |     |     |  |- identifier
+   |     |     |     |  |  '- TOKEN[type: 115, text: println]
+   |     |     |     |  |- TOKEN[type: 68, text: (]
+   |     |     |     |  |- argumentList
+   |     |     |     |  |  '- TOKEN[type: 66, text: "finished parsing OK"]
+   |     |     |     |  '- TOKEN[type: 69, text: )]
+   |     |     |     '- TOKEN[type: 74, text: ;]
+   |     |     '- TOKEN[type: 71, text: }]
+   |     |- classBodyDeclaration
+   |     |  |- methodModifier
+   |     |  |  '- TOKEN[type: 45, text: public]
+   |     |  |- methodModifier
+   |     |  |  '- TOKEN[type: 48, text: static]
+   |     |  |- methodHeader
+   |     |  |  |- result
+   |     |  |  |  |- identifier
+   |     |  |  |  |  '- TOKEN[type: 115, text: List]
+   |     |  |  |  '- typeArguments
+   |     |  |  |     |- TOKEN[type: 82, text: <]
+   |     |  |  |     |- typeArgumentList
+   |     |  |  |     |  '- TOKEN[type: 115, text: String]
+   |     |  |  |     '- TOKEN[type: 81, text: >]
+   |     |  |  |- methodDeclarator
+   |     |  |  |  |- identifier
+   |     |  |  |  |  '- TOKEN[type: 115, text: getFilenames]
+   |     |  |  |  |- TOKEN[type: 68, text: (]
+   |     |  |  |  |- formalParameterList
+   |     |  |  |  |  |- unannType
+   |     |  |  |  |  |  '- TOKEN[type: 115, text: File]
+   |     |  |  |  |  '- variableDeclaratorId
+   |     |  |  |  |     '- TOKEN[type: 115, text: f]
+   |     |  |  |  '- TOKEN[type: 69, text: )]
+   |     |  |  '- throws_
+   |     |  |     |- TOKEN[type: 55, text: throws]
+   |     |  |     '- exceptionTypeList
+   |     |  |        '- TOKEN[type: 115, text: Exception]
+   |     |  '- methodBody
+   |     |     |- TOKEN[type: 70, text: {]
+   |     |     |- blockStatements
+   |     |     |  |- blockStatement
+   |     |     |  |  |- localVariableDeclaration
+   |     |     |  |  |  |- unannType
+   |     |     |  |  |  |  |- identifier
+   |     |     |  |  |  |  |  '- TOKEN[type: 115, text: List]
+   |     |     |  |  |  |  '- typeArguments
+   |     |     |  |  |  |     |- TOKEN[type: 82, text: <]
+   |     |     |  |  |  |     |- typeArgumentList
+   |     |     |  |  |  |     |  '- TOKEN[type: 115, text: String]
+   |     |     |  |  |  |     '- TOKEN[type: 81, text: >]
+   |     |     |  |  |  '- variableDeclaratorList
+   |     |     |  |  |     |- variableDeclaratorId
+   |     |     |  |  |     |  '- TOKEN[type: 115, text: files]
+   |     |     |  |  |     |- TOKEN[type: 80, text: =]
+   |     |     |  |  |     '- variableInitializer
+   |     |     |  |  |        |- TOKEN[type: 41, text: new]
+   |     |     |  |  |        |- identifier
+   |     |     |  |  |        |  '- TOKEN[type: 115, text: ArrayList]
+   |     |     |  |  |        |- typeArgumentsOrDiamond
+   |     |     |  |  |        |  |- TOKEN[type: 82, text: <]
+   |     |     |  |  |        |  |- typeArgumentList
+   |     |     |  |  |        |  |  '- TOKEN[type: 115, text: String]
+   |     |     |  |  |        |  '- TOKEN[type: 81, text: >]
+   |     |     |  |  |        |- TOKEN[type: 68, text: (]
+   |     |     |  |  |        '- TOKEN[type: 69, text: )]
+   |     |     |  |  '- TOKEN[type: 74, text: ;]
+   |     |     |  |- blockStatement
+   |     |     |  |  |- statementExpression
+   |     |     |  |  |  |- methodName
+   |     |     |  |  |  |  '- TOKEN[type: 115, text: getFilenames_]
+   |     |     |  |  |  |- TOKEN[type: 68, text: (]
+   |     |     |  |  |  |- argumentList
+   |     |     |  |  |  |  |- expression
+   |     |     |  |  |  |  |  '- TOKEN[type: 115, text: f]
+   |     |     |  |  |  |  |- TOKEN[type: 75, text: ,]
+   |     |     |  |  |  |  '- expression
+   |     |     |  |  |  |     '- TOKEN[type: 115, text: files]
+   |     |     |  |  |  '- TOKEN[type: 69, text: )]
+   |     |     |  |  '- TOKEN[type: 74, text: ;]
+   |     |     |  '- blockStatement
+   |     |     |     |- TOKEN[type: 46, text: return]
+   |     |     |     |- expression
+   |     |     |     |  '- TOKEN[type: 115, text: files]
+   |     |     |     '- TOKEN[type: 74, text: ;]
+   |     |     '- TOKEN[type: 71, text: }]
+   |     |- classBodyDeclaration
+   |     |  |- methodModifier
+   |     |  |  '- TOKEN[type: 45, text: public]
+   |     |  |- methodModifier
+   |     |  |  '- TOKEN[type: 48, text: static]
+   |     |  |- methodHeader
+   |     |  |  |- result
+   |     |  |  |  '- TOKEN[type: 58, text: void]
+   |     |  |  |- methodDeclarator
+   |     |  |  |  |- identifier
+   |     |  |  |  |  '- TOKEN[type: 115, text: getFilenames_]
+   |     |  |  |  |- TOKEN[type: 68, text: (]
+   |     |  |  |  |- formalParameterList
+   |     |  |  |  |  |- formalParameters
+   |     |  |  |  |  |  |- unannType
+   |     |  |  |  |  |  |  '- TOKEN[type: 115, text: File]
+   |     |  |  |  |  |  '- variableDeclaratorId
+   |     |  |  |  |  |     '- TOKEN[type: 115, text: f]
+   |     |  |  |  |  |- TOKEN[type: 75, text: ,]
+   |     |  |  |  |  '- lastFormalParameter
+   |     |  |  |  |     |- unannType
+   |     |  |  |  |     |  |- identifier
+   |     |  |  |  |     |  |  '- TOKEN[type: 115, text: List]
+   |     |  |  |  |     |  '- typeArguments
+   |     |  |  |  |     |     |- TOKEN[type: 82, text: <]
+   |     |  |  |  |     |     |- typeArgumentList
+   |     |  |  |  |     |     |  '- TOKEN[type: 115, text: String]
+   |     |  |  |  |     |     '- TOKEN[type: 81, text: >]
+   |     |  |  |  |     '- variableDeclaratorId
+   |     |  |  |  |        '- TOKEN[type: 115, text: files]
+   |     |  |  |  '- TOKEN[type: 69, text: )]
+   |     |  |  '- throws_
+   |     |  |     |- TOKEN[type: 55, text: throws]
+   |     |  |     '- exceptionTypeList
+   |     |  |        '- TOKEN[type: 115, text: Exception]
+   |     |  '- methodBody
+   |     |     |- TOKEN[type: 70, text: {]
+   |     |     |- blockStatements
+   |     |     |  |- TOKEN[type: 32, text: if]
+   |     |     |  |- TOKEN[type: 68, text: (]
+   |     |     |  |- expression
+   |     |     |  |  |- typeName
+   |     |     |  |  |  '- TOKEN[type: 115, text: f]
+   |     |     |  |  |- TOKEN[type: 76, text: .]
+   |     |     |  |  |- identifier
+   |     |     |  |  |  '- TOKEN[type: 115, text: isDirectory]
+   |     |     |  |  |- TOKEN[type: 68, text: (]
+   |     |     |  |  '- TOKEN[type: 69, text: )]
+   |     |     |  |- TOKEN[type: 69, text: )]
+   |     |     |  |- statementNoShortIf
+   |     |     |  |  |- TOKEN[type: 70, text: {]
+   |     |     |  |  |- blockStatements
+   |     |     |  |  |  |- blockStatement
+   |     |     |  |  |  |  |- localVariableDeclaration
+   |     |     |  |  |  |  |  |- unannType
+   |     |     |  |  |  |  |  |  '- TOKEN[type: 115, text: String]
+   |     |     |  |  |  |  |  '- variableDeclaratorList
+   |     |     |  |  |  |  |     |- variableDeclaratorId
+   |     |     |  |  |  |  |     |  |- identifier
+   |     |     |  |  |  |  |     |  |  '- TOKEN[type: 115, text: flist]
+   |     |     |  |  |  |  |     |  '- dims
+   |     |     |  |  |  |  |     |     |- TOKEN[type: 72, text: []
+   |     |     |  |  |  |  |     |     '- TOKEN[type: 73, text: ]]
+   |     |     |  |  |  |  |     |- TOKEN[type: 80, text: =]
+   |     |     |  |  |  |  |     '- variableInitializer
+   |     |     |  |  |  |  |        |- typeName
+   |     |     |  |  |  |  |        |  '- TOKEN[type: 115, text: f]
+   |     |     |  |  |  |  |        |- TOKEN[type: 76, text: .]
+   |     |     |  |  |  |  |        |- identifier
+   |     |     |  |  |  |  |        |  '- TOKEN[type: 115, text: list]
+   |     |     |  |  |  |  |        |- TOKEN[type: 68, text: (]
+   |     |     |  |  |  |  |        '- TOKEN[type: 69, text: )]
+   |     |     |  |  |  |  '- TOKEN[type: 74, text: ;]
+   |     |     |  |  |  '- blockStatement
+   |     |     |  |  |     |- TOKEN[type: 31, text: for]
+   |     |     |  |  |     |- TOKEN[type: 68, text: (]
+   |     |     |  |  |     |- forInit
+   |     |     |  |  |     |  |- unannType
+   |     |     |  |  |     |  |  '- TOKEN[type: 37, text: int]
+   |     |     |  |  |     |  '- variableDeclaratorList
+   |     |     |  |  |     |     |- variableDeclaratorId
+   |     |     |  |  |     |     |  '- TOKEN[type: 115, text: i]
+   |     |     |  |  |     |     |- TOKEN[type: 80, text: =]
+   |     |     |  |  |     |     '- variableInitializer
+   |     |     |  |  |     |        '- TOKEN[type: 62, text: 0]
+   |     |     |  |  |     |- TOKEN[type: 74, text: ;]
+   |     |     |  |  |     |- expression
+   |     |     |  |  |     |  |- relationalExpression
+   |     |     |  |  |     |  |  '- TOKEN[type: 115, text: i]
+   |     |     |  |  |     |  |- TOKEN[type: 82, text: <]
+   |     |     |  |  |     |  '- shiftExpression
+   |     |     |  |  |     |     |- ambiguousName
+   |     |     |  |  |     |     |  '- TOKEN[type: 115, text: flist]
+   |     |     |  |  |     |     |- TOKEN[type: 76, text: .]
+   |     |     |  |  |     |     '- identifier
+   |     |     |  |  |     |        '- TOKEN[type: 115, text: length]
+   |     |     |  |  |     |- TOKEN[type: 74, text: ;]
+   |     |     |  |  |     |- forUpdate
+   |     |     |  |  |     |  |- postfixExpression
+   |     |     |  |  |     |  |  '- TOKEN[type: 115, text: i]
+   |     |     |  |  |     |  '- TOKEN[type: 94, text: ++]
+   |     |     |  |  |     |- TOKEN[type: 69, text: )]
+   |     |     |  |  |     '- statement
+   |     |     |  |  |        |- TOKEN[type: 70, text: {]
+   |     |     |  |  |        |- blockStatements
+   |     |     |  |  |        |  |- statementExpression
+   |     |     |  |  |        |  |  |- methodName
+   |     |     |  |  |        |  |  |  '- TOKEN[type: 115, text: getFilenames_]
+   |     |     |  |  |        |  |  |- TOKEN[type: 68, text: (]
+   |     |     |  |  |        |  |  |- argumentList
+   |     |     |  |  |        |  |  |  |- expression
+   |     |     |  |  |        |  |  |  |  |- TOKEN[type: 41, text: new]
+   |     |     |  |  |        |  |  |  |  |- identifier
+   |     |     |  |  |        |  |  |  |  |  '- TOKEN[type: 115, text: File]
+   |     |     |  |  |        |  |  |  |  |- TOKEN[type: 68, text: (]
+   |     |     |  |  |        |  |  |  |  |- argumentList
+   |     |     |  |  |        |  |  |  |  |  |- expression
+   |     |     |  |  |        |  |  |  |  |  |  '- TOKEN[type: 115, text: f]
+   |     |     |  |  |        |  |  |  |  |  |- TOKEN[type: 75, text: ,]
+   |     |     |  |  |        |  |  |  |  |  '- expression
+   |     |     |  |  |        |  |  |  |  |     |- expressionName
+   |     |     |  |  |        |  |  |  |  |     |  '- TOKEN[type: 115, text: flist]
+   |     |     |  |  |        |  |  |  |  |     |- TOKEN[type: 72, text: []
+   |     |     |  |  |        |  |  |  |  |     |- expression
+   |     |     |  |  |        |  |  |  |  |     |  '- TOKEN[type: 115, text: i]
+   |     |     |  |  |        |  |  |  |  |     '- TOKEN[type: 73, text: ]]
+   |     |     |  |  |        |  |  |  |  '- TOKEN[type: 69, text: )]
+   |     |     |  |  |        |  |  |  |- TOKEN[type: 75, text: ,]
+   |     |     |  |  |        |  |  |  '- expression
+   |     |     |  |  |        |  |  |     '- TOKEN[type: 115, text: files]
+   |     |     |  |  |        |  |  '- TOKEN[type: 69, text: )]
+   |     |     |  |  |        |  '- TOKEN[type: 74, text: ;]
+   |     |     |  |  |        '- TOKEN[type: 71, text: }]
+   |     |     |  |  '- TOKEN[type: 71, text: }]
+   |     |     |  |- TOKEN[type: 25, text: else]
+   |     |     |  '- statement
+   |     |     |     |- TOKEN[type: 32, text: if]
+   |     |     |     |- TOKEN[type: 68, text: (]
+   |     |     |     |- expression
+   |     |     |     |  |- TOKEN[type: 68, text: (]
+   |     |     |     |  |- expression
+   |     |     |     |  |  |- conditionalAndExpression
+   |     |     |     |  |  |  |- TOKEN[type: 68, text: (]
+   |     |     |     |  |  |  |- expression
+   |     |     |     |  |  |  |  |- relationalExpression
+   |     |     |     |  |  |  |  |  |- primaryNoNewArray_lfno_primary
+   |     |     |     |  |  |  |  |  |  |- typeName
+   |     |     |     |  |  |  |  |  |  |  '- TOKEN[type: 115, text: f]
+   |     |     |     |  |  |  |  |  |  |- TOKEN[type: 76, text: .]
+   |     |     |     |  |  |  |  |  |  |- identifier
+   |     |     |     |  |  |  |  |  |  |  '- TOKEN[type: 115, text: getName]
+   |     |     |     |  |  |  |  |  |  |- TOKEN[type: 68, text: (]
+   |     |     |     |  |  |  |  |  |  '- TOKEN[type: 69, text: )]
+   |     |     |     |  |  |  |  |  '- primaryNoNewArray_lf_primary
+   |     |     |     |  |  |  |  |     |- TOKEN[type: 76, text: .]
+   |     |     |     |  |  |  |  |     |- identifier
+   |     |     |     |  |  |  |  |     |  '- TOKEN[type: 115, text: length]
+   |     |     |     |  |  |  |  |     |- TOKEN[type: 68, text: (]
+   |     |     |     |  |  |  |  |     '- TOKEN[type: 69, text: )]
+   |     |     |     |  |  |  |  |- TOKEN[type: 81, text: >]
+   |     |     |     |  |  |  |  '- shiftExpression
+   |     |     |     |  |  |  |     '- TOKEN[type: 62, text: 5]
+   |     |     |     |  |  |  '- TOKEN[type: 69, text: )]
+   |     |     |     |  |  |- TOKEN[type: 92, text: &&]
+   |     |     |     |  |  '- inclusiveOrExpression
+   |     |     |     |  |     |- primaryNoNewArray_lfno_primary
+   |     |     |     |  |     |  |- typeName
+   |     |     |     |  |     |  |  '- TOKEN[type: 115, text: f]
+   |     |     |     |  |     |  |- TOKEN[type: 76, text: .]
+   |     |     |     |  |     |  |- identifier
+   |     |     |     |  |     |  |  '- TOKEN[type: 115, text: getName]
+   |     |     |     |  |     |  |- TOKEN[type: 68, text: (]
+   |     |     |     |  |     |  '- TOKEN[type: 69, text: )]
+   |     |     |     |  |     |- primaryNoNewArray_lf_primary
+   |     |     |     |  |     |  |- TOKEN[type: 76, text: .]
+   |     |     |     |  |     |  |- identifier
+   |     |     |     |  |     |  |  '- TOKEN[type: 115, text: substring]
+   |     |     |     |  |     |  |- TOKEN[type: 68, text: (]
+   |     |     |     |  |     |  |- argumentList
+   |     |     |     |  |     |  |  |- additiveExpression
+   |     |     |     |  |     |  |  |  |- primaryNoNewArray_lfno_primary
+   |     |     |     |  |     |  |  |  |  |- typeName
+   |     |     |     |  |     |  |  |  |  |  '- TOKEN[type: 115, text: f]
+   |     |     |     |  |     |  |  |  |  |- TOKEN[type: 76, text: .]
+   |     |     |     |  |     |  |  |  |  |- identifier
+   |     |     |     |  |     |  |  |  |  |  '- TOKEN[type: 115, text: getName]
+   |     |     |     |  |     |  |  |  |  |- TOKEN[type: 68, text: (]
+   |     |     |     |  |     |  |  |  |  '- TOKEN[type: 69, text: )]
+   |     |     |     |  |     |  |  |  '- primaryNoNewArray_lf_primary
+   |     |     |     |  |     |  |  |     |- TOKEN[type: 76, text: .]
+   |     |     |     |  |     |  |  |     |- identifier
+   |     |     |     |  |     |  |  |     |  '- TOKEN[type: 115, text: length]
+   |     |     |     |  |     |  |  |     |- TOKEN[type: 68, text: (]
+   |     |     |     |  |     |  |  |     '- TOKEN[type: 69, text: )]
+   |     |     |     |  |     |  |  |- TOKEN[type: 97, text: -]
+   |     |     |     |  |     |  |  '- multiplicativeExpression
+   |     |     |     |  |     |  |     '- TOKEN[type: 62, text: 5]
+   |     |     |     |  |     |  '- TOKEN[type: 69, text: )]
+   |     |     |     |  |     '- primaryNoNewArray_lf_primary
+   |     |     |     |  |        |- TOKEN[type: 76, text: .]
+   |     |     |     |  |        |- identifier
+   |     |     |     |  |        |  '- TOKEN[type: 115, text: equals]
+   |     |     |     |  |        |- TOKEN[type: 68, text: (]
+   |     |     |     |  |        |- argumentList
+   |     |     |     |  |        |  '- TOKEN[type: 66, text: ".java"]
+   |     |     |     |  |        '- TOKEN[type: 69, text: )]
+   |     |     |     |  '- TOKEN[type: 69, text: )]
+   |     |     |     |- TOKEN[type: 69, text: )]
+   |     |     |     '- statement
+   |     |     |        |- TOKEN[type: 70, text: {]
+   |     |     |        |- blockStatements
+   |     |     |        |  |- statementExpression
+   |     |     |        |  |  |- typeName
+   |     |     |        |  |  |  '- TOKEN[type: 115, text: files]
+   |     |     |        |  |  |- TOKEN[type: 76, text: .]
+   |     |     |        |  |  |- identifier
+   |     |     |        |  |  |  '- TOKEN[type: 115, text: add]
+   |     |     |        |  |  |- TOKEN[type: 68, text: (]
+   |     |     |        |  |  |- argumentList
+   |     |     |        |  |  |  |- typeName
+   |     |     |        |  |  |  |  '- TOKEN[type: 115, text: f]
+   |     |     |        |  |  |  |- TOKEN[type: 76, text: .]
+   |     |     |        |  |  |  |- identifier
+   |     |     |        |  |  |  |  '- TOKEN[type: 115, text: getAbsolutePath]
+   |     |     |        |  |  |  |- TOKEN[type: 68, text: (]
+   |     |     |        |  |  |  '- TOKEN[type: 69, text: )]
+   |     |     |        |  |  '- TOKEN[type: 69, text: )]
+   |     |     |        |  '- TOKEN[type: 74, text: ;]
+   |     |     |        '- TOKEN[type: 71, text: }]
+   |     |     '- TOKEN[type: 71, text: }]
+   |     |- classBodyDeclaration
+   |     |  |- methodModifier
+   |     |  |  '- TOKEN[type: 45, text: public]
+   |     |  |- methodModifier
+   |     |  |  '- TOKEN[type: 48, text: static]
+   |     |  |- methodHeader
+   |     |  |  |- result
+   |     |  |  |  '- TOKEN[type: 58, text: void]
+   |     |  |  '- methodDeclarator
+   |     |  |     |- identifier
+   |     |  |     |  '- TOKEN[type: 115, text: parseFile]
+   |     |  |     |- TOKEN[type: 68, text: (]
+   |     |  |     |- formalParameterList
+   |     |  |     |  |- unannType
+   |     |  |     |  |  '- TOKEN[type: 115, text: String]
+   |     |  |     |  '- variableDeclaratorId
+   |     |  |     |     '- TOKEN[type: 115, text: f]
+   |     |  |     '- TOKEN[type: 69, text: )]
+   |     |  '- methodBody
+   |     |     |- TOKEN[type: 70, text: {]
+   |     |     |- blockStatements
+   |     |     |  |- TOKEN[type: 57, text: try]
+   |     |     |  |- block
+   |     |     |  |  |- TOKEN[type: 70, text: {]
+   |     |     |  |  |- blockStatements
+   |     |     |  |  |  |- blockStatement
+   |     |     |  |  |  |  |- TOKEN[type: 32, text: if]
+   |     |     |  |  |  |  |- TOKEN[type: 68, text: (]
+   |     |     |  |  |  |  |- expression
+   |     |     |  |  |  |  |  |- TOKEN[type: 83, text: !]
+   |     |     |  |  |  |  |  '- unaryExpression
+   |     |     |  |  |  |  |     '- TOKEN[type: 115, text: quiet]
+   |     |     |  |  |  |  |- TOKEN[type: 69, text: )]
+   |     |     |  |  |  |  '- statement
+   |     |     |  |  |  |     |- statementExpression
+   |     |     |  |  |  |     |  |- typeName
+   |     |     |  |  |  |     |  |  |- packageOrTypeName
+   |     |     |  |  |  |     |  |  |  '- TOKEN[type: 115, text: System]
+   |     |     |  |  |  |     |  |  |- TOKEN[type: 76, text: .]
+   |     |     |  |  |  |     |  |  '- identifier
+   |     |     |  |  |  |     |  |     '- TOKEN[type: 115, text: err]
+   |     |     |  |  |  |     |  |- TOKEN[type: 76, text: .]
+   |     |     |  |  |  |     |  |- identifier
+   |     |     |  |  |  |     |  |  '- TOKEN[type: 115, text: println]
+   |     |     |  |  |  |     |  |- TOKEN[type: 68, text: (]
+   |     |     |  |  |  |     |  |- argumentList
+   |     |     |  |  |  |     |  |  '- TOKEN[type: 115, text: f]
+   |     |     |  |  |  |     |  '- TOKEN[type: 69, text: )]
+   |     |     |  |  |  |     '- TOKEN[type: 74, text: ;]
+   |     |     |  |  |  |- blockStatement
+   |     |     |  |  |  |  |- localVariableDeclaration
+   |     |     |  |  |  |  |  |- unannType
+   |     |     |  |  |  |  |  |  '- TOKEN[type: 115, text: Lexer]
+   |     |     |  |  |  |  |  '- variableDeclaratorList
+   |     |     |  |  |  |  |     |- variableDeclaratorId
+   |     |     |  |  |  |  |     |  '- TOKEN[type: 115, text: lexer]
+   |     |     |  |  |  |  |     |- TOKEN[type: 80, text: =]
+   |     |     |  |  |  |  |     '- variableInitializer
+   |     |     |  |  |  |  |        |- TOKEN[type: 41, text: new]
+   |     |     |  |  |  |  |        |- identifier
+   |     |     |  |  |  |  |        |  '- TOKEN[type: 115, text: JavaLexer]
+   |     |     |  |  |  |  |        |- TOKEN[type: 68, text: (]
+   |     |     |  |  |  |  |        |- argumentList
+   |     |     |  |  |  |  |        |  |- typeName
+   |     |     |  |  |  |  |        |  |  '- TOKEN[type: 115, text: CharStreams]
+   |     |     |  |  |  |  |        |  |- TOKEN[type: 76, text: .]
+   |     |     |  |  |  |  |        |  |- identifier
+   |     |     |  |  |  |  |        |  |  '- TOKEN[type: 115, text: fromFileName]
+   |     |     |  |  |  |  |        |  |- TOKEN[type: 68, text: (]
+   |     |     |  |  |  |  |        |  |- argumentList
+   |     |     |  |  |  |  |        |  |  '- TOKEN[type: 115, text: f]
+   |     |     |  |  |  |  |        |  '- TOKEN[type: 69, text: )]
+   |     |     |  |  |  |  |        '- TOKEN[type: 69, text: )]
+   |     |     |  |  |  |  '- TOKEN[type: 74, text: ;]
+   |     |     |  |  |  |- blockStatement
+   |     |     |  |  |  |  |- localVariableDeclaration
+   |     |     |  |  |  |  |  |- unannType
+   |     |     |  |  |  |  |  |  '- TOKEN[type: 115, text: CommonTokenStream]
+   |     |     |  |  |  |  |  '- variableDeclaratorList
+   |     |     |  |  |  |  |     |- variableDeclaratorId
+   |     |     |  |  |  |  |     |  '- TOKEN[type: 115, text: tokens]
+   |     |     |  |  |  |  |     |- TOKEN[type: 80, text: =]
+   |     |     |  |  |  |  |     '- variableInitializer
+   |     |     |  |  |  |  |        |- TOKEN[type: 41, text: new]
+   |     |     |  |  |  |  |        |- identifier
+   |     |     |  |  |  |  |        |  '- TOKEN[type: 115, text: CommonTokenStream]
+   |     |     |  |  |  |  |        |- TOKEN[type: 68, text: (]
+   |     |     |  |  |  |  |        |- argumentList
+   |     |     |  |  |  |  |        |  '- TOKEN[type: 115, text: lexer]
+   |     |     |  |  |  |  |        '- TOKEN[type: 69, text: )]
+   |     |     |  |  |  |  '- TOKEN[type: 74, text: ;]
+   |     |     |  |  |  |- blockStatement
+   |     |     |  |  |  |  |- localVariableDeclaration
+   |     |     |  |  |  |  |  |- unannType
+   |     |     |  |  |  |  |  |  '- TOKEN[type: 115, text: JavaParser]
+   |     |     |  |  |  |  |  '- variableDeclaratorList
+   |     |     |  |  |  |  |     |- variableDeclaratorId
+   |     |     |  |  |  |  |     |  '- TOKEN[type: 115, text: parser]
+   |     |     |  |  |  |  |     |- TOKEN[type: 80, text: =]
+   |     |     |  |  |  |  |     '- variableInitializer
+   |     |     |  |  |  |  |        |- TOKEN[type: 41, text: new]
+   |     |     |  |  |  |  |        |- identifier
+   |     |     |  |  |  |  |        |  '- TOKEN[type: 115, text: JavaParser]
+   |     |     |  |  |  |  |        |- TOKEN[type: 68, text: (]
+   |     |     |  |  |  |  |        |- argumentList
+   |     |     |  |  |  |  |        |  '- TOKEN[type: 115, text: tokens]
+   |     |     |  |  |  |  |        '- TOKEN[type: 69, text: )]
+   |     |     |  |  |  |  '- TOKEN[type: 74, text: ;]
+   |     |     |  |  |  |- blockStatement
+   |     |     |  |  |  |  |- TOKEN[type: 32, text: if]
+   |     |     |  |  |  |  |- TOKEN[type: 68, text: (]
+   |     |     |  |  |  |  |- expression
+   |     |     |  |  |  |  |  '- TOKEN[type: 115, text: diag]
+   |     |     |  |  |  |  |- TOKEN[type: 69, text: )]
+   |     |     |  |  |  |  '- statement
+   |     |     |  |  |  |     |- statementExpression
+   |     |     |  |  |  |     |  |- typeName
+   |     |     |  |  |  |     |  |  '- TOKEN[type: 115, text: parser]
+   |     |     |  |  |  |     |  |- TOKEN[type: 76, text: .]
+   |     |     |  |  |  |     |  |- identifier
+   |     |     |  |  |  |     |  |  '- TOKEN[type: 115, text: addErrorListener]
+   |     |     |  |  |  |     |  |- TOKEN[type: 68, text: (]
+   |     |     |  |  |  |     |  |- argumentList
+   |     |     |  |  |  |     |  |  |- TOKEN[type: 41, text: new]
+   |     |     |  |  |  |     |  |  |- identifier
+   |     |     |  |  |  |     |  |  |  '- TOKEN[type: 115, text: DiagnosticErrorListener]
+   |     |     |  |  |  |     |  |  |- TOKEN[type: 68, text: (]
+   |     |     |  |  |  |     |  |  '- TOKEN[type: 69, text: )]
+   |     |     |  |  |  |     |  '- TOKEN[type: 69, text: )]
+   |     |     |  |  |  |     '- TOKEN[type: 74, text: ;]
+   |     |     |  |  |  |- blockStatement
+   |     |     |  |  |  |  |- TOKEN[type: 32, text: if]
+   |     |     |  |  |  |  |- TOKEN[type: 68, text: (]
+   |     |     |  |  |  |  |- expression
+   |     |     |  |  |  |  |  '- TOKEN[type: 115, text: bail]
+   |     |     |  |  |  |  |- TOKEN[type: 69, text: )]
+   |     |     |  |  |  |  '- statement
+   |     |     |  |  |  |     |- statementExpression
+   |     |     |  |  |  |     |  |- typeName
+   |     |     |  |  |  |     |  |  '- TOKEN[type: 115, text: parser]
+   |     |     |  |  |  |     |  |- TOKEN[type: 76, text: .]
+   |     |     |  |  |  |     |  |- identifier
+   |     |     |  |  |  |     |  |  '- TOKEN[type: 115, text: setErrorHandler]
+   |     |     |  |  |  |     |  |- TOKEN[type: 68, text: (]
+   |     |     |  |  |  |     |  |- argumentList
+   |     |     |  |  |  |     |  |  |- TOKEN[type: 41, text: new]
+   |     |     |  |  |  |     |  |  |- identifier
+   |     |     |  |  |  |     |  |  |  '- TOKEN[type: 115, text: BailErrorStrategy]
+   |     |     |  |  |  |     |  |  |- TOKEN[type: 68, text: (]
+   |     |     |  |  |  |     |  |  '- TOKEN[type: 69, text: )]
+   |     |     |  |  |  |     |  '- TOKEN[type: 69, text: )]
+   |     |     |  |  |  |     '- TOKEN[type: 74, text: ;]
+   |     |     |  |  |  |- blockStatement
+   |     |     |  |  |  |  |- TOKEN[type: 32, text: if]
+   |     |     |  |  |  |  |- TOKEN[type: 68, text: (]
+   |     |     |  |  |  |  |- expression
+   |     |     |  |  |  |  |  '- TOKEN[type: 115, text: SLL]
+   |     |     |  |  |  |  |- TOKEN[type: 69, text: )]
+   |     |     |  |  |  |  '- statement
+   |     |     |  |  |  |     |- statementExpression
+   |     |     |  |  |  |     |  |- primary
+   |     |     |  |  |  |     |  |  |- typeName
+   |     |     |  |  |  |     |  |  |  '- TOKEN[type: 115, text: parser]
+   |     |     |  |  |  |     |  |  |- TOKEN[type: 76, text: .]
+   |     |     |  |  |  |     |  |  |- identifier
+   |     |     |  |  |  |     |  |  |  '- TOKEN[type: 115, text: getInterpreter]
+   |     |     |  |  |  |     |  |  |- TOKEN[type: 68, text: (]
+   |     |     |  |  |  |     |  |  '- TOKEN[type: 69, text: )]
+   |     |     |  |  |  |     |  |- TOKEN[type: 76, text: .]
+   |     |     |  |  |  |     |  |- identifier
+   |     |     |  |  |  |     |  |  '- TOKEN[type: 115, text: setPredictionMode]
+   |     |     |  |  |  |     |  |- TOKEN[type: 68, text: (]
+   |     |     |  |  |  |     |  |- argumentList
+   |     |     |  |  |  |     |  |  |- ambiguousName
+   |     |     |  |  |  |     |  |  |  '- TOKEN[type: 115, text: PredictionMode]
+   |     |     |  |  |  |     |  |  |- TOKEN[type: 76, text: .]
+   |     |     |  |  |  |     |  |  '- identifier
+   |     |     |  |  |  |     |  |     '- TOKEN[type: 115, text: SLL]
+   |     |     |  |  |  |     |  '- TOKEN[type: 69, text: )]
+   |     |     |  |  |  |     '- TOKEN[type: 74, text: ;]
+   |     |     |  |  |  |- blockStatement
+   |     |     |  |  |  |  |- localVariableDeclaration
+   |     |     |  |  |  |  |  |- unannType
+   |     |     |  |  |  |  |  |  '- TOKEN[type: 115, text: ParserRuleContext]
+   |     |     |  |  |  |  |  '- variableDeclaratorList
+   |     |     |  |  |  |  |     |- variableDeclaratorId
+   |     |     |  |  |  |  |     |  '- TOKEN[type: 115, text: t]
+   |     |     |  |  |  |  |     |- TOKEN[type: 80, text: =]
+   |     |     |  |  |  |  |     '- variableInitializer
+   |     |     |  |  |  |  |        |- typeName
+   |     |     |  |  |  |  |        |  '- TOKEN[type: 115, text: parser]
+   |     |     |  |  |  |  |        |- TOKEN[type: 76, text: .]
+   |     |     |  |  |  |  |        |- identifier
+   |     |     |  |  |  |  |        |  '- TOKEN[type: 115, text: compilationUnit]
+   |     |     |  |  |  |  |        |- TOKEN[type: 68, text: (]
+   |     |     |  |  |  |  |        '- TOKEN[type: 69, text: )]
+   |     |     |  |  |  |  '- TOKEN[type: 74, text: ;]
+   |     |     |  |  |  |- blockStatement
+   |     |     |  |  |  |  |- TOKEN[type: 32, text: if]
+   |     |     |  |  |  |  |- TOKEN[type: 68, text: (]
+   |     |     |  |  |  |  |- expression
+   |     |     |  |  |  |  |  '- TOKEN[type: 115, text: notree]
+   |     |     |  |  |  |  |- TOKEN[type: 69, text: )]
+   |     |     |  |  |  |  '- statement
+   |     |     |  |  |  |     |- statementExpression
+   |     |     |  |  |  |     |  |- typeName
+   |     |     |  |  |  |     |  |  '- TOKEN[type: 115, text: parser]
+   |     |     |  |  |  |     |  |- TOKEN[type: 76, text: .]
+   |     |     |  |  |  |     |  |- identifier
+   |     |     |  |  |  |     |  |  '- TOKEN[type: 115, text: setBuildParseTree]
+   |     |     |  |  |  |     |  |- TOKEN[type: 68, text: (]
+   |     |     |  |  |  |     |  |- argumentList
+   |     |     |  |  |  |     |  |  '- TOKEN[type: 64, text: false]
+   |     |     |  |  |  |     |  '- TOKEN[type: 69, text: )]
+   |     |     |  |  |  |     '- TOKEN[type: 74, text: ;]
+   |     |     |  |  |  '- blockStatement
+   |     |     |  |  |     |- TOKEN[type: 32, text: if]
+   |     |     |  |  |     |- TOKEN[type: 68, text: (]
+   |     |     |  |  |     |- expression
+   |     |     |  |  |     |  '- TOKEN[type: 115, text: printTree]
+   |     |     |  |  |     |- TOKEN[type: 69, text: )]
+   |     |     |  |  |     '- statement
+   |     |     |  |  |        |- statementExpression
+   |     |     |  |  |        |  |- typeName
+   |     |     |  |  |        |  |  |- packageOrTypeName
+   |     |     |  |  |        |  |  |  '- TOKEN[type: 115, text: System]
+   |     |     |  |  |        |  |  |- TOKEN[type: 76, text: .]
+   |     |     |  |  |        |  |  '- identifier
+   |     |     |  |  |        |  |     '- TOKEN[type: 115, text: out]
+   |     |     |  |  |        |  |- TOKEN[type: 76, text: .]
+   |     |     |  |  |        |  |- identifier
+   |     |     |  |  |        |  |  '- TOKEN[type: 115, text: println]
+   |     |     |  |  |        |  |- TOKEN[type: 68, text: (]
+   |     |     |  |  |        |  |- argumentList
+   |     |     |  |  |        |  |  |- typeName
+   |     |     |  |  |        |  |  |  '- TOKEN[type: 115, text: t]
+   |     |     |  |  |        |  |  |- TOKEN[type: 76, text: .]
+   |     |     |  |  |        |  |  |- identifier
+   |     |     |  |  |        |  |  |  '- TOKEN[type: 115, text: toStringTree]
+   |     |     |  |  |        |  |  |- TOKEN[type: 68, text: (]
+   |     |     |  |  |        |  |  |- argumentList
+   |     |     |  |  |        |  |  |  '- TOKEN[type: 115, text: parser]
+   |     |     |  |  |        |  |  '- TOKEN[type: 69, text: )]
+   |     |     |  |  |        |  '- TOKEN[type: 69, text: )]
+   |     |     |  |  |        '- TOKEN[type: 74, text: ;]
+   |     |     |  |  '- TOKEN[type: 71, text: }]
+   |     |     |  '- catches
+   |     |     |     |- TOKEN[type: 17, text: catch]
+   |     |     |     |- TOKEN[type: 68, text: (]
+   |     |     |     |- catchFormalParameter
+   |     |     |     |  |- catchType
+   |     |     |     |  |  '- TOKEN[type: 115, text: Exception]
+   |     |     |     |  '- variableDeclaratorId
+   |     |     |     |     '- TOKEN[type: 115, text: e]
+   |     |     |     |- TOKEN[type: 69, text: )]
+   |     |     |     '- block
+   |     |     |        |- TOKEN[type: 70, text: {]
+   |     |     |        |- blockStatements
+   |     |     |        |  |- blockStatement
+   |     |     |        |  |  |- statementExpression
+   |     |     |        |  |  |  |- typeName
+   |     |     |        |  |  |  |  |- packageOrTypeName
+   |     |     |        |  |  |  |  |  '- TOKEN[type: 115, text: System]
+   |     |     |        |  |  |  |  |- TOKEN[type: 76, text: .]
+   |     |     |        |  |  |  |  '- identifier
+   |     |     |        |  |  |  |     '- TOKEN[type: 115, text: err]
+   |     |     |        |  |  |  |- TOKEN[type: 76, text: .]
+   |     |     |        |  |  |  |- identifier
+   |     |     |        |  |  |  |  '- TOKEN[type: 115, text: println]
+   |     |     |        |  |  |  |- TOKEN[type: 68, text: (]
+   |     |     |        |  |  |  |- argumentList
+   |     |     |        |  |  |  |  |- additiveExpression
+   |     |     |        |  |  |  |  |  '- TOKEN[type: 66, text: "parser exception: "]
+   |     |     |        |  |  |  |  |- TOKEN[type: 96, text: +]
+   |     |     |        |  |  |  |  '- multiplicativeExpression
+   |     |     |        |  |  |  |     '- TOKEN[type: 115, text: e]
+   |     |     |        |  |  |  '- TOKEN[type: 69, text: )]
+   |     |     |        |  |  '- TOKEN[type: 74, text: ;]
+   |     |     |        |  '- blockStatement
+   |     |     |        |     |- statementExpression
+   |     |     |        |     |  |- typeName
+   |     |     |        |     |  |  '- TOKEN[type: 115, text: e]
+   |     |     |        |     |  |- TOKEN[type: 76, text: .]
+   |     |     |        |     |  |- identifier
+   |     |     |        |     |  |  '- TOKEN[type: 115, text: printStackTrace]
+   |     |     |        |     |  |- TOKEN[type: 68, text: (]
+   |     |     |        |     |  '- TOKEN[type: 69, text: )]
+   |     |     |        |     '- TOKEN[type: 74, text: ;]
+   |     |     |        '- TOKEN[type: 71, text: }]
+   |     |     '- TOKEN[type: 71, text: }]
+   |     '- TOKEN[type: 71, text: }]
+   '- TOKEN[type: -1, text: <EOF>]
