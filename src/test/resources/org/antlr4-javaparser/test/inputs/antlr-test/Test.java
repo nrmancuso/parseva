@@ -27,6 +27,12 @@
   THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
+import java.io.File;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.concurrent.BrokenBarrierException;
+import java.util.concurrent.CyclicBarrier;
+
 import org.antlr.v4.runtime.BailErrorStrategy;
 import org.antlr.v4.runtime.CharStreams;
 import org.antlr.v4.runtime.CommonTokenStream;
@@ -35,13 +41,6 @@ import org.antlr.v4.runtime.Lexer;
 import org.antlr.v4.runtime.ParserRuleContext;
 import org.antlr.v4.runtime.atn.PredictionMode;
 
-import java.io.File;
-import java.lang.System;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.concurrent.BrokenBarrierException;
-import java.util.concurrent.CyclicBarrier;
-
 /* This more or less duplicates the functionality of grun (TestRig) but it
  * has a few specific options for benchmarking like -x2 and -threaded.
  * It also allows directory names as commandline arguments. The simplest test is
@@ -49,7 +48,7 @@ import java.util.concurrent.CyclicBarrier;
 
 ~/antlr/code/grammars-v4/java $ java Test .
 /Users/parrt/antlr/code/grammars-v4/java9/JavaBaseListener.java
-/Users/parrt/antlr/code/grammars-v4/java9/Java9Lexer.java
+/Users/parrt/antlr/code/grammars-v4/java9/JavaLexer.java
 /Users/parrt/antlr/code/grammars-v4/java9/JavaListener.java
 /Users/parrt/antlr/code/grammars-v4/java9/JavaParser.java
 /Users/parrt/antlr/code/grammars-v4/java9/Test.java
@@ -134,9 +133,9 @@ class Test {
                 doFiles(javaFiles);
 
 //				DOTGenerator gen = new DOTGenerator(null);
-//				String dot = gen.getDOT(Java9Parser._decisionToDFA[112], false);
+//				String dot = gen.getDOT(JavaParser._decisionToDFA[112], false);
 //				System.out.println(dot);
-//				dot = gen.getDOT(Java9Parser._decisionToDFA[81], false);
+//				dot = gen.getDOT(JavaParser._decisionToDFA[81], false);
 //				System.out.println(dot);
 
                 if ( x2 ) {
@@ -256,7 +255,7 @@ class Test {
         try {
             if ( !quiet ) System.err.println(f);
             // Create a scanner that reads from the input stream passed to us
-            Lexer lexer = new Java9Lexer(CharStreams.fromFileName(f));
+            Lexer lexer = new JavaLexer(CharStreams.fromFileName(f));
 
             CommonTokenStream tokens = new CommonTokenStream(lexer);
 //			long start = System.currentTimeMillis();
@@ -265,7 +264,7 @@ class Test {
 //			lexerTime += stop-start;
 
             // Create a parser that reads from the scanner
-            Java9Parser parser = new Java9Parser(tokens);
+            JavaParser parser = new JavaParser(tokens);
             if ( diag ) parser.addErrorListener(new DiagnosticErrorListener());
             if ( bail ) parser.setErrorHandler(new BailErrorStrategy());
             if ( SLL ) parser.getInterpreter().setPredictionMode(PredictionMode.SLL);
