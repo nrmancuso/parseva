@@ -62,7 +62,7 @@ Total lexer+parser time 3634ms.
 Total lexer+parser time 2497ms.
 
  */
-grammar java;
+grammar Java;
 
 /*
  * Productions from §3 (Lexical Structure)
