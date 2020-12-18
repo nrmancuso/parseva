@@ -7,8 +7,8 @@
   <packaging>jar</packaging>
   <name>antlr4-javaparser</name>
   <properties>
-    <maven.compiler.source>1.8</maven.compiler.source>
-    <maven.compiler.target>1.8</maven.compiler.target>
+    <maven.compiler.source>15 --enable-preview</maven.compiler.source>
+    <maven.compiler.target>15 --enable-preview</maven.compiler.target>
   </properties>
   <dependencies>
     <dependency>
@@ -35,6 +35,28 @@
             </goals>
           </execution>
         </executions>
+      </plugin>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+          <source>15</source>
+          <target>15</target>
+          <compilerArgs>
+            --enable-preview
+          </compilerArgs>
+        </configuration>
+      </plugin>
+      <plugin>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <configuration>
+          <argLine>--enable-preview</argLine>
+        </configuration>
+      </plugin>
+      <plugin>
+        <artifactId>maven-failsafe-plugin</artifactId>
+        <configuration>
+          <argLine>--enable-preview</argLine>
+        </configuration>
       </plugin>
     </plugins>
   </build>
