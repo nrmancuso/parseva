@@ -1,8 +1,7 @@
-import java.io.File;
-import java.io.FileInputStream;
 import java.io.IOException;
 
-import org.antlr.v4.runtime.ANTLRInputStream;
+import org.antlr.v4.runtime.CharStream;
+import org.antlr.v4.runtime.CharStreams;
 import org.antlr.v4.runtime.CommonTokenStream;
 import org.antlr.v4.runtime.tree.ParseTree;
 import org.antlr.v4.runtime.tree.ParseTreeWalker;
@@ -13,14 +12,10 @@ public class Main {
         try {
             // Open the input file stream
             String fileName = "src/test/antlr-test/Test.java";
-            File file = new File(fileName);
-            FileInputStream fis = new FileInputStream(file);
-
-            // Create a CharStream that reads from standard input
-            ANTLRInputStream input = new ANTLRInputStream(fis);
+            CharStream codePointCharStream = CharStreams.fromFileName(fileName);
 
             // Create a lexer that feeds off of input CharStream
-            JavaLexer lexer = new JavaLexer(input);
+            JavaLexer lexer = new JavaLexer(codePointCharStream);
 
             // Create a buffer of tokens pulled from the lexer
             CommonTokenStream tokens = new CommonTokenStream(lexer);
@@ -30,9 +25,6 @@ public class Main {
 
             // Begin parsing at rule prog
             ParseTree tree = parser.compilationUnit();
-
-            // Close the input file
-            fis.close();
 
             // Create a generic parse tree walker that can trigger callbacks
             ParseTreeWalker walker = new ParseTreeWalker();
