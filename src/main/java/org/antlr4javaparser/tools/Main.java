@@ -33,14 +33,9 @@ public class Main {
 
             // Create a generic parse tree walker that can trigger callbacks
             ParseTreeWalker walker = new ParseTreeWalker();
-            // Walk the tree created during the parse, trigger callbacks
-            // Need to implement this listener
-            walker.walk(new JavaBaseListener(), tree);
-            System.out.println(); // print a \n after translation
 
-            // Walk the tree again to translate to java
-            // Need to implement this translator
-            //walker.walk(new MyLangTranslator(), tree);
+            // Walk the tree created during the parse, trigger callbacks
+            walker.walk(new JavaBaseListener(), tree);
 
             // Print LISP-style tree
             System.out.println(tree.toStringTree(parser));

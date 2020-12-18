@@ -222,14 +222,10 @@ public class AstPrinter {
 
             // Create a generic parse tree walker that can trigger callbacks
             ParseTreeWalker walker = new ParseTreeWalker();
+
             // Walk the tree created during the parse, trigger callbacks
             // Need to implement this listener
             walker.walk(new JavaBaseListener(), tree);
-            System.out.println(); // print a \n after translation
-
-            // Walk the tree again to translate to java
-            // Need to implement this translator
-            //walker.walk(new MyLangTranslator(), tree);
 
             AstPrinter ast = new AstPrinter(tree);
 
@@ -240,46 +236,5 @@ public class AstPrinter {
             e.printStackTrace();
         }
         return "";
-    }
-
-    public static void main(String... args) {
-
-        try {
-            // Open the input file stream
-            String fileName
-                = "src/test/resources/org/antlr4javaparser/ast/InputBasicRecord.java";
-            CharStream codePointCharStream = CharStreams.fromFileName(fileName);
-
-            // Create a lexer that feeds off of input CharStream
-            JavaLexer lexer = new JavaLexer(codePointCharStream);
-
-            // Create a buffer of tokens pulled from the lexer
-            CommonTokenStream tokens = new CommonTokenStream(lexer);
-
-            // Create a parser that feeds off the tokens buffer
-            JavaParser parser = new JavaParser(tokens);
-
-            // Begin parsing at rule prog
-            ParseTree tree = parser.compilationUnit();
-
-            // Create a generic parse tree walker that can trigger callbacks
-            ParseTreeWalker walker = new ParseTreeWalker();
-            // Walk the tree created during the parse, trigger callbacks
-            // Need to implement this listener
-            walker.walk(new JavaBaseListener(), tree);
-            System.out.println(); // print a \n after translation
-
-            // Walk the tree again to translate to java
-            // Need to implement this translator
-            //walker.walk(new MyLangTranslator(), tree);
-
-            AstPrinter ast = new AstPrinter(tree);
-
-            System.out.println(ast);
-        } catch (IOException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
-        }
-
     }
 }
