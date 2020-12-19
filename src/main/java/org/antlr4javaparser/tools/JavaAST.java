@@ -3,13 +3,15 @@ package org.antlr4javaparser.tools;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.regex.Matcher;
 
 import org.antlr.v4.runtime.Parser;
 import org.antlr.v4.runtime.RuleContext;
+import org.antlr.v4.runtime.Token;
 import org.antlr.v4.runtime.misc.Interval;
 import org.antlr.v4.runtime.tree.ParseTree;
 import org.antlr.v4.runtime.tree.ParseTreeVisitor;
-import org.w3c.dom.traversal.TreeWalker;
+import org.jetbrains.annotations.NotNull;
 
 public final class JavaAST implements ParseTree {
 
@@ -53,7 +55,7 @@ public final class JavaAST implements ParseTree {
         }
     }
 
-    public Object getPayload(ParseTree tree) {
+    public Object getPayload(@NotNull ParseTree tree) {
         if (tree.getChildCount() == 0) {
             // A leaf node: return the tree's payload, which is a Token.
             return tree.getPayload();

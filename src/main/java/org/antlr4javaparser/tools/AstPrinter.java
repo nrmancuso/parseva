@@ -52,125 +52,38 @@ import org.antlr4javaparser.tools.grammar.JavaParser;
  */
 public class AstPrinter {
 
+    public static final int CAPACITY = 1024;
     private static final Pattern NEWLINE = Pattern.compile("\n", Pattern.LITERAL);
-    /**
-     * The payload will either be the name of the parser rule, or the token
-     * of a leaf in the tree.
-     */
-    private final Object payload;
 
-    /**
-     * All child nodes of this AstPrinter.
-     */
-    private final List<AstPrinter> children;
+    public static String buildAstString(JavaAST ast) {
 
-    public AstPrinter(ParseTree tree) {
-        this(null, tree);
-    }
-
-    private AstPrinter(AstPrinter ast, ParseTree tree) {
-        this(ast, tree, new ArrayList<>());
-    }
-
-    private AstPrinter(AstPrinter parent, ParseTree tree, List<AstPrinter> children) {
-
-        payload = getPayload(tree);
-        this.children = children;
-
-        if (parent == null) {
-            // We're at the root of the AstPrinter, traverse down the parse tree to fill
-            // this AstPrinter with nodes.
-            walk(tree, this);
-        }
-        else {
-            parent.children.add(this);
-        }
-    }
-
-    public Object getPayload() {
-        return payload;
-    }
-
-    public List<AstPrinter> getChildren() {
-        return new ArrayList<>(children);
-    }
-
-    // Determines the payload of this AstPrinter: a string in case it's an inner node (which
-    // is the name of the parser rule), or a Token in case it is a leaf node.
-    private Object getPayload(ParseTree tree) {
-        if (tree.getChildCount() == 0) {
-            // A leaf node: return the tree's payload, which is a Token.
-            return tree.getPayload();
-        }
-        else {
-            // The name for parser rule `foo` will be `FooContext`. Strip `Context` and
-            // lower case the first character.
-            String ruleName = tree.getClass().getSimpleName().replace("Context", "");
-            return Character.toLowerCase(ruleName.charAt(0)) + ruleName.substring(1);
-        }
-    }
-
-    // Fills this AstPrinter based on the parse tree.
-    private static void walk(ParseTree tree, AstPrinter ast) {
-
-        if (tree.getChildCount() == 0) {
-            // We've reached a leaf. We must create a new instance of an AstPrinter because
-            // the constructor will make sure this new instance is added to its parent's
-            // child nodes.
-            new AstPrinter(ast, tree);
-        }
-        else if (tree.getChildCount() == 1) {
-            // We've reached an inner node with a single child: we don't include this in
-            // our AstPrinter.
-            walk(tree.getChild(0), ast);
-        }
-        else if (tree.getChildCount() > 1) {
-
-            for (int i = 0; i < tree.getChildCount(); i++) {
-
-                AstPrinter temp = new AstPrinter(ast, tree.getChild(i));
-
-                if (!(temp.payload instanceof Token)) {
-                    // Only traverse down if the payload is not a Token.
-                    walk(tree.getChild(i), temp);
-                }
-            }
-        }
-    }
-
-    @Override
-    public String toString() {
-
-        StringBuilder builder = new StringBuilder();
-
-        AstPrinter ast = this;
-        List<AstPrinter> firstStack = new ArrayList<>();
+        List<JavaAST> firstStack = new ArrayList<>();
         firstStack.add(ast);
 
-        List<List<AstPrinter>> childListStack = new ArrayList<>();
+        List<List<JavaAST>> childListStack = new ArrayList<>();
         childListStack.add(firstStack);
 
+        StringBuilder builder = new StringBuilder(CAPACITY);
         while (!childListStack.isEmpty()) {
 
-            List<AstPrinter> childStack = childListStack.get(childListStack.size() - 1);
+            List<JavaAST> childStack = childListStack.get(childListStack.size() - 1);
 
             if (childStack.isEmpty()) {
                 childListStack.remove(childListStack.size() - 1);
             }
             else {
-                ast = childStack.remove(0);
+                JavaAST javaAst = childStack.remove(0);
                 String caption;
 
-                if (ast.payload instanceof Token) {
-                    Token token = (Token) ast.payload;
+                if (javaAst.getPayload() instanceof Token token) {
                     caption = String.format("TOKEN[type: %s, text: %s]",
                         token.getType(), NEWLINE.matcher(token.getText()).replaceAll(Matcher.quoteReplacement("\\n")));
                 }
                 else {
-                    caption = String.valueOf(ast.payload);
+                    caption = String.valueOf(javaAst.getPayload());
                 }
 
-                StringBuilder indent = new StringBuilder();
+                StringBuilder indent = new StringBuilder(CAPACITY);
 
                 for (int i = 0; i < childListStack.size() - 1; i++) {
                     if (childListStack.get(i).isEmpty()) {
@@ -192,11 +105,11 @@ public class AstPrinter {
                         .append("\n");
                 }
 
-                if (ast.children.isEmpty()) {
+                if (javaAst.getChildren().isEmpty()) {
                     continue;
                 }
-                List<AstPrinter> children = new ArrayList<>(ast.children);
-                childListStack.add(children);
+                List<JavaAST> astChildren = new ArrayList<>(javaAst.getChildren());
+                childListStack.add(astChildren);
             }
         }
 
@@ -204,6 +117,7 @@ public class AstPrinter {
     }
 
     public static String createAstString(String filename) {
+        String astString = null;
         try {
             // Open the input file stream
             CharStream codePointCharStream = CharStreams.fromFileName(filename);
@@ -227,14 +141,14 @@ public class AstPrinter {
             // Need to implement this listener
             walker.walk(new JavaBaseListener(), tree);
 
-            AstPrinter ast = new AstPrinter(tree);
+            JavaAST ast = new JavaAST(tree);
 
             //System.out.println(ast);
-            return ast.toString();
+            astString = buildAstString(ast);
         } catch (IOException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
         }
-        return "";
+        return astString;
     }
 }

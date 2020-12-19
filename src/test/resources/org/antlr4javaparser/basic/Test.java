@@ -273,7 +273,7 @@ class Test {
             ParserRuleContext t = parser.compilationUnit();
             if ( notree ) parser.setBuildParseTree(false);
 //			if ( gui ) t.inspect(parser);
-            if ( printTree ) System.out.println(t.toStringTree(parser));
+//            if ( printTree ) System.out.println(t.toStringTree(parser));
         }
         catch (Exception e) {
             System.err.println("parser exception: "+e);
