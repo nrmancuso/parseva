@@ -1,4 +1,4 @@
-package org.antlr4javaparser.tools.grammar;
+package dev.nickmancuso.antlr4javaparser.grammar;
 
 import java.io.IOException;
 

@@ -1,4 +1,4 @@
-package org.antlr4javaparser.tools;
+package dev.nickmancuso.antlr4javaparser;
 
 import java.io.IOException;
 import java.util.ArrayList;

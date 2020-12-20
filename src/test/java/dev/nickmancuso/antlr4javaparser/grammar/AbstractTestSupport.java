@@ -1,4 +1,4 @@
-package org.antlr4javaparser.tools.grammar;
+package dev.nickmancuso.antlr4javaparser.grammar;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
-import org.antlr4javaparser.tools.AstPrinter;
+import dev.nickmancuso.antlr4javaparser.AstPrinter;
 
 public abstract class AbstractTestSupport {
 
