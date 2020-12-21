@@ -1,4 +1,4 @@
-package dev.nickmancuso.antlr4javaparser;
+package parseva.tools;
 
 import java.io.IOException;
 
@@ -7,9 +7,10 @@ import org.antlr.v4.runtime.CharStreams;
 import org.antlr.v4.runtime.CommonTokenStream;
 import org.antlr.v4.runtime.tree.ParseTree;
 import org.antlr.v4.runtime.tree.ParseTreeWalker;
-import org.antlr4javaparser.tools.grammar.JavaBaseListener;
-import org.antlr4javaparser.tools.grammar.JavaLexer;
-import org.antlr4javaparser.tools.grammar.JavaParser;
+
+import parseva.tools.grammar.JavaBaseListener;
+import parseva.tools.grammar.JavaLexer;
+import parseva.tools.grammar.JavaParser;
 
 public class Main {
     public static void main(String... args) {

@@ -1,11 +1,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.antlr4-javaparser.app</groupId>
-  <artifactId>antlr4-javaparser</artifactId>
+  <groupId>parseva.app</groupId>
+  <artifactId>parseva</artifactId>
   <version>1</version>
   <packaging>jar</packaging>
-  <name>antlr4-javaparser</name>
+  <name>parseva</name>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>15</maven.compiler.source>
@@ -41,7 +41,7 @@
           <listener>true</listener>
           <inputEncoding>UTF-8</inputEncoding>
           <sourceDirectory>
-            ${basedir}/src/main/resources/org.antlr4javaparser.tools.grammar/
+            src/main/resources/parseva/tools.grammar/
           </sourceDirectory>
         </configuration>
         <executions>
@@ -53,14 +53,50 @@
           </execution>
         </executions>
       </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-pmd-plugin</artifactId>
+        <version>3.14.0</version>
+        <configuration>
+          <linkXRef>false</linkXRef>
+          <analysisCache>true</analysisCache>
+          <printFailingErrors>true</printFailingErrors>
+          <includeTests>true</includeTests>
+          <failOnViolation>true</failOnViolation>
+          <targetJdk>15</targetJdk>
+          <excludeRoots>
+            <excludeRoot>
+              target/generated-sources/antlr4/
+            </excludeRoot>
+          </excludeRoots>
+        </configuration>
+        <executions>
+          <execution>
+            <goals>
+              <goal>check</goal>
+              <goal>cpd-check</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <groupId>com.github.spotbugs</groupId>
+        <artifactId>spotbugs-maven-plugin</artifactId>
+        <version>4.1.4</version>
+        <configuration>
+          <excludeFilterFile>config/findbugs-filter.xml</excludeFilterFile>
+        </configuration>
+        <executions>
+          <execution>
+            <goals>
+              <goal>check</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
     </plugins>
     <pluginManagement>
       <plugins>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-pmd-plugin</artifactId>
-          <version>3.14.0</version>
-        </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-surefire-plugin</artifactId>

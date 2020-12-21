@@ -1,4 +1,17 @@
 '- compilationUnit
+   |- packageDeclaration
+   |  |- TOKEN[type: 42, text: package]
+   |  |- packageName
+   |  |  |- packageName
+   |  |  |  |- packageName
+   |  |  |  |  '- TOKEN[type: 115, text: parseva]
+   |  |  |  |- TOKEN[type: 76, text: .]
+   |  |  |  '- identifier
+   |  |  |     '- TOKEN[type: 115, text: tools]
+   |  |  |- TOKEN[type: 76, text: .]
+   |  |  '- identifier
+   |  |     '- TOKEN[type: 115, text: grammar]
+   |  '- TOKEN[type: 74, text: ;]
    |- importDeclaration
    |  |- TOKEN[type: 35, text: import]
    |  |- typeName

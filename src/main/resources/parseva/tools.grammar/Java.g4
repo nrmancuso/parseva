@@ -65,7 +65,7 @@ Total lexer+parser time 2497ms.
 grammar Java;
 
 @header{
- package org.antlr4javaparser.tools.grammar;
+ package parseva.tools.grammar;
 }
 
 /*

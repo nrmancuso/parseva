@@ -1,4 +1,4 @@
-package dev.nickmancuso.antlr4javaparser.grammar;
+package parseva.tools;
 
 import java.io.IOException;
 
@@ -33,6 +33,6 @@ public class BasicAstTest extends AbstractTestSupport{
 
     @Override
     protected String getPackageLocation() {
-        return "org/antlr4javaparser/basic/";
+        return "parseva.tools.grammar/";
     }
 }

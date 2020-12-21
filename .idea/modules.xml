@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/antlr4-javaparser.iml" filepath="$PROJECT_DIR$/.idea/antlr4-javaparser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/parseva.iml" filepath="$PROJECT_DIR$/.idea/parseva.iml" />
     </modules>
   </component>
 </project>

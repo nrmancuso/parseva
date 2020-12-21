@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="antlr4-javaparser" />
+        <module name="parseva" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="15">
-      <module name="antlr4-javaparser" target="15" />
+      <module name="parseva" target="15" />
     </bytecodeTargetLevel>
   </component>
 </project>

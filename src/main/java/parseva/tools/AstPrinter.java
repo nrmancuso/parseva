@@ -1,4 +1,4 @@
-package dev.nickmancuso.antlr4javaparser;
+package parseva.tools;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -12,9 +12,10 @@ import org.antlr.v4.runtime.CommonTokenStream;
 import org.antlr.v4.runtime.Token;
 import org.antlr.v4.runtime.tree.ParseTree;
 import org.antlr.v4.runtime.tree.ParseTreeWalker;
-import org.antlr4javaparser.tools.grammar.JavaBaseListener;
-import org.antlr4javaparser.tools.grammar.JavaLexer;
-import org.antlr4javaparser.tools.grammar.JavaParser;
+
+import parseva.tools.grammar.JavaBaseListener;
+import parseva.tools.grammar.JavaLexer;
+import parseva.tools.grammar.JavaParser;
 
 /**
  * A small class that flattens an ANTLR4 {@code ParseTree}. Given the
@@ -161,12 +162,10 @@ public class AstPrinter {
                 ast = childStack.remove(0);
                 String caption;
 
-                if (ast.payload instanceof Token) {
-                    Token token = (Token) ast.payload;
+                if (ast.payload instanceof Token token) {
                     caption = String.format("TOKEN[type: %s, text: %s]",
                         token.getType(), NEWLINE.matcher(token.getText()).replaceAll(Matcher.quoteReplacement("\\n")));
-                }
-                else {
+                } else {
                     caption = String.valueOf(ast.payload);
                 }
 
