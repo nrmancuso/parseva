@@ -1,5 +1,7 @@
 package parseva.tools.api;
 
+import java.util.List;
+
 /**
  * This is an interface for the ASTNode construct.  Since antlr4 doesn't support
  * ast nodes, we are defining one here.
@@ -39,7 +41,7 @@ public interface ASTNode {
      *
      * @return array of children
      */
-    ASTNode[] getChildren();
+    List<ASTNode> getChildren();
 
     /**
      * Parent node.
