@@ -2497,52 +2497,22 @@
    |     |     |  |  |  |  |        |- TOKEN[type: 68, text: (]
    |     |     |  |  |  |  |        '- TOKEN[type: 69, text: )]
    |     |     |  |  |  |  '- TOKEN[type: 74, text: ;]
-   |     |     |  |  |  |- blockStatement
-   |     |     |  |  |  |  |- TOKEN[type: 32, text: if]
-   |     |     |  |  |  |  |- TOKEN[type: 68, text: (]
-   |     |     |  |  |  |  |- expression
-   |     |     |  |  |  |  |  '- TOKEN[type: 115, text: notree]
-   |     |     |  |  |  |  |- TOKEN[type: 69, text: )]
-   |     |     |  |  |  |  '- statement
-   |     |     |  |  |  |     |- statementExpression
-   |     |     |  |  |  |     |  |- typeName
-   |     |     |  |  |  |     |  |  '- TOKEN[type: 115, text: parser]
-   |     |     |  |  |  |     |  |- TOKEN[type: 76, text: .]
-   |     |     |  |  |  |     |  |- identifier
-   |     |     |  |  |  |     |  |  '- TOKEN[type: 115, text: setBuildParseTree]
-   |     |     |  |  |  |     |  |- TOKEN[type: 68, text: (]
-   |     |     |  |  |  |     |  |- argumentList
-   |     |     |  |  |  |     |  |  '- TOKEN[type: 64, text: false]
-   |     |     |  |  |  |     |  '- TOKEN[type: 69, text: )]
-   |     |     |  |  |  |     '- TOKEN[type: 74, text: ;]
    |     |     |  |  |  '- blockStatement
    |     |     |  |  |     |- TOKEN[type: 32, text: if]
    |     |     |  |  |     |- TOKEN[type: 68, text: (]
    |     |     |  |  |     |- expression
-   |     |     |  |  |     |  '- TOKEN[type: 115, text: printTree]
+   |     |     |  |  |     |  '- TOKEN[type: 115, text: notree]
    |     |     |  |  |     |- TOKEN[type: 69, text: )]
    |     |     |  |  |     '- statement
    |     |     |  |  |        |- statementExpression
    |     |     |  |  |        |  |- typeName
-   |     |     |  |  |        |  |  |- packageOrTypeName
-   |     |     |  |  |        |  |  |  '- TOKEN[type: 115, text: System]
-   |     |     |  |  |        |  |  |- TOKEN[type: 76, text: .]
-   |     |     |  |  |        |  |  '- identifier
-   |     |     |  |  |        |  |     '- TOKEN[type: 115, text: out]
+   |     |     |  |  |        |  |  '- TOKEN[type: 115, text: parser]
    |     |     |  |  |        |  |- TOKEN[type: 76, text: .]
    |     |     |  |  |        |  |- identifier
-   |     |     |  |  |        |  |  '- TOKEN[type: 115, text: println]
+   |     |     |  |  |        |  |  '- TOKEN[type: 115, text: setBuildParseTree]
    |     |     |  |  |        |  |- TOKEN[type: 68, text: (]
    |     |     |  |  |        |  |- argumentList
-   |     |     |  |  |        |  |  |- typeName
-   |     |     |  |  |        |  |  |  '- TOKEN[type: 115, text: t]
-   |     |     |  |  |        |  |  |- TOKEN[type: 76, text: .]
-   |     |     |  |  |        |  |  |- identifier
-   |     |     |  |  |        |  |  |  '- TOKEN[type: 115, text: toStringTree]
-   |     |     |  |  |        |  |  |- TOKEN[type: 68, text: (]
-   |     |     |  |  |        |  |  |- argumentList
-   |     |     |  |  |        |  |  |  '- TOKEN[type: 115, text: parser]
-   |     |     |  |  |        |  |  '- TOKEN[type: 69, text: )]
+   |     |     |  |  |        |  |  '- TOKEN[type: 64, text: false]
    |     |     |  |  |        |  '- TOKEN[type: 69, text: )]
    |     |     |  |  |        '- TOKEN[type: 74, text: ;]
    |     |     |  |  '- TOKEN[type: 71, text: }]
