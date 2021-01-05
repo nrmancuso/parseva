@@ -1,5 +1,6 @@
 package org.antlr4javaparser.tools;
 
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
@@ -23,6 +24,7 @@ public final class JavaAST {
         this.type = type;
         this.parent = parent;
         this.previousSibling = previousSibling;
+        this.children = new ArrayList<>();
     }
 
     public JavaAST getParent() {
